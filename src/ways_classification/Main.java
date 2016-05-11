@@ -8,7 +8,10 @@ package ways_classification;
 
 import edu.stanford.services.explorecourses.ExploreCoursesConnection;
 
+import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.PrintWriter;
+import java.io.UnsupportedEncodingException;
 import java.util.Collection;
 import java.util.List;
 import java.util.Set;
@@ -21,11 +24,14 @@ import edu.stanford.services.explorecourses.Department;
 
 public class Main {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws FileNotFoundException, UnsupportedEncodingException {
 		System.out.println("Starting");
 		ExploreCoursesConnection connection = new ExploreCoursesConnection();
 		System.out.println("Got Connection");
 
+		PrintWriter writer = new PrintWriter("courses.txt", "UTF-8");
+
+		int num_courses = 0;
 		try {
 			Set<School> schools = connection.getSchools();
 			for(School school : schools) {
@@ -33,16 +39,17 @@ public class Main {
 				for(Department dept : depts) {
 					List<Course> courses = connection.getCoursesByQuery(dept.getCode());
 					for(Course course : courses) {
+						num_courses += 1;
 						Collection<String> satisfies = course.getGeneralEducationRequirementsSatisfied();
 						Boolean satisfies_way = false;
 						for(String satisfy : satisfies) {
 							if(satisfy.startsWith("WAY")) {
-								System.out.println(satisfy);
+								writer.println(satisfy);
 								satisfies_way = true;
 							}
 						}
 						if(satisfies_way) {
-							System.out.println(course.getDescription());
+							writer.println(course.getDescription());
 							satisfies_way = false;
 						}
 					}
@@ -57,6 +64,8 @@ public class Main {
 			e.printStackTrace();
 		}
 		
+		writer.close();
+		System.out.print(num_courses);
 	}
 
 }
