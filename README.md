@@ -1,1 +1,1 @@
-# multiclass-multilabel-course-labeling
+# Automatic WAYS Tagging for Stanford Courses
