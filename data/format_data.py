@@ -6,9 +6,10 @@ data_file = 'courses.txt'
 stop_words_file = 'english.stop'
 way_prefix = 'WAY-'
 
-# This script takes the raw data from the Explore Courses API and formats it
-# to better work with our algorithms
-
+"""
+This script takes the raw data from the Explore Courses API and formats it
+to better work with our algorithms
+"""
 
 # Gets stop words
 def get_stop_words():
