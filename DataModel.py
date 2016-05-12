@@ -7,7 +7,7 @@ This class provides an abstraction for the data and useful helper methods.
 DEFAULT_TRAIN_PATH = "data/training_data.txt"
 DEFAULT_TEST_PATH = "data/testing_data.txt"
 
-class DataModel():
+class Data_Model:
 
     # Get training data
     def get_training_data(self):
