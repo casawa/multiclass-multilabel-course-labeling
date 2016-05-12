@@ -1,29 +1,57 @@
+from collections import defaultdict
 
 """
-This class abstracts the data.
+This class provides an abstraction for the data and useful helper methods.
 """
 
-DEFAULT_PATH = "data/courses.txt"
+DEFAULT_TRAIN_PATH = "data/training_data.txt"
+DEFAULT_TEST_PATH = "data/testing_data.txt"
 
 class DataModel():
 
-    def training_data(self):
-        return self.training
+    # Get training data
+    def get_training_data(self):
+        return self.training_data
 
-    def testing_data(self):
-        return self.testing
+    # Get testing data
+    def get_testing_data(self):
+        return self.testing_data
 
-    def get_courses_way_training(self, way):
-        return self.training
+    # Find all courses that satisfy a particular WAY. Set train_flag to True for training data
+    def query_by_way(self, way, train_flag):
+        if train_flag:
+            return self.train_ways_to_courses[way]
+        return self.test_ways_to_courses[way]
 
-
-    def parse_data(self):
+    # Parses the training and testing data files
+    def parse_data(self, data_path, train_flag):
+        data = []
         with open(self.data_path, 'r') as f:
-            
+            i = 1 
+            description = ""
+            for line in f:
+                if i % 2 == 1:          # Odd lines are the classes
+                    description = line
 
-                
+                else:                   # Even lines are the WAYS that the courses satsifies
+                    ways = line.split()
+                    tokens = description.split()
+                    for way in ways:
+                        data.append([tokens, way])
+                        if train_flag:
+                            self.train_ways_to_courses[way].append(tokens)
+                        else:
+                            self.test_ways_to_courses[way].append(tokens)
 
-    def __init__(self, path=DEFAULT_PATH):
-        self.data_path = path
-        self.parse_data()
+                i += 1
+  
+    # Initializes the DataModel with data in convenient format
+    def __init__(self, train_path=DEFAULT_TRAIN_PATH, test_path=DEFAULT_TEST_PATH):
+        self.train_path = train_path
+        self.test_path = test_path
 
+        self.train_ways_to_courses = defaultdict(list)
+        self.test_ways_to_courses = defaultdict(list)
+
+        self.training_data = self.parse_data(self.train_path, True)
+        self.testing_data = self.parse_data(self.test_path, False)
