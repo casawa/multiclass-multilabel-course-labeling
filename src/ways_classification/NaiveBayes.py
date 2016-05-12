@@ -22,8 +22,8 @@ class NaiveBayes(Classifier):
         data_list = pos + neg
         X, y = convert_to_matrix(data_list)
         m = X.shape[1]
-        self.phi_x0 = ones(X.shape[2], 1)
-        self.phi_x1 = ones(X.shape[2], 1)
+        self.phi_x0 = ones((X.shape[2], 1))
+        self.phi_x1 = ones((X.shape[2], 1))
         for x in np.nditer(X, op_flags=['readwrite']):
             if x > 0:
                 x = 1
