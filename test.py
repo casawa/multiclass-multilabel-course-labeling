@@ -1,6 +1,7 @@
 import numpy as np
 from LinearClassifier import LinearClassifier
+from DataModel import DataModel
 
-cl = LinearClassifier(None,None)
-cl.train()
-cl.test()
+dm = DataModel()
+lc = LinearClassifier(dm,"WAY-FR")
+lc.train()
