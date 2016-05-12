@@ -1,22 +1,19 @@
 #Defines NaiveBayesClassifier Class
-import Classifier
-from abc import ABCMeta, abstractmethod
+from Classifier import Classifier
 import numpy as np
 import util
 
 class NaiveBayes(Classifier):
     def __init__(self, data_model, way):
-        super(NClassifier, self).__init__()
-        self.data_model = data_model
-        self.way = way
+        super(NaiveBayes, self).__init__(data_model,way)
         self.phi_y = 0
         self.phi_x0 = None
         self.phi_x1 = None
 
 
     def train(self):
-        way_classes = dict(self.data_model.get_train_courses(way))
-        all_classes = dict(self.data_model.get_all_train_courses_with_ways())
+        way_classes = dict(self.data_model.query_by_way(way,True))
+        all_classes = dict(self.data_model.get_training_data())
         neg = [(description,0) for description in all_classes.keys() if key not in way_classes.keys()]
         pos = [(description,1) for description in all_classes.keys() if key not in way_classes.keys()]
         data_list = pos + neg
@@ -49,8 +46,8 @@ class NaiveBayes(Classifier):
 
     def test(self):
         """Tests model on data from data_model"""
-        way_classes = dict(self.data_model.get_test_courses(way))
-        all_classes = dict(self.data_model.get_all_test_courses_with_ways())
+        way_classes = dict(self.data_model.query_by_way(way,False))
+        all_classes = dict(self.data_model.get_testing_data())
         neg = [(description,0) for key in all_classes.keys() if key not in way_classes.keys()]
         pos = [(description,1) for key in all_classes.keys() if key not in way_classes.keys()]
         data_list = pos + neg
@@ -70,9 +67,5 @@ class NaiveBayes(Classifier):
         total_1 = np.dot(self.phi_x1, x) + log(1 - self.phi_y)
         if total_0 >= total_1:
             return 1
-        else: 
+        else:
             return 0
-
-        
-
-
