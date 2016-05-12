@@ -11,8 +11,8 @@ class LinearClassifier(Classifier):
 
     def train(self):
         """Trains model on data from data_model"""
-        way_classes = dict(self.data_model.get_train_courses(way))
-        all_classes = dict(self.data_model.get_all_train_courses_with_ways())
+        way_classes = dict(self.data_model.query_by_way(way,True))
+        all_classes = dict(self.data_model.get_training_data())
         neg = [(description,0) for description in all_classes.keys() if description not in way_classes.keys()]
         pos = [(description,1) for description in all_classes.keys() if description not in way_classes.keys()]
         data_list = pos + neg
@@ -23,8 +23,8 @@ class LinearClassifier(Classifier):
 
     def test(self):
         """Tests model on data from data_model"""
-        way_classes = dict(self.data_model.get_test_courses(way))
-        all_classes = dict(self.data_model.get_all_test_courses_with_ways())
+        way_classes = dict(self.data_model.query_by_way(way,False))
+        all_classes = dict(self.data_model.get_testing_data())
         neg = [(description,0) for description in all_classes.keys() if description not in way_classes.keys()]
         pos = [(description,1) for description in all_classes.keys() if description not in way_classes.keys()]
         data_list = pos + neg
