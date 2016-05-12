@@ -31,7 +31,7 @@ def main():
             if i % 2 == 1:          # Odd lines are the classes
                 pair.append(line)
 
-            else:                   # Even lines are the WAYS that the satsify
+            else:                   # Even lines are the WAYS that the course satsifies
                 pair.append(line)
                 raw_data.append(pair)
                 pair = []
