@@ -46,6 +46,10 @@ class DataModel:
                 i += 1
  
         return data
+
+    def get_list_of_ways(self):
+        return ['WAY-A-II', 'WAY-AQR', 'WAY-CE', 'WAY-ED'. 'WAY-ER', 'WAY-FR', 'WAY_SI', 'WAY-SMA']
+
     # Initializes the DataModel with data in convenient format
     def __init__(self, train_path=DEFAULT_TRAIN_PATH, test_path=DEFAULT_TEST_PATH):
         self.train_path = train_path
