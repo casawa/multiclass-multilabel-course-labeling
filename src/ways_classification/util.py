@@ -12,4 +12,4 @@ def convert_to_matrix(data_list):
         y[i] = point[1]
         for word in point[0]:
              X[i,pos[word]] = X[i,pos[word]] + 1
-    return (X,y)
+    return (np.asmatrix(X),np.asmatrix(y))
