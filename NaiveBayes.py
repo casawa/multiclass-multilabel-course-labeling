@@ -7,12 +7,13 @@ class NaiveBayes(Classifier):
     def __init__(self, data_model, way):
         super(NaiveBayes, self).__init__(data_model,way)
         self.phi_y = 0
+        self.way = way
         self.phi_x0 = None
         self.phi_x1 = None
 
 
     def train(self):
-        way_classes = dict(self.data_model.query_by_way(way,True))
+        way_classes = dict(self.data_model.query_by_way(self.way,True))
         all_classes = dict(self.data_model.get_training_data())
         neg = [(description,0) for description in all_classes.keys() if key not in way_classes.keys()]
         pos = [(description,1) for description in all_classes.keys() if key not in way_classes.keys()]
@@ -46,7 +47,7 @@ class NaiveBayes(Classifier):
 
     def test(self):
         """Tests model on data from data_model"""
-        way_classes = dict(self.data_model.query_by_way(way,False))
+        way_classes = dict(self.data_model.query_by_way(self.way,False))
         all_classes = dict(self.data_model.get_testing_data())
         neg = [(description,0) for key in all_classes.keys() if key not in way_classes.keys()]
         pos = [(description,1) for key in all_classes.keys() if key not in way_classes.keys()]
