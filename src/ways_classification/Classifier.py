@@ -1,15 +1,11 @@
 ### Defines generalized Classifier class
-from abc import ABCMeta, abstractmethod
+class Classifier(object):
+    def __init__(self, data_model, way):
+        self.data_model = data_model
+        self.way = way
 
-class Classifier:
-    __metaclass__ = ABCMeta
-
-    self.data_model = None
-    @abstractmethod
     def train(self): pass
 
-    @abstractmethod
     def test(self): pass
 
-    @abstractmethod
     def classify(self): pass
