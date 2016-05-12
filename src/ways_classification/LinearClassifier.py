@@ -1,5 +1,6 @@
 ### Defines Linear Classifier class
 import Classifier
+import numpy as np
 from abc import ABCMeta, abstractmethod
 
 class LinearClassifier(Classifier):
