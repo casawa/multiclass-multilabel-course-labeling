@@ -4,6 +4,7 @@ from abc import ABCMeta, abstractmethod
 class Classifier:
     __metaclass__ = ABCMeta
 
+    self.data_model = None
     @abstractmethod
     def train(self): pass
 

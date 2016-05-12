@@ -12,7 +12,7 @@ class NClassifier(object):
                 pass
             elif name == "Linear":
                 self.list_of_classifiers.append(LinearClassifier())
-        
+
 
     def train(self):
     """Calls the train method of each classifer and returns an array of the training errors"""
@@ -34,5 +34,3 @@ class NClassifier(object):
         for classifer in self.list_of_classifiers:
             labels.append(classifier.classify(description))
         return labels
-
-        
