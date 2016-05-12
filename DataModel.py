@@ -7,7 +7,7 @@ This class provides an abstraction for the data and useful helper methods.
 DEFAULT_TRAIN_PATH = "data/training_data.txt"
 DEFAULT_TEST_PATH = "data/testing_data.txt"
 
-class Data_Model:
+class DataModel:
 
     # Get training data
     def get_training_data(self):
@@ -26,7 +26,7 @@ class Data_Model:
     # Parses the training and testing data files
     def parse_data(self, data_path, train_flag):
         data = []
-        with open(self.data_path, 'r') as f:
+        with open(data_path, 'r') as f:
             i = 1 
             description = ""
             for line in f:
@@ -44,7 +44,8 @@ class Data_Model:
                             self.test_ways_to_courses[way].append(tokens)
 
                 i += 1
-  
+ 
+        return data
     # Initializes the DataModel with data in convenient format
     def __init__(self, train_path=DEFAULT_TRAIN_PATH, test_path=DEFAULT_TEST_PATH):
         self.train_path = train_path
