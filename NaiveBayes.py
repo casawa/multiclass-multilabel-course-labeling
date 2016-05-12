@@ -44,7 +44,7 @@ class NaiveBayes(Classifier):
         for index, row in enumerate(X):
             if self.get_predicted_class(row, np.log(self.phi_y), np.log(1 - self.phi_y)) != y[index]:
                 errors += 1
-        errors /= m
+        errors /= float(m)
         return errors
 
     def test(self):
@@ -66,8 +66,8 @@ class NaiveBayes(Classifier):
         pass
 
     def get_predicted_class(self,x, log_y, log_y1):
-        total_0 = np.dot(self.phi_x0, x) + log_y
-        total_1 = np.dot(self.phi_x1, x) + log_y1
+        total_0 = float(x * self.phi_x0) + log_y
+        total_1 = float(x * self.phi_x1) + log_y1
         if total_0 >= total_1:
             return 1
         else:
