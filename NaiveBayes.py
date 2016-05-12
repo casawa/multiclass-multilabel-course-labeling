@@ -13,34 +13,36 @@ class NaiveBayes(Classifier):
 
 
     def train(self):
-        way_classes = dict(self.data_model.query_by_way(self.way,True))
-        all_classes = dict(self.data_model.get_training_data())
-        neg = [(description,0) for description in all_classes.keys() if key not in way_classes.keys()]
-        pos = [(description,1) for description in all_classes.keys() if key not in way_classes.keys()]
+        way_classes_list = self.data_model.query_by_way(self.way, True)
+        all_classes_list = self.data_model.get_training_data()
+
+        way_classes = set([tuple(x) for x in self.data_model.query_by_way(self.way,True)])
+        all_classes = set([tuple(x[0]) for x in self.data_model.get_training_data()])
+        neg = [(description,0) for description in all_classes if description not in way_classes]
+        pos = [(description,1) for description in all_classes if description in way_classes]
         data_list = pos + neg
-        X, y = convert_to_matrix(data_list)
-        m = X.shape[1]
-        self.phi_x0 = ones((X.shape[2], 1))
-        self.phi_x1 = ones((X.shape[2], 1))
-        for x in np.nditer(X, op_flags=['readwrite']):
-            if x > 0:
-                x = 1
+        X, y = util.convert_to_matrix_naive(data_list)
+        m = X.shape[0]
+        self.phi_x0 = np.ones((X.shape[1], 1))
+        self.phi_x1 = np.ones((X.shape[1], 1))
         for index, row in enumerate(X):
             if y[index] == 0:
-                self.phi_x0 += row
+                self.phi_x0 += np.transpose(row)
             else:
-                self.phi_x1 += row
+                self.phi_x1 += np.transpose(row)
                 self.phi_y += 1
-        self.phi_x1 /= (phi_y + 2)
-        self.phi_x0 /= (m + 2 - phi_y)
-        self.phi_y /= m
+        self.phi_x1 /= (self.phi_y + 2)
+        self.phi_x0 /= (m + 2 - self.phi_y)
+        self.phi_y /= float(m)
 
-        self.phi_x1 = [np.log(x) for x in self.phi_x1]
-        self.phi_x0 = [np.log(x) for x in self.phi_x0]
 
+
+
+        self.phi_x1 = np.log(self.phi_x1)
+        self.phi_x0 = np.log(self.phi_x0)
         errors = 0
         for index, row in enumerate(X):
-            if get_predicted_class(row) == y[index]:
+            if self.get_predicted_class(row, np.log(self.phi_y), np.log(1 - self.phi_y)) != y[index]:
                 errors += 1
         errors /= m
         return errors
@@ -56,16 +58,16 @@ class NaiveBayes(Classifier):
         X,y = convert_to_matrix(data_list)
         errors = 0
         for index, row in enumerate(X):
-            if get_predicted_class(row) != y[index]:
+            if get_predicted_class(row, np.log(self.phi_y), np.log(1 - self.phi_y)) != y[index]:
                 errors += 1
         return errors / m
 
     def classify(self, description):
         pass
 
-    def get_predicted_class(x):
-        total_0 = np.dot(self.phi_x0, x) + log(self.phi_y)
-        total_1 = np.dot(self.phi_x1, x) + log(1 - self.phi_y)
+    def get_predicted_class(self,x, log_y, log_y1):
+        total_0 = np.dot(self.phi_x0, x) + log_y
+        total_1 = np.dot(self.phi_x1, x) + log_y1
         if total_0 >= total_1:
             return 1
         else:
