@@ -3,7 +3,7 @@ import LinearClassifier as lc
 import NaiveBayes as nb
 import DataModel as dm
 
-def TestLinear():
+def test_linear():
     '''This is a wrapper around the test harness for the linear classifier.'''
     data = dm.DataModel()
     list_of_ways = data.get_list_of_ways()
@@ -12,7 +12,7 @@ def TestLinear():
         _test(clf, way)
 
 
-def TestNB():
+def test_NB():
     '''This is a wrapper aroung the test harness for the Naive Bayes classifier'''
     data = dm.DataModel()
     list_of_ways = data.get_list_of_ways()
