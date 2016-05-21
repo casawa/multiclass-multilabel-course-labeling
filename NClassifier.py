@@ -6,7 +6,8 @@ class NClassifier(object):
     def __init__(self, classifier_type, data_model):
         super(NClassifier, self).__init__()
         self.list_of_classifiers = []
-        for way in data_model.get_list_of_ways():
+        self.data = data_model
+        for way in self.data.get_list_of_ways():
             if classifier_type == "Naive Bayes":
                 pass
             elif classifier_type == "Linear":
@@ -18,18 +19,19 @@ class NClassifier(object):
         training_errors = []
         for classifier in self.list_of_classifiers:
             training_errors.append(classifier.train())
-        return sum(training_errors) / len(training_errors)
+        return train_errors
 
     def test(self):
     """Calls the test method of each classifer and returns an array of the test errors"""
         test_errors = []
         for classifer in self.list_of_classifiers:
             test_errors.append(classifier.test())
-        return sum(test_errors) / len(test_errors)
+        return test_errors
 
     def classify(self, description):
     """Takes a single course description and returns an array of the training labels"""
         labels = []
-        for classifer in self.list_of_classifiers:
-            labels.append(classifier.classify(description))
+        for index, classifer in enumerate(self.list_of_classifiers):
+            if classifier.classify(description) == 1:
+                labels.append(self.data.get_list_of_ways()[index]))
         return labels

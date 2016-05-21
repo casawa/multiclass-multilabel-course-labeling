@@ -13,7 +13,7 @@ def convert_to_matrix(data_list,tmp):
         y[i] = point[1]
         for word in point[0]:
              X[i,pos[word]] = X[i,pos[word]] + 1
-    return (np.asmatrix(X),np.asmatrix(y),)
+    return (np.asmatrix(X),np.asmatrix(y))
 
 """
 Helper functions for computing stochastic gradient descent
