@@ -62,4 +62,4 @@ class DataModel:
         self.test_ways_to_courses = defaultdict(list)
 
         self.training_data, self.training_data_all_ways = self.parse_data(self.train_path, True)
-        self.testing_data, self.training_data_all_ways = self.parse_data(self.test_path, False)
+        self.testing_data, self.testing_data_all_ways = self.parse_data(self.test_path, False)

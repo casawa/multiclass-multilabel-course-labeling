@@ -89,27 +89,43 @@ def overall_naive_bayes_test(data, course_desc):
         clf.train()
         ways_to_classifiers[way] = clf
 
-    for test_ex in data.training_data:
-        test_way = test_ex[1]
+#    for test_ex in data.training_data:
+#        test_way = test_ex[1]
+#        course_desc = test_ex[0]
+#
+#        clf = ways_to_classifiers[test_way]
+#        result = clf.classify(course_desc)
+#        if result == 0:
+#            total_dist += 1
+#    print float(total_dist)/len(data.training_data)
+#
+#    total_dist = 0
+#    for test_ex in data.testing_data:
+#        test_way = test_ex[1]
+#        course_desc = test_ex[0]
+#
+#        clf = ways_to_classifiers[test_way]
+#        result = clf.classify(course_desc)
+#        if result == 0:
+#            total_dist += 1
+#    print float(total_dist)/len(data.testing_data)
+
+    for test_ex in data.testing_data_all_ways:
+        test_ways = set(test_ex[1])
         course_desc = test_ex[0]
 
-        clf = ways_to_classifiers[test_way]
-        result = clf.classify(course_desc)
-        if result == 0:
-            total_dist += 1
-    print float(total_dist)/len(data.training_data)
-
-    total_dist = 0
-    for test_ex in data.testing_data:
-        test_ways = test_ex[1]
-        course_desc = test_ex[0]
-
-        predicted_ways = []
+        predicted_ways = set()
         for way in ways_to_classifiers:
             clf = ways_to_classifiers[way]
             result = clf.classify(course_desc)
             if result == 1:
-                predicted_ways.append(way)
+                predicted_ways.add(way)
+        predicted_ways = set(predicted_ways)
+
+        #print test_ways
+        total_dist += 1 - float(len((predicted_ways & test_ways)))/len(predicted_ways | test_ways)
+
+    print total_dist/len(data.testing_data_all_ways)
 
 # Data is an instance of DataModel
 def overall_linear_test(data, course_desc):
