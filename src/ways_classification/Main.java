@@ -32,6 +32,8 @@ public class Main {
 		PrintWriter writer = new PrintWriter("courses.txt", "UTF-8");
 
 		int num_courses = 0;
+		int num_satisfy_way = 0;
+		int num_ways = 0;
 		try {
 			Set<School> schools = connection.getSchools();
 			for(School school : schools) {
@@ -46,11 +48,13 @@ public class Main {
 							if(satisfy.startsWith("WAY")) {
 								writer.println(satisfy);
 								satisfies_way = true;
+								num_ways += 1;
 							}
 						}
 						if(satisfies_way) {
 							writer.println(course.getDescription());
 							satisfies_way = false;
+							num_satisfy_way += 1;
 						}
 					}
 					
@@ -66,6 +70,10 @@ public class Main {
 		
 		writer.close();
 		System.out.print(num_courses);
+		System.out.print('\n');
+		System.out.print(num_satisfy_way);
+		System.out.print('\n');
+		System.out.print(num_ways);
 	}
 
 }
