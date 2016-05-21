@@ -2,6 +2,7 @@
 from Classifier import Classifier
 import numpy as np
 import util
+import random
 
 class NaiveBayes(Classifier):
     def __init__(self, data_model, way):
@@ -16,9 +17,6 @@ class NaiveBayes(Classifier):
 
 
     def train(self):
-        way_classes_list = self.data_model.query_by_way(self.way, True)
-        all_classes_list = self.data_model.get_training_data()
-
         way_classes = set([tuple(x) for x in self.data_model.query_by_way(self.way,True)])
         all_classes = set([tuple(x[0]) for x in self.data_model.get_training_data()])
         neg = [(description,0) for description in all_classes if description not in way_classes]
@@ -85,20 +83,20 @@ class NaiveBayes(Classifier):
     def convert_to_matrix_naive(self, data_list):
         list_of_words = [word for x in data_list for word in x[0]]
         list_of_words.append('NOTAWORD')
-        tmp = dict(enumerate(list_of_words))
-        pos = {}
-        for item in tmp:
-            pos[tmp[item]] = item
-        self.V = len(set(tmp.keys()))
-        X = np.zeros((len(data_list),self.V))
+        list_of_words = set(list_of_words)
+        self.V = len(list_of_words)
+        self.word_list = {}
+        for index, word in enumerate(list_of_words):
+            self.word_list[word] = index
+        X = np.zeros((len(data_list), self.V))
         y = np.zeros((len(data_list),1))
-        for i in range(len(data_list)):
-            point = data_list[i]
-            y[i] = point[1]
-            for word in point[0]:
-                 X[i,pos[word]] = 1
-        self.word_list = pos
-        return (np.asmatrix(X),np.asmatrix(y))
+
+        for index, row in enumerate(data_list):
+            y[index] = row[1]
+            for word in row[0]:
+                X[index, self.word_list[word]] = 1
+        return (np.asmatrix(X), np.asmatrix(y))
+
 
     def convert_to_matrix_test(self, data_list):
         X = np.zeros((len(data_list), self.V))
