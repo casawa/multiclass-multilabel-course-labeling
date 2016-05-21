@@ -59,13 +59,13 @@ def _show_results(results):
     ax.set_ylabel('Errors')
     ax.set_xticks(ind+width)
     ax.set_xticklabels(tuple(labels))
-    ax.legend((rects1[0], rects2[0]), ('Training', 'Testing'))  
+    ax.legend((rects1[0], rects2[0]), ('Training', 'Testing'))
     #for rect in rects1:
     #   height = rect.get_height()
-    #    ax.text(rect.get_x() + rect.get_width()/2., height + 0.05, '%.3f' % height,ha='center',va='bottom')  
+    #    ax.text(rect.get_x() + rect.get_width()/2., height + 0.05, '%.3f' % height,ha='center',va='bottom')
     #for rect in rects2:
     #    height = rect.get_height()
-    #    ax.text(rect.get_x() + rect.get_width()/2., height + 0.05, '%.3f' % height,ha='center',va='bottom')                                                                                                      
+    #    ax.text(rect.get_x() + rect.get_width()/2., height + 0.05, '%.3f' % height,ha='center',va='bottom')
     return ax
 
 """
@@ -84,7 +84,7 @@ def overall_naive_bayes_test(data, course_desc):
     for test_ex in data.testing_data:
         test_ways = text_ex[1]
         course_desc = text_ex[0]
-        
+
         predicted_ways = []
         for way in ways_to_classifiers:
             clf = ways_to_classifiers[way]
@@ -92,11 +92,31 @@ def overall_naive_bayes_test(data, course_desc):
             if result == 1:
                 predicted_ways.append(way)
 
+# Data is an instance of DataModel
+def overall_linear_test(data, course_desc):
+    list_of_ways = data.get_list_of_ways()
+
+    ways_to_classifiers = {}
+    for way in list_of_ways:
+        clf = lc.LinearClassifier(data, way)
+        clf.train()
+        ways_to_classifiers[way] = clf
+
+    for test_ex in data.testing_data:
+        test_ways = test_ex[1]
+        course_desc = test_ex[0]
+
+        predicted_ways = []
+        for way in ways_to_classifiers:
+            clf = ways_to_classifiers[way]
+            result = clf.classify(course_desc)
+            if result == 1:
+                predicted_ways.append(way)
 
 def main():
     data = dm.DataModel()
-    print overall_naive_bayes_test(data, ['numbers', 'modeling', 'mathematical'])
-
+    #print overall_naive_bayes_test(data, ['numbers', 'modeling', 'mathematical'])
+    #print overall_linear_test(data,['numbers','modeling','mathematical'])
+    test_linear()
 if __name__ == '__main__':
     main()
-
