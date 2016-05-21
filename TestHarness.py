@@ -68,3 +68,27 @@ def _show_results(results):
     #    ax.text(rect.get_x() + rect.get_width()/2., height + 0.05, '%.3f' % height,ha='center',va='bottom')                                                                                                      
     return ax
 
+"""
+Determines the WAYS for a particular course description.
+"""
+# Data is an instance of DataModel
+def overall_naive_bayes_test(data, course_desc):
+    list_of_ways = data.get_list_of_ways()
+    results = []
+
+    for way in list_of_ways:
+        clf = nb.NaiveBayes(data, way)
+        clf.train()
+        result = clf.classify(course_desc)
+        if result == 1:
+            results.append(way)
+
+    return results
+
+def main():
+    data = dm.DataModel()
+    print overall_naive_bayes_test(data, ['numbers', 'modeling', 'mathematical'])
+
+if __name__ == '__main__':
+    main()
+
