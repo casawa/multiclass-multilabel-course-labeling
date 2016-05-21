@@ -1,6 +1,7 @@
 import os
 import sys
 import string
+from PorterStemmer import PorterStemmer
 
 data_file = 'courses.txt'
 stop_words_file = 'english.stop'
@@ -28,10 +29,12 @@ def remove_punctuation(word):
 def format_description(text, stop_words):
     words = text.split()
 
+    stemmer = PorterStemmer()
     non_stop_words = []
     for word in words:
-        if word not in stop_words:      # Not a stop word, so lower and remove punctuation
-            non_stop_words.append(remove_punctuation(word).lower())
+        if word not in stop_words:      # Not a stop word, so lower, remove punctuation, and stem
+            lowered_token = remove_punctuation(word).lower()
+            non_stop_words.append(stemmer.stem(lowered_token))
 
     return ' '.join(non_stop_words)
 
