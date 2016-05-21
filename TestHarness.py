@@ -4,6 +4,7 @@ import NaiveBayes as nb
 import DataModel as dm
 import matplotlib.pyplot as plt
 import numpy as np
+import random
 
 def test_linear():
     '''This is a wrapper around the test harness for the linear classifier.'''
@@ -74,28 +75,51 @@ Determines the WAYS for a particular course description.
 # Data is an instance of DataModel
 def overall_naive_bayes_test(data, course_desc):
     list_of_ways = data.get_list_of_ways()
-
+    total_dist = 0
     ways_to_classifiers = {}
     for way in list_of_ways:
         clf = nb.NaiveBayes(data, way)
         clf.train()
         ways_to_classifiers[way] = clf
 
-    for test_ex in data.testing_data:
-        test_ways = text_ex[1]
-        course_desc = text_ex[0]
-        
-        predicted_ways = []
-        for way in ways_to_classifiers:
-            clf = ways_to_classifiers[way]
-            result = clf.classify(course_desc)
-            if result == 1:
-                predicted_ways.append(way)
+    for test_ex in data.training_data:
+        test_way = test_ex[1]
+        course_desc = test_ex[0]
 
+        clf = ways_to_classifiers[test_way]
+        result = clf.classify(course_desc)
+        if result == 0:
+            total_dist += 1
+    print float(total_dist)/len(data.training_data)
+
+    total_dist = 0
+    for test_ex in data.testing_data:
+        test_way = test_ex[1]
+        course_desc = test_ex[0]
+
+        clf = ways_to_classifiers[test_way]
+        result = clf.classify(course_desc)
+        if result == 0:
+            total_dist += 1
+    print float(total_dist)/len(data.testing_data)
+
+
+       # predicted_ways = []
+        #for way in ways_to_classifiers:
+        #    clf = ways_to_classifiers[way]
+        #    result = clf.classify(course_desc)
+        #    if result == 1:
+        #        predicted_ways.append(way)
+        #predicted_ways = set(predicted_ways)
+
+        #print test_ways
+        #total_dist += 1 - float(len((predicted_ways & test_ways)))/len(predicted_ways | test_ways)
+
+    
 
 def main():
     data = dm.DataModel()
-    print overall_naive_bayes_test(data, ['numbers', 'modeling', 'mathematical'])
+    overall_naive_bayes_test(data, ['numbers', 'modeling', 'mathematical'])
 
 if __name__ == '__main__':
     main()
