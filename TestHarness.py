@@ -24,9 +24,16 @@ def test_NB():
     data = dm.DataModel()
     list_of_ways = data.get_list_of_ways()
     results = {}
+    numiter = 20
     for way in list_of_ways:
         clf = nb.NaiveBayes(data, way)
-        results[way] = _test(clf, way)
+        if way in results:
+            tr = _test(clf, way)
+            results[way] = (results[way][0] + tr[0], results[way][1] + tr[1])
+        else:
+            results[way] = _test(clf, way)
+
+    
     ax = _show_results(results)
     ax.set_title('Naive Bayes Classifier Per-Category Error')
     plt.show()
