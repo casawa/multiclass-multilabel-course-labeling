@@ -38,7 +38,7 @@ class DataModel:
                 else:                   # Even lines are the WAYS that the courses satsifies
                     ways = line.split()
                     tokens = description.split()
-                    class_all_ways([tokens, ways])
+                    class_all_ways.append([tokens, ways])
                     for way in ways:
                         data.append([tokens, way])
                         if train_flag:
