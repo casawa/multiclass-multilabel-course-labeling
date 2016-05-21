@@ -69,9 +69,9 @@ class NaiveBayes(Classifier):
         X = np.zeros((1, self.V))
         for word in description:
             if word in self.word_list:
-                X[i, self.word_list[word]] = 1
+                X[0, self.word_list[word]] = 1
             else:
-                X[i, self.word_list['NOTAWORD']] = 1
+                X[0, self.word_list['NOTAWORD']] = 1
         return self.get_predicted_class(X, np.log(self.phi_y), np.log(1 - self.phi_y))
 
     def get_predicted_class(self,x, log_y, log_y1):
