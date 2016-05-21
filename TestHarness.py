@@ -119,7 +119,7 @@ def overall_naive_bayes_test(data, course_desc):
             clf = ways_to_classifiers[way]
             result = clf.classify(course_desc)
             if result == 1:
-                predicted_ways.append(way)
+                predicted_ways.add(way)
         predicted_ways = set(predicted_ways)
 
         #print test_ways
