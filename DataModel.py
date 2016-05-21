@@ -27,6 +27,7 @@ class DataModel:
     # Parses the training and testing data files
     def parse_data(self, data_path, train_flag):
         data = []
+        class_all_ways = []
         with open(data_path, 'r') as f:
             i = 1 
             description = ""
@@ -37,6 +38,7 @@ class DataModel:
                 else:                   # Even lines are the WAYS that the courses satsifies
                     ways = line.split()
                     tokens = description.split()
+                    class_all_ways([tokens, ways])
                     for way in ways:
                         data.append([tokens, way])
                         if train_flag:
@@ -46,7 +48,7 @@ class DataModel:
 
                 i += 1
  
-        return data
+        return data, class_all_ways
 
     def get_list_of_ways(self):
         return ['WAY-A-II', 'WAY-AQR', 'WAY-CE', 'WAY-ED', 'WAY-ER', 'WAY-FR', 'WAY-SI', 'WAY-SMA']
@@ -59,5 +61,5 @@ class DataModel:
         self.train_ways_to_courses = defaultdict(list)
         self.test_ways_to_courses = defaultdict(list)
 
-        self.training_data = self.parse_data(self.train_path, True)
-        self.testing_data = self.parse_data(self.test_path, False)
+        self.training_data, self.training_data_all_ways = self.parse_data(self.train_path, True)
+        self.testing_data, self.training_data_all_way s= self.parse_data(self.test_path, False)
