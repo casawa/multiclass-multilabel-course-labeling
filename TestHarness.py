@@ -74,16 +74,24 @@ Determines the WAYS for a particular course description.
 # Data is an instance of DataModel
 def overall_naive_bayes_test(data, course_desc):
     list_of_ways = data.get_list_of_ways()
-    results = []
 
+    ways_to_classifiers = {}
     for way in list_of_ways:
         clf = nb.NaiveBayes(data, way)
         clf.train()
-        result = clf.classify(course_desc)
-        if result == 1:
-            results.append(way)
+        ways_to_classifiers[way] = clf
 
-    return results
+    for test_ex in data.testing_data:
+        test_ways = text_ex[1]
+        course_desc = text_ex[0]
+        
+        predicted_ways = []
+        for way in ways_to_classifiers:
+            clf = ways_to_classifiers[way]
+            result = clf.classify(course_desc)
+            if result == 1:
+                predicted_ways.append(way)
+
 
 def main():
     data = dm.DataModel()
