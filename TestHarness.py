@@ -33,7 +33,7 @@ def test_NB():
         else:
             results[way] = _test(clf, way)
 
-    
+
     ax = _show_results(results)
     ax.set_title('Naive Bayes Classifier Per-Category Error')
     plt.show()
@@ -101,9 +101,8 @@ def overall_naive_bayes_test(data, course_desc):
 
     total_dist = 0
     for test_ex in data.testing_data:
-<<<<<<< HEAD
-        test_ways = text_ex[1]
-        course_desc = text_ex[0]
+        test_ways = test_ex[1]
+        course_desc = test_ex[0]
 
         predicted_ways = []
         for way in ways_to_classifiers:
@@ -118,6 +117,10 @@ def overall_linear_test(data, course_desc):
 
     ways_to_classifiers = {}
     for way in list_of_ways:
+        print way
+
+    for way in list_of_ways:
+        print way
         clf = lc.LinearClassifier(data, way)
         clf.train()
         ways_to_classifiers[way] = clf
@@ -138,6 +141,6 @@ def main():
     #print overall_naive_bayes_test(data, ['numbers', 'modeling', 'mathematical'])
     #print overall_linear_test(data,['numbers','modeling','mathematical'])
     test_linear()
-    
+
 if __name__ == '__main__':
     main()

@@ -3,6 +3,7 @@ from Classifier import Classifier
 from sklearn import linear_model
 import numpy as np
 import util
+import sys
 
 class LinearClassifier(Classifier):
     """Represents a linear classifier"""
@@ -16,16 +17,14 @@ class LinearClassifier(Classifier):
 
     def train(self):
         """Trains model on data from data_model"""
-        print "Training " + self.way
-        wc = self.data_model.query_by_way(self.way,True)
-        al = self.data_model.get_training_data()
-        way_classes = [tuple(elem[0]) for elem in wc if len(elem) > 0]
-        all_classes = [tuple(elem[0]) for elem in al if len(elem) > 0]
+        way_classes = set([tuple(x) for x in self.data_model.query_by_way(self.way,True)])
+        all_classes = set([tuple(x[0]) for x in self.data_model.get_training_data()])
         neg = [(description,0) for description in all_classes if description not in way_classes]
-        pos = [(description,1) for description in all_classes if description not in way_classes]
+        pos = [(description,1) for description in all_classes if description in way_classes]
         data_list = pos + neg
         list_of_words = [word for x in data_list for word in x[0]]
         list_of_words.append("UNK")
+        list_of_words = list(set(list_of_words))
         tmp = dict(enumerate(list_of_words))
         self.list_of_words = list_of_words
         self.tmp = tmp
@@ -43,19 +42,15 @@ class LinearClassifier(Classifier):
             if yi != ypi:
                 err += 1
             vals.append((yi,ypi))
-        print self.classifier.score(X,y)
-        print str(float(err)) + " " + str(len(data_list))
         return float(err)/float(len(data_list))
 
 
     def test(self):
         """Tests model on data from data_model"""
-        wc = self.data_model.query_by_way(self.way,False)
-        al = self.data_model.get_testing_data()
-        way_classes = [tuple(elem[0]) for elem in wc]
-        all_classes = [tuple(elem[0]) for elem in al]
+        way_classes = set([tuple(x) for x in self.data_model.query_by_way(self.way,False)])
+        all_classes = set([tuple(x[0]) for x in self.data_model.get_testing_data()])
         neg = [(description,0) for description in all_classes if description not in way_classes]
-        pos = [(description,1) for description in all_classes if description not in way_classes]
+        pos = [(description,1) for description in all_classes if description in way_classes]
         data_list = pos + neg
         new_list = []
         for elem in data_list:
@@ -65,7 +60,10 @@ class LinearClassifier(Classifier):
                 if description[i] not in self.list_of_words:
                     description[i] = "UNK"
             new_list.append((tuple(description),label))
+        X = None
+        y = None
         X,y = util.convert_to_matrix(new_list,self.tmp)
+        print X
         ypred = self.classifier.predict(X)
         err = 0
         for i in range(len(new_list)):

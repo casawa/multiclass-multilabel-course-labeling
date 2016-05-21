@@ -13,7 +13,7 @@ class NaiveBayes(Classifier):
         self.phi_x1 = None
         self.word_list = None
         self.V = 0
-        
+
 
 
     def train(self):
@@ -125,7 +125,7 @@ class NaiveBayes(Classifier):
             for word in point[0]:
                 if word in self.word_list:
                     X[i, self.word_list[word]] = 1
-                else:    
+                else:
                     X[i, self.word_list['NOTAWORD']] = 1
         return (np.asmatrix(X), np.asmatrix(y))
 
@@ -137,4 +137,3 @@ class NaiveBayes(Classifier):
         self.word_list = {}
         for index, word in enumerate(list_of_words):
             self.word_list[word] = index
-
