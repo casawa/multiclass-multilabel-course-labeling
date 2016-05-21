@@ -1,6 +1,9 @@
 import sklearn
 
 
+def construct_labels_matrix():
+
+
 def main():
     data = construct_data_matrix()
     labels = construct_labels_matrix()
