@@ -5,3 +5,4 @@ from DataModel import DataModel
 dm = DataModel()
 lc = LinearClassifier(dm,"WAY-FR")
 lc.train()
+print lc.test()
