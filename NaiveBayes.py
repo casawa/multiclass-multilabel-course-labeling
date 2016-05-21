@@ -74,6 +74,7 @@ class NaiveBayes(Classifier):
                 errors += 1
         errors /= float(m)
         print '{}: Testing error on {} postive examples: {}'.format(self.way, len(pos), errors)
+        return errors
 
     def classify(self, description):
         X = np.zeros((1,self.V))
@@ -84,10 +85,10 @@ class NaiveBayes(Classifier):
                 X[0,self.word_list['NOTAWORD']] = 1
         return self.get_predicted_class(np.asmatrix(X), np.log(self.phi_y), np.log(1 - self.phi_y))
 
-    def get_predicted_class(self,x, log_y, log_y1):
-        total_0 = float(x * self.phi_x0) + log_y
+    def get_predicted_class(self,x, log_y1, log_y0):
+        total_0 = float(x * self.phi_x0) + log_y0
         total_1 = float(x * self.phi_x1) + log_y1
-        if total_0 >= total_1:
+        if total_0 < total_1:
             return 1
         else:
             return 0
