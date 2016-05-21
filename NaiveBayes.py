@@ -13,7 +13,7 @@ class NaiveBayes(Classifier):
         self.phi_x1 = None
         self.word_list = None
         self.V = 0
-        self.V = 0
+        
 
 
     def train(self):
@@ -32,8 +32,8 @@ class NaiveBayes(Classifier):
             else:
                 self.phi_x1 += np.transpose(row)
                 self.phi_y += 1
-        self.phi_x1 /= (self.phi_y + 2)
-        self.phi_x0 /= (m + 2 - self.phi_y)
+        self.phi_x1 /= (self.phi_y + self.V)
+        self.phi_x0 /= (m + self.V - self.phi_y)
         self.phi_y /= float(m)
 
 
@@ -42,10 +42,21 @@ class NaiveBayes(Classifier):
         self.phi_x1 = np.log(self.phi_x1)
         self.phi_x0 = np.log(self.phi_x0)
         errors = 0
+        false_positives = 0
+        false_negatives = 0
         for index, row in enumerate(X):
-            if self.get_predicted_class(row, np.log(self.phi_y), np.log(1 - self.phi_y)) != y[index]:
+            pred = self.get_predicted_class(row, np.log(self.phi_y), np.log(1 - self.phi_y))
+            if pred != y[index]:
                 errors += 1
+            if pred > y[index]:
+                false_positives += 1
+            if pred < y[index]:
+                false_negatives += 1
         errors /= float(m)
+        false_positives /= float(m)
+        false_negatives /= float(m)
+
+        print '{}: Training error on {} positive examples: {}, f+: {}, f-:{}'.format(self.way, len(pos), errors, false_positives, false_negatives)
         return errors
 
     def test(self):
@@ -61,7 +72,8 @@ class NaiveBayes(Classifier):
         for index, row in enumerate(X):
             if self.get_predicted_class(row, np.log(self.phi_y), np.log(1 - self.phi_y)) != y[index]:
                 errors += 1
-        return errors / float(m)
+        errors /= float(m)
+        print '{}: Testing error on {} postive examples: {}'.format(self.way, len(pos), errors)
 
     def classify(self, description):
         X = np.zeros((1,self.V))
