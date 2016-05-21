@@ -13,7 +13,10 @@ def test_linear():
     for way in list_of_ways:
         clf = lc.LinearClassifier(data, way)
         results[way] = _test(clf, way)
-    _show_results(results)
+    ax = _show_results(results)
+    ax.set_title('Linear Classifier Per-Category Error')
+    plt.show()
+
 
 def test_NB():
     '''This is a wrapper aroung the test harness for the Naive Bayes classifier'''
@@ -23,7 +26,10 @@ def test_NB():
     for way in list_of_ways:
         clf = nb.NaiveBayes(data, way)
         results[way] = _test(clf, way)
-    _show_results(results)
+    ax = _show_results(results)
+    ax.set_title('Naive Bayes Classifier Per-Category Error')
+    plt.show()
+
 
 def _test(classifier, way):
     '''The test harness. Takes a classifer and prints statistics'''
@@ -60,5 +66,5 @@ def _show_results(results):
     #for rect in rects2:
     #    height = rect.get_height()
     #    ax.text(rect.get_x() + rect.get_width()/2., height + 0.05, '%.3f' % height,ha='center',va='bottom')                                                                                                      
-    plt.show()
+    return ax
 
