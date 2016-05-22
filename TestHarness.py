@@ -83,11 +83,9 @@ def _show_results(results):
     #    ax.text(rect.get_x() + rect.get_width()/2., height + 0.05, '%.3f' % height,ha='center',va='bottom')
     return ax
 
-"""
-Determines the WAYS for a particular course description.
-"""
 # Data is an instance of DataModel
-def overall_naive_bayes_test(data, course_desc):
+def overall_naive_bayes_test(data):
+    print "Naive Bayes False Positives"
     list_of_ways = data.get_list_of_ways()
     total_dist = 0
     ways_to_classifiers = {}
@@ -96,26 +94,42 @@ def overall_naive_bayes_test(data, course_desc):
         clf.train()
         ways_to_classifiers[way] = clf
 
-#    for test_ex in data.training_data:
-#        test_way = test_ex[1]
-#        course_desc = test_ex[0]
-#
-#        clf = ways_to_classifiers[test_way]
-#        result = clf.classify(course_desc)
-#        if result == 0:
-#            total_dist += 1
-#    print float(total_dist)/len(data.training_data)
-#
-#    total_dist = 0
-#    for test_ex in data.testing_data:
-#        test_way = test_ex[1]
-#        course_desc = test_ex[0]
-#
-#        clf = ways_to_classifiers[test_way]
-#        result = clf.classify(course_desc)
-#        if result == 0:
-#            total_dist += 1
-#    print float(total_dist)/len(data.testing_data)
+    for test_ex in data.training_data:
+        test_way = test_ex[1]
+        course_desc = test_ex[0]
+
+        clf = ways_to_classifiers[test_way]
+        result = clf.classify(course_desc)
+        if result == 0:
+            total_dist += 1
+    print "Training Error:", float(total_dist)/len(data.training_data)
+
+    total_dist = 0
+    for test_ex in data.testing_data:
+        test_way = test_ex[1]
+        course_desc = test_ex[0]
+
+        clf = ways_to_classifiers[test_way]
+        result = clf.classify(course_desc)
+        if result == 0:
+            total_dist += 1
+    print "Testing Error:", float(total_dist)/len(data.testing_data)
+
+
+"""
+Determines the Hamming distance error for Naive Bayes.
+"""
+# Data is an instance of DataModel
+def overall_naive_bayes_ham_test(data):
+
+    print "Naive Bayes Hamming Distance"
+    list_of_ways = data.get_list_of_ways()
+    total_dist = 0
+    ways_to_classifiers = {}
+    for way in list_of_ways:
+        clf = nb.NaiveBayes(data, way)
+        clf.train()
+        ways_to_classifiers[way] = clf
 
     for test_ex in data.testing_data_all_ways:
         test_ways = set(test_ex[1])
@@ -129,24 +143,54 @@ def overall_naive_bayes_test(data, course_desc):
                 predicted_ways.add(way)
         predicted_ways = set(predicted_ways)
 
-        #print test_ways
-        total_dist += 1 - float(len((predicted_ways & test_ways)))/len(predicted_ways | test_ways)
-
-        print total_dist/len(data.testing_data_all_ways)
-
-        predicted_ways.add(way)
-        predicted_ways = set(predicted_ways)
-
-        #print test_ways
-        total_dist += 1 - float(len((predicted_ways & test_ways)))/len(predicted_ways | test_ways)
-
     print total_dist/len(data.testing_data_all_ways)
 
 """
-Determines the WAYS for a particular course description.
+Linear test false positives
 """
 # Data is an instance of DataModel
-def overall_linear_ham_test(data, course_desc):
+def overall_linear_test(data):
+
+    print "Linear Test False Positives"
+    list_of_ways = data.get_list_of_ways()
+
+    total_dist = 0
+    ways_to_classifiers = {}
+
+    for way in list_of_ways:
+        clf = lc.LinearClassifier(data, way)
+        clf.train()
+        ways_to_classifiers[way] = clf
+
+    for test_ex in data.training_data:
+        test_way = test_ex[1]
+        course_desc = test_ex[0]
+
+        clf = ways_to_classifiers[test_way]
+        result = clf.classify(course_desc)
+        if result == 0:
+            total_dist += 1
+    print "Training Error: ", float(total_dist)/len(data.training_data)
+
+    total_dist = 0
+    for test_ex in data.testing_data:
+        test_way = test_ex[1]
+        course_desc = test_ex[0]
+
+        clf = ways_to_classifiers[test_way]
+        result = clf.classify(course_desc)
+        if result == 0:
+            total_dist += 1
+    print "Testing Error: ", float(total_dist)/len(data.testing_data)
+
+
+"""
+Hamming distance for linear classifier.
+"""
+# Data is an instance of DataModel
+def overall_linear_ham_test(data):
+
+    print "Linear hamming distance"
     list_of_ways = data.get_list_of_ways()
     total_dist = 0
     ways_to_classifiers = {}
@@ -155,27 +199,6 @@ def overall_linear_ham_test(data, course_desc):
         clf.train()
         ways_to_classifiers[way] = clf
 
-#    for test_ex in data.training_data:
-#        test_way = test_ex[1]
-#        course_desc = test_ex[0]
-#
-#        clf = ways_to_classifiers[test_way]
-#        result = clf.classify(course_desc)
-#        if result == 0:
-#            total_dist += 1
-#    print float(total_dist)/len(data.training_data)
-#
-#    total_dist = 0
-#    for test_ex in data.testing_data:
-#        test_way = test_ex[1]
-#        course_desc = test_ex[0]
-#
-#        clf = ways_to_classifiers[test_way]
-#        result = clf.classify(course_desc)
-#        if result == 0:
-#            total_dist += 1
-#    print float(total_dist)/len(data.testing_data)
-
     for test_ex in data.testing_data_all_ways:
         test_ways = set(test_ex[1])
         course_desc = test_ex[0]
@@ -192,35 +215,15 @@ def overall_linear_ham_test(data, course_desc):
     print total_dist/len(data.testing_data_all_ways)
 
 
-# Data is an instance of DataModel
-def overall_linear_test(data, course_desc):
-    list_of_ways = data.get_list_of_ways()
-
-    ways_to_classifiers = {}
-    for way in list_of_ways:
-        print way
-
-    for way in list_of_ways:
-        print way
-        clf = lc.LinearClassifier(data, way)
-        clf.train()
-        ways_to_classifiers[way] = clf
-
-    for test_ex in data.testing_data:
-        test_ways = test_ex[1]
-        course_desc = test_ex[0]
-
-        predicted_ways = []
-        for way in ways_to_classifiers:
-            clf = ways_to_classifiers[way]
-            result = clf.classify(course_desc)
-            if result == 1:
-                predicted_ways.append(way)
-
 def main():
     data = dm.DataModel()
     #print overall_naive_bayes_test(data, ['numbers', 'modeling', 'mathematical'])
     #overall_linear_ham_test(data,['numbers','modeling','mathematical'])
     #test_linear()
+    test_linear()
+    overall_linear_test(data)
+    overall_linear_ham_test(data)
+    overall_naive_bayes_test(data)
+    overall_naive_bayes_ham_test(data)
 if __name__ == '__main__':
     main()
