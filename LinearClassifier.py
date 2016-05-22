@@ -62,7 +62,7 @@ class LinearClassifier(Classifier):
             new_list.append((tuple(description),label))
         X = None
         y = None
-        X,y = util.convert_to_matrix(new_list,self.tmp)
+        X,y = util.convert_to_matrix(new_list,TMP)
         print X
         ypred = self.classifier.predict(X)
         err = 0
