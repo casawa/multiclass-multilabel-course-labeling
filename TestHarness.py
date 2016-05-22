@@ -6,25 +6,25 @@ import matplotlib.pyplot as plt
 import numpy as np
 import random
 
+
 def test_linear():
-    '''This is a wrapper around the test harness for the linear classifier.'''
+    '''This is a wrapper aroung the test harness for the Naive Bayes classifier'''
     data = dm.DataModel()
     list_of_ways = data.get_list_of_ways()
     results = {}
+    numiter = 20
     for way in list_of_ways:
         clf = lc.LinearClassifier(data, way)
-        results[way] = _test(clf, way)
+        if way in results:
+            tr = _test(clf, way)
+            results[way] = (results[way][0] + tr[0], results[way][1] + tr[1])
+        else:
+            results[way] = _test(clf, way)
+
+    print results
     ax = _show_results(results)
     ax.set_title('Linear Classifier Per-Category Error')
     plt.show()
-    a = []
-    b = []
-    for key in results.keys():
-        a.append(results[key][0])
-        b.append(results[key][1])
-    print "Average train: " + str(sum(a)/len(a))
-    print "Average test: " + str(sum(b)/len(b))
-
 
 def test_NB():
     '''This is a wrapper aroung the test harness for the Naive Bayes classifier'''
@@ -150,7 +150,7 @@ Linear test false positives
 """
 # Data is an instance of DataModel
 def overall_linear_test(data):
-    
+
     print "Linear Test False Positives"
     list_of_ways = data.get_list_of_ways()
 
@@ -224,6 +224,5 @@ def main():
     overall_linear_ham_test(data)
     overall_naive_bayes_test(data)
     overall_naive_bayes_ham_test(data)
-
 if __name__ == '__main__':
     main()
