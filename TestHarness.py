@@ -141,7 +141,7 @@ def overall_naive_bayes_ham_test(data):
             result = clf.classify(course_desc)
             if result == 1:
                 predicted_ways.add(way)
-        predicted_ways = set(predicted_ways)
+        total_dist += 1 - float(len((predicted_ways & test_ways)))/len(predicted_ways | test_ways)
 
     print total_dist/len(data.testing_data_all_ways)
 
@@ -220,7 +220,6 @@ def main():
     #print overall_naive_bayes_test(data, ['numbers', 'modeling', 'mathematical'])
     #overall_linear_ham_test(data,['numbers','modeling','mathematical'])
     #test_linear()
-    test_linear()
     overall_linear_test(data)
     overall_linear_ham_test(data)
     overall_naive_bayes_test(data)
