@@ -1,0 +1,1896 @@
+
+
+description: music musician ag enlightenmentnprerequisit music 22 music 41 wim 4unit level onli
+correct label = WAY-A-II 
+*>  0.026274 : WAY-A-II 
+   -0.347731 : WAY-AQR 
+   -0.014903 : WAY-CE 
+   -0.084898 : WAY-ED 
+   -0.348672 : WAY-ER 
+   -0.369852 : WAY-FR 
+   -0.136009 : WAY-SI 
+   -0.229743 : WAY-SMA 
+
+
+description: intens version 106b student strong program background interest rigor treatment topic acceler pace addit advanc materi challeng project prerequisit excel 106a equival consent instructor
+correct label = WAY-FR 
+   -0.075134 : WAY-A-II 
+   -0.076906 : WAY-AQR 
+   -0.096384 : WAY-CE 
+   -0.172647 : WAY-ED 
+   -0.189149 : WAY-ER 
+** -0.052148 : WAY-FR 
+   -0.072265 : WAY-SI 
+   -0.023016 : WAY-SMA 
+
+
+description: nanotechnolog word mean thing peopl scientist engin notion nanotechnolog is societ percept differ in cours start classic paper richard feynman quotther plenti room bottomquot laid challeng nanotechnologist then discuss classic book offer glimps nanotechnolog is engin creation the come era nanotechnolog eric drexler prei michael crichton drexler thesi spark imagin nano machineri do crichton popular channel public attent subject portrai disastr scenario technolog astrai we scientif knowledg analyz assumpt predict classic work we draw latest research advanc illustr possibl imposs nanotechnolog
+correct label = WAY-SMA 
+   -0.047405 : WAY-A-II 
+   -0.139763 : WAY-AQR 
+   -0.100485 : WAY-CE 
+   -0.077533 : WAY-ED 
+   -0.131979 : WAY-ER 
+   -0.165068 : WAY-FR 
+   -0.027443 : WAY-SI 
+** -0.082888 : WAY-SMA 
+
+
+description: servicelearn expos student sustain concept urban plan tool determin sustain outcom bai area focu relationship land transport plan hous employ pattern mobil public health social equiti topic includ govern initi counteract urban sprawl promot smart growth livabl polit realiti organ build coalit sustain goal increas opportun lowincom commun color achiev sustain outcom student particip teambas project collabor local commun partner part signific offsit fieldwork prerequisit consent instructor
+correct label = WAY-ED WAY-SI 
+   -0.075134 : WAY-A-II 
+   -0.076906 : WAY-AQR 
+   -0.096384 : WAY-CE 
+** -0.172647 : WAY-ED 
+   -0.189149 : WAY-ER 
+   -0.052148 : WAY-FR 
+** -0.072265 : WAY-SI 
+   -0.023016 : WAY-SMA 
+
+
+description: interdisciplinari compar histor polit sociolog religi studi approach the relationship religion polit understood us europ how relationship tens rise islam public religion europ rise influenc religi group public cultur differ understand definit separ church state western democrat cultur differ notion public sphere case studi investig natur public conflict issu lead conflict why why head cover muslim women politic europ what argument surround cordoba hous ground zero mosqu conflict compar controversi recent construct mosqu europ resourc includ media documentari scholarli literatur
+correct label = WAY-ED 
+ >  0.011456 : WAY-A-II 
+   -0.335381 : WAY-AQR 
+   -0.148249 : WAY-CE 
+** -0.021927 : WAY-ED 
+   -0.189731 : WAY-ER 
+   -0.357392 : WAY-FR 
+   -0.007705 : WAY-SI 
+   -0.210844 : WAY-SMA 
+
+
+description: econom sourc environment problem altern polici deal technolog standard emiss tax market pollut permit evalu polici address region air pollut global climat chang water alloc western us renew resourc connect popul growth econom output environment qualiti human welfar prerequisit econ 50
+correct label = WAY-SI 
+   -0.168267 : WAY-A-II 
+   -0.050823 : WAY-AQR 
+   -0.356696 : WAY-CE 
+   -0.165688 : WAY-ED 
+   -0.236917 : WAY-ER 
+   -0.064267 : WAY-FR 
+*>  0.022629 : WAY-SI 
+   -0.050552 : WAY-SMA 
+
+
+description: thi explor role imagin 19th 20th centuri portugues brazilian literatur we read 45 novel short stori articl analyz author recreat imaginari process charact process reveal sociocultur context period author includ rauacutel brandatildeo machado de assi antonio lobo antun raduan nassar aacutelvaro cardoso gome complementari short piec fernando pessoa joseacut saramago mario de andrad guimaratilde rosa claric lispector read english portugues in english
+correct label = WAY-A-II 
+*>  0.074594 : WAY-A-II 
+   -0.336819 : WAY-AQR 
+   -0.123021 : WAY-CE 
+   -0.060138 : WAY-ED 
+   -0.152689 : WAY-ER 
+   -0.147780 : WAY-FR 
+   -0.142350 : WAY-SI 
+   -0.309028 : WAY-SMA 
+
+
+description: how power state evolv globe modern period and shape global experi modern in examin develop technolog rule eighteenth twentyfirst centuri ag empir revolut world war cold war war terror we polit social cultur intellectu root invent result ground in so attempt grasp shape histori experi iquestmodernityiquest the offer broad overview region wider set process technolog connect histor experi farflung human commun topic includ evolut govern bureaucraci classificatori scheme industri revolut technolog rebellion revolut technolog trade includ map ship gun railroad liberalismiquest urban technolog airpow histori practic develop camp border anticoloni critiqu tool empir through these attempt make sens technolog imperi power shape bond inequ global capit world nationst we focu case studi week trace unfold largescal process student read primari sourc produc period historiansiquest analys event distanc the class begin student nonmajor advanc histori student level credit
+correct label = WAY-ED WAY-SI 
+ >  0.011456 : WAY-A-II 
+   -0.335381 : WAY-AQR 
+   -0.148249 : WAY-CE 
+** -0.021927 : WAY-ED 
+   -0.189731 : WAY-ER 
+   -0.357392 : WAY-FR 
+** -0.007705 : WAY-SI 
+   -0.210844 : WAY-SMA 
+
+
+description: dure past decad jewish feminist ask question tradit rabbin text jewish law histori religi life thought analysi legal narr text ritual theologi commun understand contemporari jewish life influenc femin
+correct label = WAY-ED 
+   -0.047405 : WAY-A-II 
+   -0.139763 : WAY-AQR 
+   -0.100485 : WAY-CE 
+** -0.077533 : WAY-ED 
+   -0.131979 : WAY-ER 
+   -0.165068 : WAY-FR 
+   -0.027443 : WAY-SI 
+   -0.082888 : WAY-SMA 
+
+
+description: thi focus role polit institut shape polici outcom world special attent unit state student familiar wide rang theoret approach studi institut learn basic appli quantit empir analysi enrol restrict polit scienc research honor track student
+correct label = WAY-SI 
+   -0.047405 : WAY-A-II 
+   -0.139763 : WAY-AQR 
+   -0.100485 : WAY-CE 
+   -0.077533 : WAY-ED 
+   -0.131979 : WAY-ER 
+   -0.165068 : WAY-FR 
+** -0.027443 : WAY-SI 
+   -0.082888 : WAY-SMA 
+
+
+description: requir japanes major introduct japanes cultur histor context previou topic includeshift paradigm gender relat perform ancient mytholog court poetri romanc mediev war tale theater noh bunraku kabuki
+correct label = WAY-A-II 
+*>  0.000525 : WAY-A-II 
+   -0.424603 : WAY-AQR 
+   -0.259321 : WAY-CE 
+ >  0.065178 : WAY-ED 
+   -0.402878 : WAY-ER 
+   -0.544990 : WAY-FR 
+ >  0.025289 : WAY-SI 
+   -0.441582 : WAY-SMA 
+
+
+description: an explor dynam relationship technolog wai repres world the examin technolog renaiss present dai telescop microscop digit detector chang enhanc visual capabl shape imagin world we technolog influenc inspir work artist special attent paid technolog linear perspect photographi cinema comput screen translat visual experi represent autom vision intersect technolog concept time space
+correct label = WAY-A-II 
+*>  0.006664 : WAY-A-II 
+   -0.335153 : WAY-AQR 
+   -0.030587 : WAY-CE 
+   -0.103578 : WAY-ED 
+   -0.269634 : WAY-ER 
+   -0.348908 : WAY-FR 
+   -0.137888 : WAY-SI 
+   -0.307411 : WAY-SMA 
+
+
+description: introduct differenti integr calculu function variabl topic limit rate chang deriv applic introduct definit integr integr math 41 42 cover materi math 192021 quarter three prerequisit trigonometri advanc algebra analysi elementari function includ exponenti logarithm
+correct label = WAY-FR 
+   -0.075134 : WAY-A-II 
+   -0.076906 : WAY-AQR 
+   -0.096384 : WAY-CE 
+   -0.172647 : WAY-ED 
+   -0.189149 : WAY-ER 
+** -0.052148 : WAY-FR 
+   -0.072265 : WAY-SI 
+   -0.023016 : WAY-SMA 
+
+
+description: prefer freshmen focu cuttingedg research topic challeng grasp globe whole geographi root empir map propaganda commod cultur product scale cartographi imagineri worldssourc includ resourc green librari special collect stanford spatial histori lab
+correct label = WAY-SI 
+ >  0.011456 : WAY-A-II 
+   -0.335381 : WAY-AQR 
+   -0.148249 : WAY-CE 
+   -0.021927 : WAY-ED 
+   -0.189731 : WAY-ER 
+   -0.357392 : WAY-FR 
+** -0.007705 : WAY-SI 
+   -0.210844 : WAY-SMA 
+
+
+description: focu existentialist preoccup human freedom what constitut authent individu what on relat divin how live meaning life what signific death a rethink tradit problem freedom determin read rousseau kierkegaard nietzsch extens idea sartr beauvoir camu includ social polit consequ light 20thcenturi fascism femin
+correct label = WAY-ER 
+   -0.047405 : WAY-A-II 
+   -0.139763 : WAY-AQR 
+   -0.100485 : WAY-CE 
+   -0.077533 : WAY-ED 
+** -0.131979 : WAY-ER 
+   -0.165068 : WAY-FR 
+   -0.027443 : WAY-SI 
+   -0.082888 : WAY-SMA 
+
+
+description: critic theoret practic aspect creativ photographi camera lab techniqu field work cantor art center art galleri exhibit cours requir 35mm camera the depart suppli necessari summer lower level
+correct label = WAY-CE 
+   -0.110003 : WAY-A-II 
+   -0.123946 : WAY-AQR 
+** -0.000795 : WAY-CE 
+   -0.181865 : WAY-ED 
+   -0.288377 : WAY-ER 
+   -0.170903 : WAY-FR 
+   -0.093706 : WAY-SI 
+   -0.073310 : WAY-SMA 
+
+
+description: chinaiquest relat world focu africa middl east histor contextu relat evolut relat intern climat period present impact geopolit geoeconom relat exist intern order
+correct label = WAY-ED 
+   -0.047405 : WAY-A-II 
+   -0.139763 : WAY-AQR 
+   -0.100485 : WAY-CE 
+** -0.077533 : WAY-ED 
+   -0.131979 : WAY-ER 
+   -0.165068 : WAY-FR 
+   -0.027443 : WAY-SI 
+   -0.082888 : WAY-SMA 
+
+
+description: collect action problem aris action individu ration give rise result collect irrat scholar framework shed light polit phenomena revolut civil disobedi vote climat chang fund social servic we examin find probe theoret foundat approach what think polit bring focu leav out what role institut plai resolv collect action problem and requir institut absent can we individu requir cooper expect plai part read drawn philosophi polit scienc econom sociolog
+correct label = WAY-ER 
+   -0.140539 : WAY-A-II 
+   -0.113680 : WAY-AQR 
+   -0.360797 : WAY-CE 
+   -0.070574 : WAY-ED 
+** -0.179747 : WAY-ER 
+   -0.177186 : WAY-FR 
+ >  0.067451 : WAY-SI 
+   -0.110424 : WAY-SMA 
+
+
+description: existenti understood secular antireligi philosophi life substitut christian ethic posttheist world ag yet twentiethcenturi philosoph movement ow concern vocabulari hyperprotest danish thinker soren kierkegaard christian jewish thought 20thcenturi bultmann buber tillich adopt existenti iquestbest philosophyiquest make sens tradit secular ag thi examin origin existentialist thought write kierkegaard appropri hand influenti 20th centuri religi thinker
+correct label = WAY-A-II 
+** -0.055754 : WAY-A-II 
+   -0.171414 : WAY-AQR 
+   -0.149987 : WAY-CE 
+   -0.145487 : WAY-ED 
+ >  0.037324 : WAY-ER 
+   -0.356228 : WAY-FR 
+   -0.069635 : WAY-SI 
+   -0.106896 : WAY-SMA 
+
+
+description: clausewitz conceptu war consist triniti passion chanc reason mirror respect peopl armi govern follow clausewitz examin peopl armi govern shape world war ii analyz ideolog polit diplomat econom motiv constraint belliger result strategi militari plan fight explor realiti everydai life home front experi noncombat war final destruct nation socialist germani imperi japan emerg conflict victor how peopl armi govern involv perceiv possibl choic mean understand origin event dynam implic greatest war histori
+correct label = WAY-SI 
+   -0.140539 : WAY-A-II 
+   -0.113680 : WAY-AQR 
+   -0.360797 : WAY-CE 
+   -0.070574 : WAY-ED 
+   -0.179747 : WAY-ER 
+   -0.177186 : WAY-FR 
+*>  0.067451 : WAY-SI 
+   -0.110424 : WAY-SMA 
+
+
+description: thi examin issu debat surround women reproduct transnat framework includ birth control abort surrogaci prenat diagnosi labor deliveri menstruat sex traffick reproduct justic movement it pai special attent knowledg technolog travel nationalcultur border women reproduct function deepli connect intern polit event abroad
+correct label = WAY-ED WAY-SI 
+   -0.047405 : WAY-A-II 
+   -0.139763 : WAY-AQR 
+   -0.100485 : WAY-CE 
+** -0.077533 : WAY-ED 
+   -0.131979 : WAY-ER 
+   -0.165068 : WAY-FR 
+** -0.027443 : WAY-SI 
+   -0.082888 : WAY-SMA 
+
+
+description: on januari 7th 9th 2015 islam terrorist attack claim 17 death heart pari on januari 11th 4 million peopl march uphold franc laquorepublican valuesraquo freedom express how understand unfathom can social scienc understand context consequ event franc model secular democraci materi includ newsreel film novel houellebecq essai fassin morin badiou zemmour finkielkraut read english french discuss english
+correct label = WAY-A-II WAY-SI 
+*>  0.074594 : WAY-A-II 
+   -0.336819 : WAY-AQR 
+   -0.123021 : WAY-CE 
+   -0.060138 : WAY-ED 
+   -0.152689 : WAY-ER 
+   -0.147780 : WAY-FR 
+** -0.142350 : WAY-SI 
+   -0.309028 : WAY-SMA 
+
+
+description: we quotknowquot quotwhoquot quotarequot ar all social creatur how sens interact us how literatur provid medium express medit construct quotth selfquot after all stori respons question quotwho youquot besid list noun name attribut give live flesh blood tell process world our focus questiondo univers issu quotwho iquot skew differ add qualifi it quotethnicquot
+correct label = WAY-A-II WAY-ED 
+** -0.047405 : WAY-A-II 
+   -0.139763 : WAY-AQR 
+   -0.100485 : WAY-CE 
+** -0.077533 : WAY-ED 
+   -0.131979 : WAY-ER 
+   -0.165068 : WAY-FR 
+   -0.027443 : WAY-SI 
+   -0.082888 : WAY-SMA 
+
+
+description: prefer freshmen choic meet futur energi us world basic physic energi sourc technolog emploi relat public polici issu tradeoff societ impact energi sourc polici option make ration choic sustain world energi economi
+correct label = WAY-SMA 
+   -0.047405 : WAY-A-II 
+   -0.139763 : WAY-AQR 
+   -0.100485 : WAY-CE 
+   -0.077533 : WAY-ED 
+   -0.131979 : WAY-ER 
+   -0.165068 : WAY-FR 
+   -0.027443 : WAY-SI 
+** -0.082888 : WAY-SMA 
+
+
+description: theme 18th 19th 20thcenturi british art paint sculptur design comparison british experi continent europ us read address question relat role art modern societi limit enrol
+correct label = WAY-A-II 
+** -0.047405 : WAY-A-II 
+   -0.139763 : WAY-AQR 
+   -0.100485 : WAY-CE 
+   -0.077533 : WAY-ED 
+   -0.131979 : WAY-ER 
+   -0.165068 : WAY-FR 
+   -0.027443 : WAY-SI 
+   -0.082888 : WAY-SMA 
+
+
+description: histori literatur institut ritual affect symbol aspect perspect gender class social chang
+correct label = WAY-SI 
+   -0.058336 : WAY-A-II 
+   -0.228986 : WAY-AQR 
+   -0.211557 : WAY-CE 
+ >  0.009572 : WAY-ED 
+   -0.345125 : WAY-ER 
+   -0.352666 : WAY-FR 
+*>  0.005551 : WAY-SI 
+   -0.313625 : WAY-SMA 
+
+
+description: templ prayer bead icon robe book relic candl incens scarv hat sacr food holi water object sort plai promin role religion evok wide rang emot respons rever solac ecstasi fear hostil violenc what thing make power is belief doctrin inspir attitud object around mani tension contradict religion materi pursuit argu true religi life life thing but life possibl thi adopt compar approach draw varieti tradit examin place imag food cloth ritual object architectur relic religi thought practic materi includ scholarship scriptur imag museum visit
+correct label = WAY-A-II WAY-ED 
+** -0.047405 : WAY-A-II 
+   -0.139763 : WAY-AQR 
+   -0.100485 : WAY-CE 
+** -0.077533 : WAY-ED 
+   -0.131979 : WAY-ER 
+   -0.165068 : WAY-FR 
+   -0.027443 : WAY-SI 
+   -0.082888 : WAY-SMA 
+
+
+description: thi class introduc kei literari text japan modern era 1868present locat work larger polit social cultur trend period primari text includ futabatei shimei float cloud higuchi ichiyocirc child plai natsum socircseki kokoro kobayashi takiji canneri boat ocirc kenzaburocirc the catch yoshimoto banana kitchen examin literari work contextu larger polit trend eg modern program meiji regim polici japan wartim govern postwar japanes respons cold war social develop eg chang notion social class women right movement social effect postwar econom expans cultur movement eg literari reform movement 1890 modern 1920 30 postmodern 1980 the goal class literari text point entri understand grand narr japan journei tent reentri intern commun 1850 cataclysm pacif war remark prosper bubbl year 1980
+correct label = WAY-A-II 
+** -0.081677 : WAY-A-II 
+   -0.309298 : WAY-AQR 
+   -0.408561 : WAY-CE 
+   -0.014968 : WAY-ED 
+   -0.237500 : WAY-ER 
+   -0.369511 : WAY-FR 
+ >  0.087189 : WAY-SI 
+   -0.238380 : WAY-SMA 
+
+
+description: analysi repres manga narr combin verbal visual element attent histor cultur background repres manga tezuka osamu tatsumi yoshihiro koik kazuo taniguchi jiro natsum ono kono fumiyo other all read englishnnclass meet knight bldg rm 018 contact instructor sdcarterstanfordedu place
+correct label = WAY-A-II 
+*>  0.011456 : WAY-A-II 
+   -0.335381 : WAY-AQR 
+   -0.148249 : WAY-CE 
+   -0.021927 : WAY-ED 
+   -0.189731 : WAY-ER 
+   -0.357392 : WAY-FR 
+   -0.007705 : WAY-SI 
+   -0.210844 : WAY-SMA 
+
+
+description: for nonmajor prospect major earth scienc lectur handson laboratori inclass activ field trip focu physic chemic process heat mass transfer earth fluid envelop includ deepearth crustal surfac atmospher process topic includ plate tecton cycl format type rock geologist rock understand earth histori onli gs 1a 1b 1c credit
+correct label = WAY-AQR WAY-SMA 
+   -0.047405 : WAY-A-II 
+** -0.139763 : WAY-AQR 
+   -0.100485 : WAY-CE 
+   -0.077533 : WAY-ED 
+   -0.131979 : WAY-ER 
+   -0.165068 : WAY-FR 
+   -0.027443 : WAY-SI 
+** -0.082888 : WAY-SMA 
+
+
+description: thi incorpor nativ american perspect assign read introduct nativ american histori contact european present histori western perspect secular object evalu indigen peopl histori moral endeavor walker lakota societi 113 a focu civil right era american histori nativ american protest movement activ colon decolon histor occur emphasi text written perspect colon end 20th centuri addit main text student encourag critic explor issu interest short paper longer paper summar 1520 minut present topic interest relat cours
+correct label = WAY-ED 
+   -0.047405 : WAY-A-II 
+   -0.139763 : WAY-AQR 
+   -0.100485 : WAY-CE 
+** -0.077533 : WAY-ED 
+   -0.131979 : WAY-ER 
+   -0.165068 : WAY-FR 
+   -0.027443 : WAY-SI 
+   -0.082888 : WAY-SMA 
+
+
+description: introduct appli linear algebra emphasi applic vector norm angl linear independ orthonorm set matric left invers qr factor least squar model fit regular crossvalid timeseri predict exampl constrain leastsquar applic leastnorm reconstruct optim control portfolio optim newton method nonlinear leastsquar prerequisit math 51 cme 100
+correct label = WAY-FR 
+   -0.075134 : WAY-A-II 
+   -0.076906 : WAY-AQR 
+   -0.096384 : WAY-CE 
+   -0.172647 : WAY-ED 
+   -0.189149 : WAY-ER 
+** -0.052148 : WAY-FR 
+   -0.072265 : WAY-SI 
+   -0.023016 : WAY-SMA 
+
+
+description: the mean american 60 emphas idea cultur protest sensibl emerg topic black protest left countercultur femin literatur journal 60 role media shape dissent legaci 60 protest interpret materi film music articl book
+correct label = WAY-ED WAY-SI 
+ >  0.085136 : WAY-A-II 
+   -0.543348 : WAY-AQR 
+   -0.062666 : WAY-CE 
+** -0.029293 : WAY-ED 
+   -0.406425 : WAY-ER 
+   -0.562176 : WAY-FR 
+** -0.116271 : WAY-SI 
+   -0.357699 : WAY-SMA 
+
+
+description: what crime human punish start nuremberg trial seminar jurid categori crime human exist evolv past half centuri think core question pose hannah arendt crime human understood context modern jurisprud perpetr crime relationship exist crime human modern prioriti histori major minor
+correct label = WAY-CE WAY-SI 
+   -0.047405 : WAY-A-II 
+   -0.139763 : WAY-AQR 
+** -0.100485 : WAY-CE 
+   -0.077533 : WAY-ED 
+   -0.131979 : WAY-ER 
+   -0.165068 : WAY-FR 
+** -0.027443 : WAY-SI 
+   -0.082888 : WAY-SMA 
+
+
+description: 70 100member ensembl perform major orchestr work minimum concert quarter admiss enrol base audit for audit contact inform refer ssosposn websit httpssostanfordedu all particip enrol mai repeat credit total 14 time zero unit enrol option instructor permiss see websit httpmusicstanfordedu polici procedur by enrol give consent video audio record distribut imag perform entiti stanford univers
+correct label = WAY-CE 
+   -0.267263 : WAY-A-II 
+   -0.291207 : WAY-AQR 
+*>  0.169392 : WAY-CE 
+   -0.268035 : WAY-ED 
+   -0.288425 : WAY-ER 
+   -0.308883 : WAY-FR 
+   -0.231204 : WAY-SI 
+   -0.258979 : WAY-SMA 
+
+
+description: formerli 201 primarili major enter computerrel field ethic social issu relat develop comput technolog ethic theori social polit legal consider scenario problem area privaci reliabl risk complex system respons profession applic consequ work prerequisit 106b x
+correct label = WAY-ER 
+   -0.083482 : WAY-A-II 
+   -0.108556 : WAY-AQR 
+   -0.145885 : WAY-CE 
+   -0.240601 : WAY-ED 
+** -0.019846 : WAY-ER 
+   -0.243308 : WAY-FR 
+   -0.114458 : WAY-SI 
+   -0.047024 : WAY-SMA 
+
+
+description: what young peopl share common with focu japan countri larg longliv popul seminar spotlight older peopl live reflectiion cultur societi histori current social person chang through discuss multidisciplinari studi ag analysi narr film gain closer understand japanes societi multipl mean grow older student creat short videoaudio profil older individu explor crosscultur comparison held knight bldg rm 201
+correct label = WAY-ED WAY-SI 
+ >  0.011456 : WAY-A-II 
+   -0.335381 : WAY-AQR 
+   -0.148249 : WAY-CE 
+** -0.021927 : WAY-ED 
+   -0.189731 : WAY-ER 
+   -0.357392 : WAY-FR 
+** -0.007705 : WAY-SI 
+   -0.210844 : WAY-SMA 
+
+
+description: same histori 194b histori major take 5 unit regist 194b from war state period meiji restor topic includ great unifi tokugawa hegemoni samurai class neoconfucian ideolog suppress christian structur social econom control frontier other castletown cultur peasant rebellion black market print cultur float world nation studi food cultur samurai activ black ship unequ treati antiforeign terror restoration millenarian modern western japan imagin commun
+correct label = WAY-SI 
+   -0.081677 : WAY-A-II 
+   -0.309298 : WAY-AQR 
+   -0.408561 : WAY-CE 
+   -0.014968 : WAY-ED 
+   -0.237500 : WAY-ER 
+   -0.369511 : WAY-FR 
+*>  0.087189 : WAY-SI 
+   -0.238380 : WAY-SMA 
+
+
+description: focus great work philosophi religion literatur paint film drawn larg western tradit sle curriculum place emphasi artist intellectu brought wai think wai creat world overthrow prior tradit process these work redefin beauti challeng author convent wisdom rais question continu import todai andiquestfor good illiquestcr world live in text includ augustin quran dant rumi machiavelli montaign shakespear cervant la casa descart lock mill schleiermach flaubert
+correct label = WAY-A-II WAY-ER 
+*>  0.006664 : WAY-A-II 
+   -0.335153 : WAY-AQR 
+   -0.030587 : WAY-CE 
+   -0.103578 : WAY-ED 
+** -0.269634 : WAY-ER 
+   -0.348908 : WAY-FR 
+   -0.137888 : WAY-SI 
+   -0.307411 : WAY-SMA 
+
+
+description: an overview major theme histor develop 5000 year chines religion in cours chines religion chines perspect pai attent origin text translat attempt discern logic chines religion role plai chines histori to greater extent civil chines left continu bodi written document artifact relat religion stretch thousand year provid wealth materi studi place religion histori societi
+correct label = WAY-ED 
+   -0.047405 : WAY-A-II 
+   -0.139763 : WAY-AQR 
+   -0.100485 : WAY-CE 
+** -0.077533 : WAY-ED 
+   -0.131979 : WAY-ER 
+   -0.165068 : WAY-FR 
+   -0.027443 : WAY-SI 
+   -0.082888 : WAY-SMA 
+
+
+description: how creat grow innov notforprofit organ forprofit enterpris primari goal solv social environment problem topic includ organiz mission strategi communicationsmarket financ impact evalu opportun limit method forprofit sector meet social goal perspect field social entrepreneurship design think social chang focu integr theori practic applic enrol limit 20 prerequisitecons instructor email lalitvakstanfordedu
+correct label = WAY-SI 
+   -0.047405 : WAY-A-II 
+   -0.139763 : WAY-AQR 
+   -0.100485 : WAY-CE 
+   -0.077533 : WAY-ED 
+   -0.131979 : WAY-ER 
+   -0.165068 : WAY-FR 
+** -0.027443 : WAY-SI 
+   -0.082888 : WAY-SMA 
+
+
+description: histor biograph linguist literari kinder hausmarchen jacob wilhelm grimm read fairi tale materi media film visual art four short essai oral report prefer freshmen class open all fulfil wim german major must letter grade in german
+correct label = WAY-A-II 
+** -0.047405 : WAY-A-II 
+   -0.139763 : WAY-AQR 
+   -0.100485 : WAY-CE 
+   -0.077533 : WAY-ED 
+   -0.131979 : WAY-ER 
+   -0.165068 : WAY-FR 
+   -0.027443 : WAY-SI 
+   -0.082888 : WAY-SMA 
+
+
+description: from rise french new wave present
+correct label = WAY-A-II 
+** -0.047405 : WAY-A-II 
+   -0.139763 : WAY-AQR 
+   -0.100485 : WAY-CE 
+   -0.077533 : WAY-ED 
+   -0.131979 : WAY-ER 
+   -0.165068 : WAY-FR 
+   -0.027443 : WAY-SI 
+   -0.082888 : WAY-SMA 
+
+
+description: at end nineteenth centuri zionism emerg polit movement establish nation homeland jew eventu lead establish state israel 1948 thi seminar novel explor zionism root conflict middl east potenti futur we close novel isra jewish arab order understand multipl perspect work author north america europ
+correct label = WAY-A-II WAY-ED 
+** -0.047405 : WAY-A-II 
+   -0.139763 : WAY-AQR 
+   -0.100485 : WAY-CE 
+** -0.077533 : WAY-ED 
+   -0.131979 : WAY-ER 
+   -0.165068 : WAY-FR 
+   -0.027443 : WAY-SI 
+   -0.082888 : WAY-SMA 
+
+
+description: mass displac palestinian 1948 1967 syrian 2011 remain crucial understand histori polit modern middl east the topic includ media role allevi worsen refuge crise palestinian quotright returnquot place religion syrian civil war by autobiographi graffiti revolutionari poster music studi construct refuge ident prism race ethnic stateless gender sexual orient prioriti histori major minor
+correct label = WAY-ED WAY-SI 
+ >  0.015343 : WAY-A-II 
+   -0.436953 : WAY-AQR 
+   -0.125975 : WAY-CE 
+*>  0.002207 : WAY-ED 
+   -0.561819 : WAY-ER 
+   -0.557450 : WAY-FR 
+** -0.103015 : WAY-SI 
+   -0.460481 : WAY-SMA 
+
+
+description: the variabl human genom role genom inform research drug discoveri human health concept interpret genom marker medic research real life applic human genom divers popul origin contribut thought leader academia industri interact student guest lectur student major minor coterm biologi 109a209a 109b209b count degre program both
+correct label = WAY-SMA 
+   -0.047405 : WAY-A-II 
+   -0.139763 : WAY-AQR 
+   -0.100485 : WAY-CE 
+   -0.077533 : WAY-ED 
+   -0.131979 : WAY-ER 
+   -0.165068 : WAY-FR 
+   -0.027443 : WAY-SI 
+** -0.082888 : WAY-SMA 
+
+
+description: the mahabharata ramayana great epic india crucial text south asian literatur cultur millennia in cours explor divers tradit epic sanskrit version compos 2000 year ago retel newer media form twentyfirst centuri among primari interest compar version epic circul south asia southeast asia west time we begin abridg translat sanskrit mahabharata includ bhagavadgita ramayana we discuss major literari religi social theme text subsequ translat transcreat stori indian southeast asian context thousand year we investig modern live epic includ transform indian televis serial film version narr from india america invoc epic stori contemporari art cultur polit disput student gain exposur foundat text studi south asia past present more broadli student cultiv abil fruitfulli approach text cultur learn critic analyz impact role stori religi literari histor context
+correct label = WAY-A-II WAY-ED 
+*>  0.011456 : WAY-A-II 
+   -0.335381 : WAY-AQR 
+   -0.148249 : WAY-CE 
+** -0.021927 : WAY-ED 
+   -0.189731 : WAY-ER 
+   -0.357392 : WAY-FR 
+   -0.007705 : WAY-SI 
+   -0.210844 : WAY-SMA 
+
+
+description: prefer freshmen field trip site elkhorn slough small agricultur impact estuari open monterei bai model ecosystem understand complex estuari california remain coastal wetland read includ jane caffrei ichang california estuari a profil elkhorn sloughi basic biogeochemistri microbiolog oceanographi ecolog pollut environment manag
+correct label = WAY-SMA 
+   -0.047405 : WAY-A-II 
+   -0.139763 : WAY-AQR 
+   -0.100485 : WAY-CE 
+   -0.077533 : WAY-ED 
+   -0.131979 : WAY-ER 
+   -0.165068 : WAY-FR 
+   -0.027443 : WAY-SI 
+** -0.082888 : WAY-SMA 
+
+
+description: thi trace develop legislatur mediev european origin present primari emphasi case us congress student learn earli role plai assembl place limit royal power iquestpow purseiquest about half turn detail consider us congressiquest contemporari perform analyz perform affect procedur legaci past affect democrat legislatur worldwid
+correct label = WAY-SI 
+   -0.047405 : WAY-A-II 
+   -0.139763 : WAY-AQR 
+   -0.100485 : WAY-CE 
+   -0.077533 : WAY-ED 
+   -0.131979 : WAY-ER 
+   -0.165068 : WAY-FR 
+** -0.027443 : WAY-SI 
+   -0.082888 : WAY-SMA 
+
+
+description: analyt techniqu linear integ program mont carlo simul forecast decis analysi markov chain environ spreadsheet probabl manag materi includ spreadsheet addin implement techniqu emphasi build intuit interact model extend applic type analysi integr exist busi data structur
+correct label = WAY-AQR 
+   -0.110003 : WAY-A-II 
+** -0.123946 : WAY-AQR 
+   -0.000795 : WAY-CE 
+   -0.181865 : WAY-ED 
+   -0.288377 : WAY-ER 
+   -0.170903 : WAY-FR 
+   -0.093706 : WAY-SI 
+   -0.073310 : WAY-SMA 
+
+
+description: is quotbig onequot overdu california what kind damag caus what reduc impact hazard urban environ doe quotfrackingquot earthquak risk is unit state vulner giant tsunami the geolog record evid volcan super erupt earth histori what gigant explos erupt predict futur thi address relat issu for nonmajor potenti earth scientist no prerequisit more inform at httpsstanfordboxcomstpwwqpl2ryxfty6stq8wo2j78fj06ikg
+correct label = WAY-AQR WAY-SMA 
+   -0.075134 : WAY-A-II 
+** -0.076906 : WAY-AQR 
+   -0.096384 : WAY-CE 
+   -0.172647 : WAY-ED 
+   -0.189149 : WAY-ER 
+   -0.052148 : WAY-FR 
+   -0.072265 : WAY-SI 
+** -0.023016 : WAY-SMA 
+
+
+description: concept method analysi countri economi focu spain eu spain growth structur chang evolut spain product sector agricultur industri servic institut factor labor market public sector spain econom intern relat particular develop eu institut framework econom monetari union polici relat european econom integr process useu relationship
+correct label = WAY-SI 
+   -0.140539 : WAY-A-II 
+   -0.113680 : WAY-AQR 
+   -0.360797 : WAY-CE 
+   -0.070574 : WAY-ED 
+   -0.179747 : WAY-ER 
+   -0.177186 : WAY-FR 
+*>  0.067451 : WAY-SI 
+   -0.110424 : WAY-SMA 
+
+
+description: thi focus maritim scienc empir 1400 1850 we earli modern empir marin scientif figur technolog gather inform locat interact indigen cultur we explor theme perspect the initi oversea empir spain portug sixteenth seventeenth centuri chines ottoman effort maritim expans final british explor expans south pacif china
+correct label = WAY-SI 
+ >  0.011456 : WAY-A-II 
+   -0.335381 : WAY-AQR 
+   -0.148249 : WAY-CE 
+   -0.021927 : WAY-ED 
+   -0.189731 : WAY-ER 
+   -0.357392 : WAY-FR 
+** -0.007705 : WAY-SI 
+   -0.210844 : WAY-SMA 
+
+
+description: plai written 20th centuri writer concentr famili primari sourc dramat conflict comedi writer includ william oneil wilder albe vogel park lindsayabair hwang
+correct label = WAY-A-II 
+** -0.047405 : WAY-A-II 
+   -0.139763 : WAY-AQR 
+   -0.100485 : WAY-CE 
+   -0.077533 : WAY-ED 
+   -0.131979 : WAY-ER 
+   -0.165068 : WAY-FR 
+   -0.027443 : WAY-SI 
+   -0.082888 : WAY-SMA 
+
+
+description: machin learningth algorithm classifi predict sort learn discov dataha explod academ field industri govern nonprofit thi introduct machin learn social scientist we introduc state art machin learn tool show tool program languag r demonstr social scienc focu essenti effect appli machin learn techniqu applic method includ forecast social phenomena analysi social media data automat analysi text data polit scienc 150a equival requir prerequisit 150a355a
+correct label = WAY-AQR 
+   -0.137731 : WAY-A-II 
+** -0.061088 : WAY-AQR 
+ >  0.003306 : WAY-CE 
+   -0.276979 : WAY-ED 
+   -0.345547 : WAY-ER 
+   -0.057983 : WAY-FR 
+   -0.138528 : WAY-SI 
+   -0.013438 : WAY-SMA 
+
+
+description: formerli classart 21q prefer sophomor focu excav featur find argument interpret place site understand archaeolog histori europ goal introduc latest archaeolog anthropolog thought rais kei question ancient societi the archaeolog perspect foreground interdisciplinari studi geophys articul art histori sourc critic analyt model statist interpret a web site resourc site includ plan photograph video public basi explor
+correct label = WAY-A-II 
+** -0.047405 : WAY-A-II 
+   -0.139763 : WAY-AQR 
+   -0.100485 : WAY-CE 
+   -0.077533 : WAY-ED 
+   -0.131979 : WAY-ER 
+   -0.165068 : WAY-FR 
+   -0.027443 : WAY-SI 
+   -0.082888 : WAY-SMA 
+
+
+description: china post1976 recoveri late mao era reorient open marketori economi consequ model runawai econom growth standard live social life inequ local govern polit conflict accompani chang
+correct label = WAY-SI 
+   -0.140539 : WAY-A-II 
+   -0.113680 : WAY-AQR 
+   -0.360797 : WAY-CE 
+   -0.070574 : WAY-ED 
+   -0.179747 : WAY-ER 
+   -0.177186 : WAY-FR 
+*>  0.067451 : WAY-SI 
+   -0.110424 : WAY-SMA 
+
+
+description: mai twice lotteri prioriti quarteryear school major english creativ write emphasi creativ write minor prerequisit 92
+correct label = WAY-CE 
+ >  0.046866 : WAY-A-II 
+   -0.273961 : WAY-AQR 
+** -0.118920 : WAY-CE 
+   -0.155252 : WAY-ED 
+   -0.209859 : WAY-ER 
+   -0.034860 : WAY-FR 
+   -0.187172 : WAY-SI 
+   -0.249155 : WAY-SMA 
+
+
+description: how japan asia mutual shape late 19th 20th centuri focu japanes imperi asia postwar legaci topic includ panasian orient coloni modern korea taiwan collabor resist popular imperi manchuria total war empir comfort women polit apolog issu resid korean econom cultur integr postwar asia
+correct label = WAY-SI 
+   -0.081677 : WAY-A-II 
+   -0.309298 : WAY-AQR 
+   -0.408561 : WAY-CE 
+   -0.014968 : WAY-ED 
+   -0.237500 : WAY-ER 
+   -0.369511 : WAY-FR 
+*>  0.087189 : WAY-SI 
+   -0.238380 : WAY-SMA 
+
+
+description: student attend cme100engr154 lectur addit recit session hour week emphas engin mathemat applic collabor method enrol depart permiss onli prerequisit applic athttpsoestanfordeducurrentstudentsedpprogramsacehtml
+correct label = WAY-FR 
+   -0.075134 : WAY-A-II 
+   -0.076906 : WAY-AQR 
+   -0.096384 : WAY-CE 
+   -0.172647 : WAY-ED 
+   -0.189149 : WAY-ER 
+** -0.052148 : WAY-FR 
+   -0.072265 : WAY-SI 
+   -0.023016 : WAY-SMA 
+
+
+description: structur content function role epistem author human memori sourc includ philosoph psycholog literatur school histor period
+correct label = WAY-A-II 
+** -0.047405 : WAY-A-II 
+   -0.139763 : WAY-AQR 
+   -0.100485 : WAY-CE 
+   -0.077533 : WAY-ED 
+   -0.131979 : WAY-ER 
+   -0.165068 : WAY-FR 
+   -0.027443 : WAY-SI 
+   -0.082888 : WAY-SMA 
+
+
+description: the histor develop multilater trade system current agenda world trade organ prospect trade liber emphasi econom rational multilater trade rule polit problem face countri support liber challeng legitimaci wto procedur practic issu includ greater particip develop countri impact member relationship wto multilater bodi guest speaker student research paper present
+correct label = WAY-SI 
+   -0.140539 : WAY-A-II 
+   -0.113680 : WAY-AQR 
+   -0.360797 : WAY-CE 
+   -0.070574 : WAY-ED 
+   -0.179747 : WAY-ER 
+   -0.177186 : WAY-FR 
+*>  0.067451 : WAY-SI 
+   -0.110424 : WAY-SMA 
+
+
+description: thi explor aspect food human histori archaeolog perspect we discuss origin agricultur help transform human societi food feast plai promin role emerg social hierarchi develop civil foodwai influenc cultur we conduct experiment studi understand method food procur prepar consumpt recov archaeolog
+correct label = WAY-SI 
+ >  0.011456 : WAY-A-II 
+   -0.335381 : WAY-AQR 
+   -0.148249 : WAY-CE 
+   -0.021927 : WAY-ED 
+   -0.189731 : WAY-ER 
+   -0.357392 : WAY-FR 
+** -0.007705 : WAY-SI 
+   -0.210844 : WAY-SMA 
+
+
+description: graduat student regist 240 the main classic modern explan social econom polit inequ issu includ power process creat maintain inequ central ax inequ contemporari societi race ethnic class gender consequ inequ individu group social polici mitig exacerb inequ case includ technolog simpl group indian cast system modern us
+correct label = WAY-ED WAY-SI 
+   -0.151470 : WAY-A-II 
+   -0.202903 : WAY-AQR 
+   -0.471869 : WAY-CE 
+*>  0.016532 : WAY-ED 
+   -0.392893 : WAY-ER 
+   -0.364785 : WAY-FR 
+*>  0.100445 : WAY-SI 
+   -0.341161 : WAY-SMA 
+
+
+description: the follow develop italo calvino literari career focu interest fantast metafict form narr read calvino literari work cosmicom invis citi mr palomar supplement read critic prose collect volum the us literatur six memo next millennium taught english
+correct label = WAY-A-II 
+*>  0.074594 : WAY-A-II 
+   -0.336819 : WAY-AQR 
+   -0.123021 : WAY-CE 
+   -0.060138 : WAY-ED 
+   -0.152689 : WAY-ER 
+   -0.147780 : WAY-FR 
+   -0.142350 : WAY-SI 
+   -0.309028 : WAY-SMA 
+
+
+description: advanc ballet stanford offer student interest rigor complex artist compel ballet train the class focus techniqu broad sens ballet movement system wide rang danc disciplin the class honor histor train legaci defin classic ballet shackl histori antiqu fashion the student encourag explor form artist question foundat find sens agenc classic danc student strong background ballet encourag come student ballet train long email dialog lectur beforehand ani question direct lectur alex ketlei aketleystanfordedu
+correct label = WAY-CE 
+   -0.055934 : WAY-A-II 
+   -0.319336 : WAY-AQR 
+*>  0.069103 : WAY-CE 
+   -0.207910 : WAY-ED 
+   -0.426032 : WAY-ER 
+   -0.354743 : WAY-FR 
+   -0.204151 : WAY-SI 
+   -0.297833 : WAY-SMA 
+
+
+description: studiobas sculptur cours materi sculptur environment concern surround them artist concern environment impact interconnect art field the impact materi techniqu form content understand physic express possibl divers materi conceptu technic consider group discuss critiqu read video present field trip local artistinresid program visit lectur lower level
+correct label = WAY-CE 
+   -0.055934 : WAY-A-II 
+   -0.319336 : WAY-AQR 
+*>  0.069103 : WAY-CE 
+   -0.207910 : WAY-ED 
+   -0.426032 : WAY-ER 
+   -0.354743 : WAY-FR 
+   -0.204151 : WAY-SI 
+   -0.297833 : WAY-SMA 
+
+
+description: same histori 150a histori major take 5 unit regist 150a survei origin american societi politi 17th 18th centuri topic migrat european african impact nativ popul emerg racial slaveri region provinci protest cultur polit origin constitut consequ american revolut
+correct label = WAY-A-II WAY-SI 
+*>  0.011456 : WAY-A-II 
+   -0.335381 : WAY-AQR 
+   -0.148249 : WAY-CE 
+   -0.021927 : WAY-ED 
+   -0.189731 : WAY-ER 
+   -0.357392 : WAY-FR 
+** -0.007705 : WAY-SI 
+   -0.210844 : WAY-SMA 
+
+
+description: the develop women poetri 17th 20th centuri how poet challeng enhanc canon amend expand idea tone voic craft revis societ expect poet ident poet includ katharin philip letitia barbauld elizabeth barrett brown charlott mew sylvia plath adrienn rich
+correct label = WAY-A-II 
+** -0.047405 : WAY-A-II 
+   -0.139763 : WAY-AQR 
+   -0.100485 : WAY-CE 
+   -0.077533 : WAY-ED 
+   -0.131979 : WAY-ER 
+   -0.165068 : WAY-FR 
+   -0.027443 : WAY-SI 
+   -0.082888 : WAY-SMA 
+
+
+description: pope deploi art architectur glorifi dual spiritu tempor author christ vicar earth ruler state after return papaci avignon rome underw numer campaign renov stage continu pontiff ancient roman emperor patronag art architectur import tool fight protestant artist includ botticelli michelangelo caravaggio bernini
+correct label = WAY-A-II 
+*>  0.006664 : WAY-A-II 
+   -0.335153 : WAY-AQR 
+   -0.030587 : WAY-CE 
+   -0.103578 : WAY-ED 
+   -0.269634 : WAY-ER 
+   -0.348908 : WAY-FR 
+   -0.137888 : WAY-SI 
+   -0.307411 : WAY-SMA 
+
+
+description: at core sustain convers equiti equiti peopl todai peopl tomorrow equiti divers peopl todai pursu hope dream equiti human be myriad live creatur share planet with movement environment sustain social justic share concern equiti larg evolv parallel mount evid show environment social chang inextric link climat crisi push area studi befor that good new tough question remain what environment cost person freedom longer sustain should outweigh few ar respons repair injustic parent grandpar gener where winwin solut in interdisciplinari seminar explor theori practic sustain social justic examin case studi intersect not read draw sustain scienc environment justic environment ethic religi studi social psycholog ecolog econom through weekli read discuss journal write student develop person sustain manifesto analyz polici technolog social movement len social environment sustain
+correct label = WAY-ER 
+   -0.148887 : WAY-A-II 
+   -0.145331 : WAY-AQR 
+   -0.410298 : WAY-CE 
+   -0.138527 : WAY-ED 
+** -0.010444 : WAY-ER 
+   -0.368347 : WAY-FR 
+ >  0.025259 : WAY-SI 
+   -0.134432 : WAY-SMA 
+
+
+description: environment econom equiti aspect urban transport 21stcenturi us expand choic urban region mobil diminish resourc futur gener implic global environ livabl commun
+correct label = WAY-SI 
+   -0.140539 : WAY-A-II 
+   -0.113680 : WAY-AQR 
+   -0.360797 : WAY-CE 
+   -0.070574 : WAY-ED 
+   -0.179747 : WAY-ER 
+   -0.177186 : WAY-FR 
+*>  0.067451 : WAY-SI 
+   -0.110424 : WAY-SMA 
+
+
+description: graduat student regist 267b philosoph studi kei theoret idea biologi deploi studi behavior topic includ genet neurobiolog ecolog approach behavior classif measur behavior reduction determin interaction prerequisit phil bio human biologi core equival consent instructor
+correct label = WAY-A-II 
+** -0.075134 : WAY-A-II 
+   -0.076906 : WAY-AQR 
+   -0.096384 : WAY-CE 
+   -0.172647 : WAY-ED 
+   -0.189149 : WAY-ER 
+   -0.052148 : WAY-FR 
+   -0.072265 : WAY-SI 
+   -0.023016 : WAY-SMA 
+
+
+description: student creat experiment video work conceptu formal performancebas approach medium the histori video art 70 influenc includ experiment film televis minim conceptu art perform electron art topic camera techniqu light sound design found footag cinemat convent nonlinear digit edit lower level
+correct label = WAY-CE 
+   -0.110003 : WAY-A-II 
+   -0.123946 : WAY-AQR 
+** -0.000795 : WAY-CE 
+   -0.181865 : WAY-ED 
+   -0.288377 : WAY-ER 
+   -0.170903 : WAY-FR 
+   -0.093706 : WAY-SI 
+   -0.073310 : WAY-SMA 
+
+
+description: applic theori group topic element group theori group symmetri matrix group group action applic combinator comput applic rotat symmetri group studi platon solid crystallograph group applic chemistri physic honor math major student intend graduat work mathemat 120 wim
+correct label = WAY-FR 
+   -0.047405 : WAY-A-II 
+   -0.139763 : WAY-AQR 
+   -0.100485 : WAY-CE 
+   -0.077533 : WAY-ED 
+   -0.131979 : WAY-ER 
+** -0.165068 : WAY-FR 
+   -0.027443 : WAY-SI 
+   -0.082888 : WAY-SMA 
+
+
+description: prefer freshmen to extent describ quotamericanquot experi how peopl includ exclud imagin commun america how person race class gender sexual affect experi belong countri these question familiar great divers childhood young adult experi peopl grown america we read discuss narr written men women urban suburban rural american asian american african american nativ american latinao european american
+correct label = WAY-A-II WAY-SI 
+** -0.058336 : WAY-A-II 
+   -0.228986 : WAY-AQR 
+   -0.211557 : WAY-CE 
+ >  0.009572 : WAY-ED 
+   -0.345125 : WAY-ER 
+   -0.352666 : WAY-FR 
+*>  0.005551 : WAY-SI 
+   -0.313625 : WAY-SMA 
+
+
+description: by audit onli for advanc singer pianist partner perform class workshop set compos includ faureacut debussi ravel poulenc mai repeat credit total 2 time enrol limit 20 ten singer maximum prerequisit consent instructor recommend prerequisit 170 pianist 182 singer
+correct label = WAY-CE 
+   -0.075134 : WAY-A-II 
+   -0.076906 : WAY-AQR 
+** -0.096384 : WAY-CE 
+   -0.172647 : WAY-ED 
+   -0.189149 : WAY-ER 
+   -0.052148 : WAY-FR 
+   -0.072265 : WAY-SI 
+   -0.023016 : WAY-SMA 
+
+
+description: the institut architectur eu current agenda weak strength relat partner neighbor discuss european student field trip guest speaker
+correct label = WAY-SI 
+   -0.047405 : WAY-A-II 
+   -0.139763 : WAY-AQR 
+   -0.100485 : WAY-CE 
+   -0.077533 : WAY-ED 
+   -0.131979 : WAY-ER 
+   -0.165068 : WAY-FR 
+** -0.027443 : WAY-SI 
+   -0.082888 : WAY-SMA 
+
+
+description: iconograph compon crimin law reason function visual represent crimin wrongdo histor root quotevil typecastingquot consider variat respect common law civil law system fundament featur legal system sourc actor enforc mechan crimin law compar studi case area murder sex offenc organ crime terror differ techniqu imag typecast highlight discuss intern crimin law take burden describ typecast punish form quotenorm disproportion evilquot genocid mass atroc
+correct label = WAY-ER 
+   -0.110003 : WAY-A-II 
+   -0.123946 : WAY-AQR 
+   -0.000795 : WAY-CE 
+   -0.181865 : WAY-ED 
+** -0.288377 : WAY-ER 
+   -0.170903 : WAY-FR 
+   -0.093706 : WAY-SI 
+   -0.073310 : WAY-SMA 
+
+
+description: thi explor uniqu demand plai shakespear stage through deep explor languag perform techniqu sonnet speech scene an edit fulllength plai student learn bring shakespear passion life research analysi dynam voic bodi imaginationnnthi design increas actor physic vocal emot intellectu respons demand challeng joi plai shakespear
+correct label = WAY-CE 
+   -0.110003 : WAY-A-II 
+   -0.123946 : WAY-AQR 
+** -0.000795 : WAY-CE 
+   -0.181865 : WAY-ED 
+   -0.288377 : WAY-ER 
+   -0.170903 : WAY-FR 
+   -0.093706 : WAY-SI 
+   -0.073310 : WAY-SMA 
+
+
+description: mani basic commod stapl everydai life part increasingli interconnect world trade good consumpt 1200 1800 thi seminar offer introduct materi cultur late mediev earli modern world emphasi role european trade empir develop we examin recent work circul us consumpt thing start ag mediev merchant era columbian exchang america world renaiss collector ottoman patron ming connoisseur thi seminar explor materi horizon increasingli interconnect world rise dutch east india compani trade societi emerg atlant economi it conclud explor classic debat quotbirthquot consum societi eighteenth centuri how mean thing peopl relationship chang centuri what learn past studi thing
+correct label = WAY-SI 
+ >  0.011456 : WAY-A-II 
+   -0.335381 : WAY-AQR 
+   -0.148249 : WAY-CE 
+   -0.021927 : WAY-ED 
+   -0.189731 : WAY-ER 
+   -0.357392 : WAY-FR 
+** -0.007705 : WAY-SI 
+   -0.210844 : WAY-SMA 
+
+
+description: thi opportun engag issu actor politician parti contemporari germani build german languag abil we work current event text new report speech websit cours goal includ build analyt interpret capac polit topic todai europ includ european union foreign polici environment differ us german polit cultur central topic at year german languag studi requir
+correct label = WAY-ED WAY-SI 
+ >  0.011456 : WAY-A-II 
+   -0.335381 : WAY-AQR 
+   -0.148249 : WAY-CE 
+** -0.021927 : WAY-ED 
+   -0.189731 : WAY-ER 
+   -0.357392 : WAY-FR 
+** -0.007705 : WAY-SI 
+   -0.210844 : WAY-SMA 
+
+
+description: us seri text written 14th 15th centuri florentin urban valu citi citizen topic includ think urban space social relat valu attach polit monei famili religion how mean word quotstatequot quotgovernmentquot quotfamilyquot chang time
+correct label = WAY-A-II 
+** -0.047405 : WAY-A-II 
+   -0.139763 : WAY-AQR 
+   -0.100485 : WAY-CE 
+   -0.077533 : WAY-ED 
+   -0.131979 : WAY-ER 
+   -0.165068 : WAY-FR 
+   -0.027443 : WAY-SI 
+   -0.082888 : WAY-SMA 
+
+
+description: draw literatur art polit discours museum media ask interest watersh event modern era contemporari cultur engag modern mademad disast world war 911 read view includ literatur g grass w g sebald ian mcewan toni morrison cormac mccarthi cinema kathryn bigelow steven spielberg speech barak obama theoret write walter benjamin hayden white fredric jameson other taught english
+correct label = WAY-A-II 
+*>  0.133455 : WAY-A-II 
+   -0.532436 : WAY-AQR 
+   -0.170785 : WAY-CE 
+   -0.004532 : WAY-ED 
+   -0.210442 : WAY-ER 
+   -0.340104 : WAY-FR 
+   -0.122612 : WAY-SI 
+   -0.436984 : WAY-SMA 
+
+
+description: while hemingwai fitzgerald flirt expatri avantgard europ hurston faulkner perform anthropolog fieldwork local cultur american south focu tremend divers concern style writer mark america comingofag literari nation multifari experi repres region global racial cosmopolitan macho feminist decad impoverish
+correct label = WAY-A-II WAY-ED 
+*>  0.011456 : WAY-A-II 
+   -0.335381 : WAY-AQR 
+   -0.148249 : WAY-CE 
+** -0.021927 : WAY-ED 
+   -0.189731 : WAY-ER 
+   -0.357392 : WAY-FR 
+   -0.007705 : WAY-SI 
+   -0.210844 : WAY-SMA 
+
+
+description: for student photographi gain greater control refin skill imag make 4x5 view camera provid enrol limit 8 upper level
+correct label = WAY-A-II WAY-CE 
+** -0.047405 : WAY-A-II 
+   -0.139763 : WAY-AQR 
+** -0.100485 : WAY-CE 
+   -0.077533 : WAY-ED 
+   -0.131979 : WAY-ER 
+   -0.165068 : WAY-FR 
+   -0.027443 : WAY-SI 
+   -0.082888 : WAY-SMA 
+
+
+description: graduat student regist 250h the principl life physic interact we explor basic physic fluid mechan thermal dynam materi scienc principl field investig ecolog level individu commun topic includ diffus boundari layer fluiddynam forc locomot heatbudget model fractur mechan adhes beam theori statist extrem theori selforgan open student background some familiar basic physic calculu advantag necessari
+correct label = WAY-SMA 
+   -0.047405 : WAY-A-II 
+   -0.139763 : WAY-AQR 
+   -0.100485 : WAY-CE 
+   -0.077533 : WAY-ED 
+   -0.131979 : WAY-ER 
+   -0.165068 : WAY-FR 
+   -0.027443 : WAY-SI 
+** -0.082888 : WAY-SMA 
+
+
+description: thi lectur examin emerg critic thought earli china after studi social polit made emerg possibl natur role thinker final idea social order state war armi famili cosmo both physic mental some comparison earli greek thought
+correct label = WAY-SI 
+   -0.047405 : WAY-A-II 
+   -0.139763 : WAY-AQR 
+   -0.100485 : WAY-CE 
+   -0.077533 : WAY-ED 
+   -0.131979 : WAY-ER 
+   -0.165068 : WAY-FR 
+** -0.027443 : WAY-SI 
+   -0.082888 : WAY-SMA 
+
+
+description: close read analysi eroticsexu aestheticstylist transgress select work author baudelair wild flaubert rachild schnitzler kafka joyc barn eliot batail burrough thoma mann kathi acker recent digit literatur onlin commun along understand chang cultur social polit context constitut quottransgressionquot censorship student gain knowledg influenti theori transgress conceptu limit foucault blanchot contemporari queer feminist writer
+correct label = WAY-A-II WAY-ED 
+*>  0.011456 : WAY-A-II 
+   -0.335381 : WAY-AQR 
+   -0.148249 : WAY-CE 
+** -0.021927 : WAY-ED 
+   -0.189731 : WAY-ER 
+   -0.357392 : WAY-FR 
+   -0.007705 : WAY-SI 
+   -0.210844 : WAY-SMA 
+
+
+description: same histori 184 histori major take 5 unit regist 184 hotli contest still open movement idea practic achiev crise student hear fullest rang voic  jewish arab religi secular etc it track movement appear late nineteenth centuri establish state israel 1948 beyond
+correct label = WAY-ED WAY-SI 
+   -0.047405 : WAY-A-II 
+   -0.139763 : WAY-AQR 
+   -0.100485 : WAY-CE 
+** -0.077533 : WAY-ED 
+   -0.131979 : WAY-ER 
+   -0.165068 : WAY-FR 
+** -0.027443 : WAY-SI 
+   -0.082888 : WAY-SMA 
+
+
+description: technic error cap enrol prematur dai class cours offer interdisciplinari feminist perspect gender violenc address multilevel approach end gender violenc explor relationship violenc women form oppress racism econom exploit heterosex social class framework examin institut barrier maintain gender violenc cultur consid multidimension solut student disciplin women men appli theoret perspect profession goal option servicelearn project servic learn cours certifi haa center
+correct label = WAY-ED WAY-SI 
+   -0.092609 : WAY-A-II 
+   -0.398520 : WAY-AQR 
+   -0.519632 : WAY-CE 
+*>  0.072137 : WAY-ED 
+   -0.450646 : WAY-ER 
+   -0.557109 : WAY-FR 
+*>  0.120183 : WAY-SI 
+   -0.469118 : WAY-SMA 
+
+
+description: ethic polit question public servic work includ volunt servic learn humanitarian assist public servic profess medicin teach motiv outcom servic work connect servic work justic is mandatori servic oxymoron histori public servic us issu crosscultur servic work integr haa center public servic connect servic activ public servic aspir academ experi stanford
+correct label = WAY-ED WAY-ER 
+   -0.055754 : WAY-A-II 
+   -0.171414 : WAY-AQR 
+   -0.149987 : WAY-CE 
+** -0.145487 : WAY-ED 
+*>  0.037324 : WAY-ER 
+   -0.356228 : WAY-FR 
+   -0.069635 : WAY-SI 
+   -0.106896 : WAY-SMA 
+
+
+description: focu french new wave cinemat revolut 19591962 in year nouvel vagu deliv landmark work truffaut 400 blow godard breathless chabro le beau serg resnai hiroshima mon amour chang forev make movi why film radic fresh what franc youth cultur earli 60 how author theori influenc todai focu cultur histori aesthet analysi interpret narr sound visual form taught english
+correct label = WAY-A-II 
+*>  0.133455 : WAY-A-II 
+   -0.532436 : WAY-AQR 
+   -0.170785 : WAY-CE 
+   -0.004532 : WAY-ED 
+   -0.210442 : WAY-ER 
+   -0.340104 : WAY-FR 
+   -0.122612 : WAY-SI 
+   -0.436984 : WAY-SMA 
+
+
+description: a survei art architectur cave paint lascaux gothic cathedr franc materi organ chronolog themat cover multipl religion pagan christian islam
+correct label = WAY-A-II WAY-ED 
+** -0.047405 : WAY-A-II 
+   -0.139763 : WAY-AQR 
+   -0.100485 : WAY-CE 
+** -0.077533 : WAY-ED 
+   -0.131979 : WAY-ER 
+   -0.165068 : WAY-FR 
+   -0.027443 : WAY-SI 
+   -0.082888 : WAY-SMA 
+
+
+description: introduct short narr fiction produc latin america 20th centuri kei featur short stori genr defin chekhov 19th centuri redefin kafka borg 20th centuri main literari movement period latin america includ region social realism avantgard boom 1960 magic realism postboom etc close read strong emphasi analysi discuss requir text read context main develop latin american histori cultur period
+correct label = WAY-A-II 
+*>  0.011456 : WAY-A-II 
+   -0.335381 : WAY-AQR 
+   -0.148249 : WAY-CE 
+   -0.021927 : WAY-ED 
+   -0.189731 : WAY-ER 
+   -0.357392 : WAY-FR 
+   -0.007705 : WAY-SI 
+   -0.210844 : WAY-SMA 
+
+
+description: thi student comprehens perspect american presid cover rang topic elect polici make control bureaucraci unilater action warmak more but throughout goal understand presid behav do presid institut develop hasiquestwith special attent dynam american polit system condit incent opportun power
+correct label = WAY-SI 
+   -0.047405 : WAY-A-II 
+   -0.139763 : WAY-AQR 
+   -0.100485 : WAY-CE 
+   -0.077533 : WAY-ED 
+   -0.131979 : WAY-ER 
+   -0.165068 : WAY-FR 
+** -0.027443 : WAY-SI 
+   -0.082888 : WAY-SMA 
+
+
+description: no citi itali inspir imagin writer artist filmmak venic golden danc water stone carniv mask melanchol intim mortal thi devot cityiquest imaginari life literatur film read includ marco polo henri jamesiquest the aspern paper italo calvinoiquest invis citi john ruskiniquest the stone venic joseph brodskyiquest watermark film includ iquestdanger beautyiquest iquestcasanovaiquest iquestdoniquestt look nowiquest iquestdeath veniceiquest iquestth comfort strangersiquest
+correct label = WAY-A-II 
+*>  0.006664 : WAY-A-II 
+   -0.335153 : WAY-AQR 
+   -0.030587 : WAY-CE 
+   -0.103578 : WAY-ED 
+   -0.269634 : WAY-ER 
+   -0.348908 : WAY-FR 
+   -0.137888 : WAY-SI 
+   -0.307411 : WAY-SMA 
+
+
+description: survei histori govern resist ident format mexico nineteenth centuri present explor mexico histor struggl achiev polit stabil econom prosper social justic examin region class ethnic gender differ figur promin shape mexican affair topic includ mexico war legaci power state violenc protest debat mean quotmexicannessquot youth cultur polit indigenismo
+correct label = WAY-SI 
+   -0.092609 : WAY-A-II 
+   -0.398520 : WAY-AQR 
+   -0.519632 : WAY-CE 
+ >  0.072137 : WAY-ED 
+   -0.450646 : WAY-ER 
+   -0.557109 : WAY-FR 
+*>  0.120183 : WAY-SI 
+   -0.469118 : WAY-SMA 
+
+
+description: thi primarili concern french artist writer filmmak explor intersect theme fashion modern media iquest includ paint sculptur architectur decor art poetri novel film danc mass advertis us modern franc case studi critic fashion design luxuri industri influenc product recept modern art  vice versa while organ themat move chronolog late18th centuri 1950 conduct survei major develop french visual cultur wai final wai fashionmind artist design entrepreneur help creat reflect critiqu modern french ident
+correct label = WAY-A-II 
+*>  0.065525 : WAY-A-II 
+   -0.530770 : WAY-AQR 
+   -0.078350 : WAY-CE 
+   -0.047972 : WAY-ED 
+   -0.327387 : WAY-ER 
+   -0.541232 : WAY-FR 
+   -0.118150 : WAY-SI 
+   -0.435367 : WAY-SMA 
+
+
+description: modern portfolio theori corpor financ topic present discount interest rate yield matur financi instrument includ financi futur mutual fund effici market theori basic asset price theori capit asset price model model price option conting claim us deriv hedg prerequisit econ 51 econ 102a
+correct label = WAY-SI 
+   -0.075134 : WAY-A-II 
+   -0.076906 : WAY-AQR 
+   -0.096384 : WAY-CE 
+   -0.172647 : WAY-ED 
+   -0.189149 : WAY-ER 
+   -0.052148 : WAY-FR 
+** -0.072265 : WAY-SI 
+   -0.023016 : WAY-SMA 
+
+
+description: capston seri senior creativ selfreflect scientif relev project conceiv produc exhibit quarter explor scientif content person interest creativ form includ limit write music fine art perform art photographi film media a written essai creativ process scientif signific select topic accompani creativ work complet project includ creativ portfolio requir enrol 196abc
+correct label = WAY-CE 
+ >  0.026274 : WAY-A-II 
+   -0.347731 : WAY-AQR 
+** -0.014903 : WAY-CE 
+   -0.084898 : WAY-ED 
+   -0.348672 : WAY-ER 
+   -0.369852 : WAY-FR 
+   -0.136009 : WAY-SI 
+   -0.229743 : WAY-SMA 
+
+
+description: numer method solv problem mechan electromagnet quantum mechan statist mechan method includ numer integr solut ordinari partial differenti equat solut diffus equat laplac equat poisson equat relax method statist method includ mont carlo techniqu matrix method eigenvalu problem short introduct matlab class exampl class project program languag c prerequisit math 53 phy 120 previou program experi requir
+correct label = WAY-AQR WAY-FR 
+   -0.137731 : WAY-A-II 
+** -0.061088 : WAY-AQR 
+ >  0.003306 : WAY-CE 
+   -0.276979 : WAY-ED 
+   -0.345547 : WAY-ER 
+** -0.057983 : WAY-FR 
+   -0.138528 : WAY-SI 
+   -0.013438 : WAY-SMA 
+
+
+description: the emerg protest christian 16thcenturi europ analysi write evangel reform luther calvin zwingli sattler hubmeier muumlntzer studi reform movement lutheran reform anabaptist spiritualist mediev context express influenti vision christian belief life social order
+correct label = WAY-A-II 
+** -0.047405 : WAY-A-II 
+   -0.139763 : WAY-AQR 
+   -0.100485 : WAY-CE 
+   -0.077533 : WAY-ED 
+   -0.131979 : WAY-ER 
+   -0.165068 : WAY-FR 
+   -0.027443 : WAY-SI 
+   -0.082888 : WAY-SMA 
+
+
+description: a crossnat approach studi civil societi role democraci the concept civil societyhistor norm empir is civil societi univers cultur rel concept doe civil societi provid support platform democraci defend protect realm privat action state how norm individu right common good toler balanc divers civil societi result theoret explor appli studentconduct empir research project civil societi countri summari compar discuss prerequisit civil societi polit theori student conduct origin research team select nation enrol limit 18 enrol prefer student polisci 236sethicsoc 232t
+correct label = WAY-ER 
+   -0.016273 : WAY-A-II 
+   -0.272523 : WAY-AQR 
+   -0.144148 : WAY-CE 
+   -0.117042 : WAY-ED 
+** -0.246902 : WAY-ER 
+   -0.244472 : WAY-FR 
+   -0.052527 : WAY-SI 
+   -0.150972 : WAY-SMA 
+
+
+description: how motion object physic world determin law physic student learn describ motion object kinemat understand motion form dynam emphasi import physic principl mechan conserv momentum energi translat rotat motion follow law natur newton law motion distinct made fundament law natur empir rule approxim complex physic problem drawn exampl mechan everydai life skill develop verifi deriv result satisfi criteria correct dimension consist expect behavior limit case discuss base languag mathemat vector represent oper calculu physic understand foster peer interact demonstr lectur discuss section base interact group problem solv prerequisit high school physic concurr enrol physic 41a math 41 math 51 cme 100 equival minimum corequisit math 42 equival
+correct label = WAY-SMA 
+   -0.075134 : WAY-A-II 
+   -0.076906 : WAY-AQR 
+   -0.096384 : WAY-CE 
+   -0.172647 : WAY-ED 
+   -0.189149 : WAY-ER 
+   -0.052148 : WAY-FR 
+   -0.072265 : WAY-SI 
+** -0.023016 : WAY-SMA 
+
+
+description: dynam cultur inherit human behavior relationship social physic environ topic includ histori ecolog approach anthropolog subsist ecolog share risk manag territori warfar resourc conserv manag case studi australia melanesia africa s america
+correct label = WAY-ED WAY-SI 
+ >  0.011456 : WAY-A-II 
+   -0.335381 : WAY-AQR 
+   -0.148249 : WAY-CE 
+** -0.021927 : WAY-ED 
+   -0.189731 : WAY-ER 
+   -0.357392 : WAY-FR 
+** -0.007705 : WAY-SI 
+   -0.210844 : WAY-SMA 
+
+
+description: introduct varieti role plai local intern media cover conflict situat contin late 20t earli 21stcenturi the object develop theoret empir understand media activ particip conflict neutral wit how media african context tool propaganda encourag violenc role promot dialogu peac reconcili commun these question relev context contemporari africa conflict fuel ethnic hatr democrat aspir unfold develop media commun technolog kei concept object imparti hate speech peac journal citizen journal cosmopolitan analyz role plai media case studi burundi cameroon egypt ethiopia kenya nigeria rwanda uganda a wide varieti materi includ read drawn field media journal studi polit scienc anthropolog postcoloni theori linguist visual audio video multimedia materi produc new media film documentari
+correct label = WAY-SI 
+   -0.047405 : WAY-A-II 
+   -0.139763 : WAY-AQR 
+   -0.100485 : WAY-CE 
+   -0.077533 : WAY-ED 
+   -0.131979 : WAY-ER 
+   -0.165068 : WAY-FR 
+** -0.027443 : WAY-SI 
+   -0.082888 : WAY-SMA 
+
+
+description: prefer freshmen explor case studi function materi develop incorpor modern devic particular emphasi magnet dielectr materi devic recommend high school physic includ electr magnet
+correct label = WAY-SMA 
+   -0.047405 : WAY-A-II 
+   -0.139763 : WAY-AQR 
+   -0.100485 : WAY-CE 
+   -0.077533 : WAY-ED 
+   -0.131979 : WAY-ER 
+   -0.165068 : WAY-FR 
+   -0.027443 : WAY-SI 
+** -0.082888 : WAY-SMA 
+
+
+description: open medic student graduat student undergradu student trace histori genocid 20th centuri question humanitarian intervent stop it topic controversi end cold war the pre1990 discuss begin armenian genocid first world war includ holocaust cambodia khmer roug 1970 coverag genocid humanitarian intervent 1990 includ war bosnia rwanda kosovo congo sudan
+correct label = WAY-SI 
+   -0.047405 : WAY-A-II 
+   -0.139763 : WAY-AQR 
+   -0.100485 : WAY-CE 
+   -0.077533 : WAY-ED 
+   -0.131979 : WAY-ER 
+   -0.165068 : WAY-FR 
+** -0.027443 : WAY-SI 
+   -0.082888 : WAY-SMA 
+
+
+description: prefer sophomor the essenti constant product blood cell bone marrow focu fundament blood cell type white blood cell subtyp topic includ microscop appear blood cell mammalian nonmammalian speci common morpholog abnorm blood cell shift blood cell occur major diseas human anim ideal suit preme prevet biox student biologi specialti background requir
+correct label = WAY-SMA 
+   -0.047405 : WAY-A-II 
+   -0.139763 : WAY-AQR 
+   -0.100485 : WAY-CE 
+   -0.077533 : WAY-ED 
+   -0.131979 : WAY-ER 
+   -0.165068 : WAY-FR 
+   -0.027443 : WAY-SI 
+** -0.082888 : WAY-SMA 
+
+
+description: transport account onethird american energi greenhous ga emiss threequart american oil consumpt it crucial impact climat chang air pollut resourc deplet nation secur student wish address issu reconsid move find sustain transport solut an introduct issu cover past present transport impact examin altern fuel propos dig deeper promis option batteri electr vehicl energi requir air ground maritim transport design electr motor power control system drive train batteri technolog gener renew energi two opportun handson experi electr car prerequisit introduct calculu physic ap elementari mechan
+correct label = WAY-AQR WAY-SMA 
+   -0.075134 : WAY-A-II 
+** -0.076906 : WAY-AQR 
+   -0.096384 : WAY-CE 
+   -0.172647 : WAY-ED 
+   -0.189149 : WAY-ER 
+   -0.052148 : WAY-FR 
+   -0.072265 : WAY-SI 
+** -0.023016 : WAY-SMA 
+
+
+description: method major subject area address laboratori experi focu seri experi build anoth topic includ decis make player game auction market institut how experi learn prefer behavior trust fair learn final present group project prerequisit econ 50 econ 51 econ 102a
+correct label = WAY-AQR WAY-SI 
+   -0.075134 : WAY-A-II 
+** -0.076906 : WAY-AQR 
+   -0.096384 : WAY-CE 
+   -0.172647 : WAY-ED 
+   -0.189149 : WAY-ER 
+   -0.052148 : WAY-FR 
+** -0.072265 : WAY-SI 
+   -0.023016 : WAY-SMA 
+
+
+description: thi examin wai medicin practic divers cultur context narr skill recogn interpret move stori ill it examin human experi ill heal narr present literatur film storytel we explor cultur resourc enabl empow heal narr medicin guid practic cultur compet medic care
+correct label = WAY-CE WAY-ED 
+ >  0.011456 : WAY-A-II 
+   -0.335381 : WAY-AQR 
+** -0.148249 : WAY-CE 
+** -0.021927 : WAY-ED 
+   -0.189731 : WAY-ER 
+   -0.357392 : WAY-FR 
+   -0.007705 : WAY-SI 
+   -0.210844 : WAY-SMA 
+
+
+description: the literatur learn memori includ cognit neural organ memori mechan rememb forget peopl fals rememb event happen cognit theori behavior evid integr data patient studi function brain imag recommend 1
+correct label = WAY-SI 
+   -0.047405 : WAY-A-II 
+   -0.139763 : WAY-AQR 
+   -0.100485 : WAY-CE 
+   -0.077533 : WAY-ED 
+   -0.131979 : WAY-ER 
+   -0.165068 : WAY-FR 
+** -0.027443 : WAY-SI 
+   -0.082888 : WAY-SMA 
+
+
+description: why britain north american coloni declar independ empir long rever what american revolut peopl experienc it in explor explos origin american republ topic revolutionari ideolog empir feder constitut slaveri social conflict intern consequ american revolut
+correct label = WAY-SI 
+   -0.047405 : WAY-A-II 
+   -0.139763 : WAY-AQR 
+   -0.100485 : WAY-CE 
+   -0.077533 : WAY-ED 
+   -0.131979 : WAY-ER 
+   -0.165068 : WAY-FR 
+** -0.027443 : WAY-SI 
+   -0.082888 : WAY-SMA 
+
+
+description: the domest polit polit economi intern relat contemporari japan the role polit parti bureaucraci privat actor econom develop challeng relat unit state east asia
+correct label = WAY-SI 
+   -0.140539 : WAY-A-II 
+   -0.113680 : WAY-AQR 
+   -0.360797 : WAY-CE 
+   -0.070574 : WAY-ED 
+   -0.179747 : WAY-ER 
+   -0.177186 : WAY-FR 
+*>  0.067451 : WAY-SI 
+   -0.110424 : WAY-SMA 
+
+
+description: graduat student regist 214 the sociolog approach product distribut consumpt market emphas impact norm power social structur institut economi comparison classic contemporari approach economi social scienc disciplin topic consumpt labor market organ profess law medicin econom role inform network industri organ includ structur histori comput popular music industri busi allianc capit nonwestern societi transit state social e europ china
+correct label = WAY-SI 
+   -0.066859 : WAY-A-II 
+   -0.321648 : WAY-AQR 
+   -0.275215 : WAY-CE 
+   -0.077939 : WAY-ED 
+   -0.396441 : WAY-ER 
+   -0.381971 : WAY-FR 
+** -0.041115 : WAY-SI 
+   -0.257279 : WAY-SMA 
+
+
+description: survei import formal method philosophi the cover basic proposit elementari predic logic probabl decis theori game theori statist highlight philosoph issu applic specif topic includ languag proposit predic logic interpret ration argument probabl axiom nash equilibrium domin reason mean statist signific test assess combin problem set shortansw question design solidifi compet mathemat tool test conceptu understand thi replac phil 50
+correct label = WAY-FR 
+   -0.047405 : WAY-A-II 
+   -0.139763 : WAY-AQR 
+   -0.100485 : WAY-CE 
+   -0.077533 : WAY-ED 
+   -0.131979 : WAY-ER 
+** -0.165068 : WAY-FR 
+   -0.027443 : WAY-SI 
+   -0.082888 : WAY-SMA 
+
+
+description: english major take 5 unit regist 143a read american indian literatur new stori song ritual 19th centuri includ navajo night chant trickster trickster stori war heal hunt song aztec song 16th centuri read modern poet novelist includ n scott momadai louis erdrich lesli marmon silko classic autobiographi quotblack elk speaksquot
+correct label = WAY-A-II WAY-ED 
+*>  0.074594 : WAY-A-II 
+   -0.336819 : WAY-AQR 
+   -0.123021 : WAY-CE 
+** -0.060138 : WAY-ED 
+   -0.152689 : WAY-ER 
+   -0.147780 : WAY-FR 
+   -0.142350 : WAY-SI 
+   -0.309028 : WAY-SMA 
+
+
+description: approach techniqu process draw visit madrid museum studi paint draw goya velaacutezquez picasso daliacut explor experi draw subject matter figur life interior landscap nonrepresent draw no previou experi requir enrol limit
+correct label = WAY-CE 
+   -0.110003 : WAY-A-II 
+   -0.123946 : WAY-AQR 
+** -0.000795 : WAY-CE 
+   -0.181865 : WAY-ED 
+   -0.288377 : WAY-ER 
+   -0.170903 : WAY-FR 
+   -0.093706 : WAY-SI 
+   -0.073310 : WAY-SMA 
+
+
+description: thi explor histori islam north america special emphasi experi muslim unit state contrari popularli held belief muslim critic particip construct american ident 16th centuri onward muslim slave forcibl brought coloni america our explor divers wai muslim america imagin practic negoti religi ident we move chronolog focu crucial theme converg construct racial religi nation ident america evershift terrain notion author authent muslim america global reson practic idea american muslim
+correct label = WAY-ED 
+   -0.047405 : WAY-A-II 
+   -0.139763 : WAY-AQR 
+   -0.100485 : WAY-CE 
+** -0.077533 : WAY-ED 
+   -0.131979 : WAY-ER 
+   -0.165068 : WAY-FR 
+   -0.027443 : WAY-SI 
+   -0.082888 : WAY-SMA 
+
+
+description: explor cross border ourselv them base belief understand lead understand other how person ident struggl mean individu heal lead commun heal person polit artist express base understand address social issu the tension victim agenc contempl action human scienc embrac knowledg heart mind studi found synergist conscious movement mean balanc connected whole engag question group process journal read drama creativ write storytel studi academ selfreflect emphasi develop present creativ work media express ident develop border
+correct label = WAY-CE WAY-ED 
+ >  0.006664 : WAY-A-II 
+   -0.335153 : WAY-AQR 
+** -0.030587 : WAY-CE 
+** -0.103578 : WAY-ED 
+   -0.269634 : WAY-ER 
+   -0.348908 : WAY-FR 
+   -0.137888 : WAY-SI 
+   -0.307411 : WAY-SMA 
+
+
+description: intermedi noncompetit social ballroom danc the partner danc found todai popular cultur includ lindi hop viennes waltz hustl travel foxtrot intermediateadvanc level crossstep waltz nightclub twostep the continu tip great partner enhanc creativ develop person style stress reduct music abil adapt chang situat prerequisit danc 46
+correct label = WAY-CE 
+ >  0.057407 : WAY-A-II 
+   -0.480491 : WAY-AQR 
+** -0.058565 : WAY-CE 
+   -0.124407 : WAY-ED 
+   -0.463596 : WAY-ER 
+   -0.449256 : WAY-FR 
+   -0.161093 : WAY-SI 
+   -0.297827 : WAY-SMA 
+
+
+description: a broad engag indian cinema relationship indian polit histori econom kei themat concern form adapt respons global cinemat theme genr audienc locat film kei critic theoret debat scholarship indian world cinema goal open dauntingli complex region interest unfamiliar histori cultur form
+correct label = WAY-A-II WAY-ED 
+** -0.081677 : WAY-A-II 
+   -0.309298 : WAY-AQR 
+   -0.408561 : WAY-CE 
+** -0.014968 : WAY-ED 
+   -0.237500 : WAY-ER 
+   -0.369511 : WAY-FR 
+ >  0.087189 : WAY-SI 
+   -0.238380 : WAY-SMA 
+
+
+description: thi introduc freshmen rang wai think empathi how understand other how knowledg anoth experi circumst enabl make moral decis moral action it student intellectu investig topic empathi buddhist emphasi compass centuri bce jesu teach parabl centuri ce enlighten philosophi silicon valleyiquest adopt empathi twentyfirst centuri the main focu modern period from 18th 20th centuri student ask approach genr text len empathi the culmin oneweek creativ workshop question empathi
+correct label = WAY-CE WAY-ED 
+   -0.047405 : WAY-A-II 
+   -0.139763 : WAY-AQR 
+** -0.100485 : WAY-CE 
+** -0.077533 : WAY-ED 
+   -0.131979 : WAY-ER 
+   -0.165068 : WAY-FR 
+   -0.027443 : WAY-SI 
+   -0.082888 : WAY-SMA 
+
+
+description: thi present tool need analyz issu macro perform open economi world high capit mobil a consist model throughout captur central mechan reequilibr economi short intermedi long run the model distinguish polici regim polici initi provid insight classic result longrun exchangerateregim neutralityn prerequisit econ 52
+correct label = WAY-SI 
+   -0.075134 : WAY-A-II 
+   -0.076906 : WAY-AQR 
+   -0.096384 : WAY-CE 
+   -0.172647 : WAY-ED 
+   -0.189149 : WAY-ER 
+   -0.052148 : WAY-FR 
+** -0.072265 : WAY-SI 
+   -0.023016 : WAY-SMA 
+
+
+description: philosoph debat place human live human be truth pursuit the natur signific truthinvolv virtu accuraci sincer candor prerequisit phil 80 permiss instructor
+correct label = WAY-A-II WAY-ER 
+** -0.075134 : WAY-A-II 
+   -0.076906 : WAY-AQR 
+   -0.096384 : WAY-CE 
+   -0.172647 : WAY-ED 
+** -0.189149 : WAY-ER 
+   -0.052148 : WAY-FR 
+   -0.072265 : WAY-SI 
+   -0.023016 : WAY-SMA 
+
+
+description: first analyz eu greatest challeng preserv monetari union discuss polit econom reform need achiev goal in context studi fiscal budgetari polic eu second discuss eu role global polit desir plai promin role wai reach object third analyz eu institut challeng effort enhanc democrat charact
+correct label = WAY-SI 
+   -0.140539 : WAY-A-II 
+   -0.113680 : WAY-AQR 
+   -0.360797 : WAY-CE 
+   -0.070574 : WAY-ED 
+   -0.179747 : WAY-ER 
+   -0.177186 : WAY-FR 
+*>  0.067451 : WAY-SI 
+   -0.110424 : WAY-SMA 
+
+
+description: the histor contemporari futur research practic genet epidemiolog clinic medicin public health sourc insight medicin public health genet environment contribut multifactori diseas multidisciplinari approach enhanc detect diagnosi the impact human genom project analysi cardiovascular neurolog diseas cancer ethic social issu genet inform prerequisit basic genet undergradu human biologi core equival consent instructor
+correct label = WAY-SMA 
+   -0.083482 : WAY-A-II 
+   -0.108556 : WAY-AQR 
+   -0.145885 : WAY-CE 
+   -0.240601 : WAY-ED 
+   -0.019846 : WAY-ER 
+   -0.243308 : WAY-FR 
+   -0.114458 : WAY-SI 
+** -0.047024 : WAY-SMA 
+
+
+description: mai credit lotteri prioriti quarteryear school major english creativ write emphasi creativ write minor prerequisit 90 91
+correct label = WAY-CE 
+ >  0.046866 : WAY-A-II 
+   -0.273961 : WAY-AQR 
+** -0.118920 : WAY-CE 
+   -0.155252 : WAY-ED 
+   -0.209859 : WAY-ER 
+   -0.034860 : WAY-FR 
+   -0.187172 : WAY-SI 
+   -0.249155 : WAY-SMA 
+
+
+description: cours explor visibl invis disabl women psycholog physic health disabl womeniquest ident divers experi disabl cover includ blind multipl sclerosi diabet arthriti emot learn disabl condit requir wheelchair form assist we deal issu identifi disabl social polit dimens selflabel caretak stigma pass differ gender make disabl experienc cours person approach read draw firstperson account women nninstructor consent requir
+correct label = WAY-ED WAY-SI 
+   -0.058336 : WAY-A-II 
+   -0.228986 : WAY-AQR 
+   -0.211557 : WAY-CE 
+*>  0.009572 : WAY-ED 
+   -0.345125 : WAY-ER 
+   -0.352666 : WAY-FR 
+*>  0.005551 : WAY-SI 
+   -0.313625 : WAY-SMA 
+
+
+description: student learn statist tool describ analyz data field medicin epidemiolog thi appli reli current research question publicli data student gain profici stata basic analys healthrel data includ linear logist regress sophist consum healthrel statist result
+correct label = WAY-AQR 
+   -0.047405 : WAY-A-II 
+** -0.139763 : WAY-AQR 
+   -0.100485 : WAY-CE 
+   -0.077533 : WAY-ED 
+   -0.131979 : WAY-ER 
+   -0.165068 : WAY-FR 
+   -0.027443 : WAY-SI 
+   -0.082888 : WAY-SMA 
+
+
+description: impact buddhism art cultur japan ancient capit kyoto imag product iconographi represent strategi ritual visual function buddhist sculptur paint focu select histor templ icon also examin architectur landscap element templ layout iconograph program frame imag enliven practic center devot ritual art
+correct label = WAY-A-II 
+*>  0.011456 : WAY-A-II 
+   -0.335381 : WAY-AQR 
+   -0.148249 : WAY-CE 
+   -0.021927 : WAY-ED 
+   -0.189731 : WAY-ER 
+   -0.357392 : WAY-FR 
+   -0.007705 : WAY-SI 
+   -0.210844 : WAY-SMA 
+
+
+description: the develop parisian build architectur 17th centuri present interact tradit innov transform histor polit cultur underpin visit case studi pari illustr format citi landscap cultur
+correct label = WAY-A-II 
+*>  0.011456 : WAY-A-II 
+   -0.335381 : WAY-AQR 
+   -0.148249 : WAY-CE 
+   -0.021927 : WAY-ED 
+   -0.189731 : WAY-ER 
+   -0.357392 : WAY-FR 
+   -0.007705 : WAY-SI 
+   -0.210844 : WAY-SMA 
+
+
+description: ethic issu scienc technologyrel public polici conflict focu complex valueladen polici disput topic natur ethic moral rational liberti justic human right abus concept polici disput case studi biomedicin environment affair technic profess commun intern relat
+correct label = WAY-ER 
+   -0.055754 : WAY-A-II 
+   -0.171414 : WAY-AQR 
+   -0.149987 : WAY-CE 
+   -0.145487 : WAY-ED 
+*>  0.037324 : WAY-ER 
+   -0.356228 : WAY-FR 
+   -0.069635 : WAY-SI 
+   -0.106896 : WAY-SMA 
+
+
+description: econom polici analysi write oral present topic vari instructor limit enrol prerequisit econ 51 52 102b field cours some section requir addit prerequisit
+correct label = WAY-SI 
+   -0.168267 : WAY-A-II 
+   -0.050823 : WAY-AQR 
+   -0.356696 : WAY-CE 
+   -0.165688 : WAY-ED 
+   -0.236917 : WAY-ER 
+   -0.064267 : WAY-FR 
+*>  0.022629 : WAY-SI 
+   -0.050552 : WAY-SMA 
+
+
+description: what mathemat educ unit state why peopl hate fear math what contribut high level innumeraci gener popul why girl women opt math chanc in seminar semin research math learn k12 classroom includ focu equiti we spend time investig case teach learn watch video visit school thi seminar interest educ learn wai student and yourselv learn enjoi mathemat if bad math experi understand iquest put iquest seminar good you the final project class involv develop case math learner investig journei world math
+correct label = WAY-SI 
+   -0.047405 : WAY-A-II 
+   -0.139763 : WAY-AQR 
+   -0.100485 : WAY-CE 
+   -0.077533 : WAY-ED 
+   -0.131979 : WAY-ER 
+   -0.165068 : WAY-FR 
+** -0.027443 : WAY-SI 
+   -0.082888 : WAY-SMA 
+
+
+description: contemporari sociolog issu affect mexicanorigin peopl us topic includ immigr experi immigr polici ident socioeconom integr intern divers theori incorpor
+correct label = WAY-ED WAY-SI 
+   -0.047405 : WAY-A-II 
+   -0.139763 : WAY-AQR 
+   -0.100485 : WAY-CE 
+** -0.077533 : WAY-ED 
+   -0.131979 : WAY-ER 
+   -0.165068 : WAY-FR 
+** -0.027443 : WAY-SI 
+   -0.082888 : WAY-SMA 
+
+
+description: complex biolog behavior integr comput model molecular biologi topic reconstruct biolog network highthroughput data knowledg base network properti comput model network behavior small larg scale us model predict guid experiment program robust nois cellular variat prerequisit cme 102 bio 41 bio 42 consent instructor
+correct label = WAY-AQR 
+   -0.075134 : WAY-A-II 
+** -0.076906 : WAY-AQR 
+   -0.096384 : WAY-CE 
+   -0.172647 : WAY-ED 
+   -0.189149 : WAY-ER 
+   -0.052148 : WAY-FR 
+   -0.072265 : WAY-SI 
+   -0.023016 : WAY-SMA 
+
+
+description: the american west character frontier mytholog vast distanc mark arid uniqu polit econom characterist thi integr disciplinari perspect comprehens examin western north america histori physic geographi climat literatur art film institut polit demographi economi continu polici challeng student examin theme fundament understand region time space water peopl boom bust cycl
+correct label = WAY-A-II WAY-SI 
+** -0.140539 : WAY-A-II 
+   -0.113680 : WAY-AQR 
+   -0.360797 : WAY-CE 
+   -0.070574 : WAY-ED 
+   -0.179747 : WAY-ER 
+   -0.177186 : WAY-FR 
+*>  0.067451 : WAY-SI 
+   -0.110424 : WAY-SMA 
+
+
+description: seminar share histori natur cultur heritag subsequ trajectori present how thought archaeolog site natur landscap undergon transform due factor includ indigen right green polit intern tourism the develop kei idea includ conserv wilder sustain indigen knowledg nonrenew divers case studi draw cultur natur site africa america australia
+correct label = WAY-ED WAY-SI 
+ >  0.011456 : WAY-A-II 
+   -0.335381 : WAY-AQR 
+   -0.148249 : WAY-CE 
+** -0.021927 : WAY-ED 
+   -0.189731 : WAY-ER 
+   -0.357392 : WAY-FR 
+** -0.007705 : WAY-SI 
+   -0.210844 : WAY-SMA 
+
+
+description: prefer freshmenthi consid varieti anim charact chines western literatur potent symbol cultur valu dynam site ethic reason what pervas anim imageri relat world neighbor how anim defin frontier human mediat notion civil cultur how cultur institut polit economi shape concept human right anim welfar and all human pluralist planetari 21st centuri
+correct label = WAY-A-II WAY-ER 
+*>  0.003107 : WAY-A-II 
+   -0.367031 : WAY-AQR 
+   -0.197750 : WAY-CE 
+   -0.089881 : WAY-ED 
+** -0.020429 : WAY-ER 
+   -0.548552 : WAY-FR 
+   -0.049897 : WAY-SI 
+   -0.234852 : WAY-SMA 
+
+
+description: in cours defin make sens world word us student ask word form choos accept dictionari what word reveal statu class race why derogatori word women men we enquir word chang time shift mean life death word weiquestl seek discov cultur make sens world specif set word world lose averag languag week weiquestl explor creat name thing refrigeratoriquest googleiquest weiquestl word function relat internet code thought languag word kei understand mind idea peopl trace biographi word discern world wa is perceiv describ the structur sequenc weekli word start point discuss major characterist dynam fascin world word
+correct label = WAY-A-II WAY-ED 
+*>  0.011456 : WAY-A-II 
+   -0.335381 : WAY-AQR 
+   -0.148249 : WAY-CE 
+** -0.021927 : WAY-ED 
+   -0.189731 : WAY-ER 
+   -0.357392 : WAY-FR 
+   -0.007705 : WAY-SI 
+   -0.210844 : WAY-SMA 
+
+
+description: countercultur a radic cultur esp young reject establish social valu practic mode life oppos convent domin cf altern adj  oednnw critic examin contemporari past countercultur religi movement light larger debat perenni import issu race polit environment gender in particular focu mystic myth radic religi imagin mobil affect real chang sociocultur realm we engag primari materi text film music multimedia approach foreground complex strategi transform idea action proposit perform to end assign offer creativ critic opportun complex construct group individu ident subject matter treat includ sex drug rock amp rolliquesta polit convers thing avoid polit convers no prior experi religi studi philosophi necessari all materi english everyon welcom
+correct label = WAY-A-II WAY-ED 
+*>  0.196203 : WAY-A-II 
+   -0.829626 : WAY-AQR 
+   -0.196274 : WAY-CE 
+*>  0.075207 : WAY-ED 
+   -0.640283 : WAY-ER 
+   -0.732487 : WAY-FR 
+   -0.198185 : WAY-SI 
+   -0.814577 : WAY-SMA 
+
+
+description: focus manag account inform decis make student studi product servic cost activ base cost perform manag evalu cvp analysi forecast factor consid price decis capit invest analysi qualiti manag measur
+correct label = WAY-AQR 
+   -0.047405 : WAY-A-II 
+** -0.139763 : WAY-AQR 
+   -0.100485 : WAY-CE 
+   -0.077533 : WAY-ED 
+   -0.131979 : WAY-ER 
+   -0.165068 : WAY-FR 
+   -0.027443 : WAY-SI 
+   -0.082888 : WAY-SMA 
+
+
+description: chines artist engag intern arena cultur polit modern late 19th centuri present topic includ shanghai modern public media artist reform polit activ end empir competit nation style paint intern modern politic art resist revolut postmao era experiment avantgard movement transnat career exhibit circuit
+correct label = WAY-A-II WAY-ED 
+*>  0.065525 : WAY-A-II 
+   -0.530770 : WAY-AQR 
+   -0.078350 : WAY-CE 
+** -0.047972 : WAY-ED 
+   -0.327387 : WAY-ER 
+   -0.541232 : WAY-FR 
+   -0.118150 : WAY-SI 
+   -0.435367 : WAY-SMA 
+
+
+description: thi examin wai higher educ structur polici affect femal male student relat structur polici improv experi femal male similarli differ student expect gain understand theori perspect social scienc relev understand role higher educ relat structur gender differenti hierarchi topic includ undergradu graduat educ ident sexual gender scienc gender faculti develop feminist scholarship pedagogi attent paid issu experienc women men unit state includ peopl color academ world chang time
+correct label = WAY-ED WAY-SI 
+   -0.058336 : WAY-A-II 
+   -0.228986 : WAY-AQR 
+   -0.211557 : WAY-CE 
+*>  0.009572 : WAY-ED 
+   -0.345125 : WAY-ER 
+   -0.352666 : WAY-FR 
+*>  0.005551 : WAY-SI 
+   -0.313625 : WAY-SMA 
+
+
+description: gain handson curatori experi redesign african galleri cantor art center explor debat strategi present divers art form includ mummi ancient egypt earli twentiethcenturi mask contemporari photographi conduct research prepar wall text label particip design exhibit space collabor fellow student faculti commun member
+correct label = WAY-A-II WAY-ED 
+** -0.047405 : WAY-A-II 
+   -0.139763 : WAY-AQR 
+   -0.100485 : WAY-CE 
+** -0.077533 : WAY-ED 
+   -0.131979 : WAY-ER 
+   -0.165068 : WAY-FR 
+   -0.027443 : WAY-SI 
+   -0.082888 : WAY-SMA 
+
+
+description: thi explor transit victorian modern womanhood us 1890 end 20th centuri includ experi nativ european african mexican asian american women it ask how when major american women wage earner gain full citizenship enact polit opportun race classspecif ideal womanhood chang popular cultur women redefin reproduct sexual relat
+correct label = WAY-ED WAY-SI 
+ >  0.011456 : WAY-A-II 
+   -0.335381 : WAY-AQR 
+   -0.148249 : WAY-CE 
+** -0.021927 : WAY-ED 
+   -0.189731 : WAY-ER 
+   -0.357392 : WAY-FR 
+** -0.007705 : WAY-SI 
+   -0.210844 : WAY-SMA 
+
+
+description: thi cover suprem court case law government power equal protect fundament right the investig constitut foundat democrat particip unit state cover topic fourteenth amend protect discrimin ground race gender classif individu right vote intim associ introduct first amend right free speech press student evalu class particip midterm moot court written oral compon takehom final exam lectur week discuss section week
+correct label = WAY-SI 
+   -0.058336 : WAY-A-II 
+   -0.228986 : WAY-AQR 
+   -0.211557 : WAY-CE 
+ >  0.009572 : WAY-ED 
+   -0.345125 : WAY-ER 
+   -0.352666 : WAY-FR 
+*>  0.005551 : WAY-SI 
+   -0.313625 : WAY-SMA 
+
+
+description: master german 20th 21stcenturi literatur philosophi present aesthet innov confront challeng modern technolog social alien manmad catastroph imagin futur read includ nietzsch freud rilk musil brecht kafka doeblin benjamin juenger arendt musil mann adorno celan grass bachmann bernhardt wolf kluge taught english undergradu enrol 222 5 unit graduat student enrol 322 8 unit
+correct label = WAY-A-II 
+*>  0.074594 : WAY-A-II 
+   -0.336819 : WAY-AQR 
+   -0.123021 : WAY-CE 
+   -0.060138 : WAY-ED 
+   -0.152689 : WAY-ER 
+   -0.147780 : WAY-FR 
+   -0.142350 : WAY-SI 
+   -0.309028 : WAY-SMA 
+
+
+description: thi seminar explor wai anthropogen chang climat chang habitat destruct land chang speci invas effect ecolog evolut infecti diseas topic includ infecti diseas human wildlif livestock crop effect diseas threaten speci diseas spillov emerg diseas role diseas natur system cours taught combin popular scientif read discuss lectur
+correct label = WAY-SMA 
+   -0.047405 : WAY-A-II 
+   -0.139763 : WAY-AQR 
+   -0.100485 : WAY-CE 
+   -0.077533 : WAY-ED 
+   -0.131979 : WAY-ER 
+   -0.165068 : WAY-FR 
+   -0.027443 : WAY-SI 
+** -0.082888 : WAY-SMA 
+
+
+description: the occurr distribut circul reaction water surfac surfac topic precipit evapotranspir infiltr vados zone groundwat surfac water streamflow gener water balanc estim current classic theori soil physic hydrolog urban rangeland forest environ
+correct label = WAY-SMA 
+   -0.047405 : WAY-A-II 
+   -0.139763 : WAY-AQR 
+   -0.100485 : WAY-CE 
+   -0.077533 : WAY-ED 
+   -0.131979 : WAY-ER 
+   -0.165068 : WAY-FR 
+   -0.027443 : WAY-SI 
+** -0.082888 : WAY-SMA 
+
+
+description: where ideal live from structur how justifi face critic what role great work art plai creativ processnnnour live simpli us make examin circumst exist recogn fact immut subject control face challeng fashion live meaning justifi the art live explor wai natur challeng iquest accommod conflict demand valu make choic iquestartfullyiquest work imagin literatur inspir us we read import work literatur philosophi impli live reason authent commun art faith in case present perspect ask work find persuas finetun skill essenti lifelong project selfconstruct
+correct label = WAY-A-II WAY-ER 
+** -0.047405 : WAY-A-II 
+   -0.139763 : WAY-AQR 
+   -0.100485 : WAY-CE 
+   -0.077533 : WAY-ED 
+** -0.131979 : WAY-ER 
+   -0.165068 : WAY-FR 
+   -0.027443 : WAY-SI 
+   -0.082888 : WAY-SMA 
+
+
+description: draw anthropolog art histori cultur studi field explor critic polit visual social imagin polit make consum imag thing iconophonia iconophilia classif peopl thing iquestartistsiquest iquestartiquest cultur product gener
+correct label = WAY-A-II 
+*>  0.011456 : WAY-A-II 
+   -0.335381 : WAY-AQR 
+   -0.148249 : WAY-CE 
+   -0.021927 : WAY-ED 
+   -0.189731 : WAY-ER 
+   -0.357392 : WAY-FR 
+   -0.007705 : WAY-SI 
+   -0.210844 : WAY-SMA 
+
+
+description: biochem pathwai govern metabol protein carbohydr fatti acid lipid nucleic acid basic enzymolog bioenerget energi storag releas individu student project involv interact scientist laboratori pari institut pasteur institut curi benefit rich scientif resourc pari offer
+correct label = WAY-SMA 
+   -0.047405 : WAY-A-II 
+   -0.139763 : WAY-AQR 
+   -0.100485 : WAY-CE 
+   -0.077533 : WAY-ED 
+   -0.131979 : WAY-ER 
+   -0.165068 : WAY-FR 
+   -0.027443 : WAY-SI 
+** -0.082888 : WAY-SMA 
+
+
+description: same histori 38a major take 5 unit enrol 138a germani tumultu histori second empir end cold war intern conflict social upheav state transform bismarck war unif world war on weimar republ rise nazism world war two holocaust divis communist east capitalist west germani fall iron curtain
+correct label = WAY-SI 
+   -0.047405 : WAY-A-II 
+   -0.139763 : WAY-AQR 
+   -0.100485 : WAY-CE 
+   -0.077533 : WAY-ED 
+   -0.131979 : WAY-ER 
+   -0.165068 : WAY-FR 
+** -0.027443 : WAY-SI 
+   -0.082888 : WAY-SMA 
+
+
+description: thi internshipstyl center practic theori histor archaeolog research interpret focus studi san jose histor chines commun the includ classroom lectur seminar discuss laboratori analysi histor artifact particip public archaeolog event cours theme includ immigr urban materi cultur landscap transnat ident race ethnic gender cultur resourc manag public histori heritag polit the includ requir lab section field trip public servic transport provid offsit activ
+correct label = WAY-ED 
+ >  0.000525 : WAY-A-II 
+   -0.424603 : WAY-AQR 
+   -0.259321 : WAY-CE 
+*>  0.065178 : WAY-ED 
+   -0.402878 : WAY-ER 
+   -0.544990 : WAY-FR 
+ >  0.025289 : WAY-SI 
+   -0.441582 : WAY-SMA 
