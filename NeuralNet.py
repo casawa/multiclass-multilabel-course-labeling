@@ -1,5 +1,6 @@
-from keras.layers import Input, Dense
-from keras.models import Model
+from keras.layers import Input, Dense, Flatten
+from keras.models import Model, Sequential
+from keras.layers.recurrent import LSTM
 import numpy as np
 from DataModel import DataModel
 from glove_utils import Glove
@@ -7,6 +8,7 @@ from glove_utils import Glove
 OUTPUT_DIM = 40
 EMBED_DIM = 50
 WORD_EMBED = 50
+NUM_WAYS = 8
 
 def get_max_desc_len(data):
     """
@@ -102,18 +104,22 @@ def construct_model(max_len):
     """
     Constructs the neural model.
     """
-    inputs = Input(shape=(max_len, WORD_EMBED))
+
+    model = Sequential()
+    model.add(LSTM(NUM_WAYS, input_length=max_len, input_dim=WORD_EMBED))
+
+    #inputs = Input(shape=(max_len, WORD_EMBED))
 
     # AGH description lengths aren't consistent so can't do this without padding...
     #embed = Embedding(output_dim=EMBED_DIM, input_dim=   , input_length=)(inputs)
 
-    first_layer = Dense(OUTPUT_DIM, activation='sigmoid')(inputs)
-    predictions = Dense(OUTPUT_DIM, activation='softmax')(first_layer)
+    #first_layer = Dense(OUTPUT_DIM, activation='sigmoid')(inputs)
+    #predictions = Dense(NUM_WAYS, activation='softmax')(first_layer)
     #second_layer = Dense(OUTPUT_DIM, activation='relu')(first_layer)
     #predictions = Dense(OUTPUT_DIM, activation='softmax')(second_layer)
 
-    model = Model(input=inputs, output=predictions)
-    model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
+    #model = Model(input=inputs, output=predictions)
+    model.compile(optimizer='rmsprop', loss='binary_crossentropy', metrics=['accuracy'])
 
     return model
 
@@ -121,7 +127,9 @@ def main():
     
     training_vecs, training_labels, testing_vecs, testing_labels, max_len = load_data()
     model = construct_model(max_len)
-    model.fit(training_vecs, training_labels)
+    model.fit(training_vecs, training_labels, nb_epoch=30)
+    loss_and_metrics = model.evaluate(testing_vecs, testing_labels)
+    print loss_and_metrics
 
 
 if __name__ == '__main__':
