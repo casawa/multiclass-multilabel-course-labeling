@@ -13,7 +13,7 @@ class Glove:
         self.word2vec = {}
 
         print "==> loading glove"
-        with open("../../../CS_224D/Project/Dynamic-Memory-Networks/data/glove/glove.6B." + str(self.word_vector_size) + "d.txt") as f:
+        with open("../Dynamic-Memory-Networks/data/glove/glove.6B." + str(self.word_vector_size) + "d.txt") as f:
             for line in f:
                 l = line.split()
                 self.word2vec[l[0]] = map(float, l[1:])

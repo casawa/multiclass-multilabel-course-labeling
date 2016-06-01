@@ -23,12 +23,12 @@ def get_vocab(train_data):
     """
     Generates the vocabulary for the data.
     """
-    vocab = set()
+    vocab = []
     for course in train_data:
         tokens = course[0]
-        vocab.union(set(tokens))
-
-    return sorted(list(vocab))
+        vocab += tokens
+       
+    return sorted(list(set(vocab)))
 
 def generate_word_vectors(glove, vocab):
     """
@@ -47,7 +47,7 @@ def generate_data_wvs(word_vecs, data, max_len):
     X = []
     for course in data:
         tokens = course[0]
-        x = [word_vecs[token] for token in tokens]
+        x = [word_vecs[token] for token in tokens if token in word_vecs]
 
         # Padding
         while len(x) < max_len:                     
@@ -84,7 +84,7 @@ def load_data():
     """
     glove = Glove(word_vector_size=WORD_EMBED)
     glove.load_glove()
-    data_model = DataModel()
+    data_model = DataModel(train_path='data/unstemmed_training_data.txt', test_path='data/unstemmed_testing_data.txt')
     ways_to_indices = get_ways_to_indices(data_model)
 
     vocab = get_vocab(data_model.training_data_all_ways)
@@ -102,7 +102,7 @@ def construct_model(max_len):
     """
     Constructs the neural model.
     """
-    inputs = Inputs(shape=(max_len, WORD_EMBED))
+    inputs = Input(shape=(max_len, WORD_EMBED))
 
     # AGH description lengths aren't consistent so can't do this without padding...
     #embed = Embedding(output_dim=EMBED_DIM, input_dim=   , input_length=)(inputs)
