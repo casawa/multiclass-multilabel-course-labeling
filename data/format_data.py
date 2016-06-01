@@ -34,7 +34,8 @@ def format_description(text, stop_words):
     for word in words:
         if word not in stop_words:      # Not a stop word, so lower, remove punctuation, and stem
             lowered_token = remove_punctuation(word).lower()
-            non_stop_words.append(stemmer.stem(lowered_token))
+            non_stop_words.append(lowered_token)
+            #non_stop_words.append(stemmer.stem(lowered_token))
 
     return ' '.join(non_stop_words)
 
