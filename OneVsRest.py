@@ -1,9 +1,11 @@
 from sklearn.svm import SVC
-from sklearn.multiclass import OneVsRestClassifier
-from sklearn.metrics import accuracy_score
+from sklearn.multiclass import OneVsRestClassifier, OneVsOneClassifier
+from sklearn.metrics import accuracy_score, roc_curve, auc
 import util
 import DataModel as dm
 import numpy as np
+from scipy import interp
+import matplotlib.pyplot as plt
 
 def construct_labels_matrix(data_model):
     Xt = None
@@ -68,26 +70,81 @@ def construct_test_labels_matrix(data_model,temp):
     y = y.transpose()
     return (X,y)
 
+def plot_ROC(X,y,newX,newy,clf):
+    n_classes = y.shape[1]
+    y_score = clf.decision_function(newX)
+    print newy.ravel().shape
+    print y_score.ravel().shape
+
+    # Compute ROC curve and ROC area for each class
+    fpr = dict()
+    tpr = dict()
+    roc_auc = dict()
+    for i in range(n_classes):
+        fpr[i], tpr[i], _ = roc_curve(newy[:, i], y_score[:, i])
+        roc_auc[i] = auc(fpr[i], tpr[i])
+
+    k = y_score.ravel().shape[0]
+    newy_rav = newy.ravel()
+    newy_rav = newy_rav.reshape((k,1))
+    y_score_rav = y_score.ravel()
+    y_score_rav = y_score_rav.reshape((k,1))
+    # Compute micro-average ROC curve and ROC area
+    fpr["micro"], tpr["micro"], _ = roc_curve(newy_rav, y_score_rav)
+    roc_auc["micro"] = auc(fpr["micro"], tpr["micro"])
+    # First aggregate all false positive rates
+    all_fpr = np.unique(np.concatenate([fpr[i] for i in range(n_classes)]))
+    # Then interpolate all ROC curves at this points
+    mean_tpr = np.zeros_like(all_fpr)
+    for i in range(n_classes):
+        mean_tpr += interp(all_fpr, fpr[i], tpr[i])
+    # Finally average it and compute AUC
+    mean_tpr /= n_classes
+    fpr["macro"] = all_fpr
+    tpr["macro"] = mean_tpr
+    roc_auc["macro"] = auc(fpr["macro"], tpr["macro"])
+    # Plot all ROC curves
+    plt.figure()
+    plt.plot(fpr["micro"], tpr["micro"],
+             label='micro-average ROC curve (area = {0:0.2f})'
+                   ''.format(roc_auc["micro"]),
+             linewidth=2)
+    plt.plot(fpr["macro"], tpr["macro"],
+             label='macro-average ROC curve (area = {0:0.2f})'
+                   ''.format(roc_auc["macro"]),
+             linewidth=2)
+
+    plt.plot([0, 1], [0, 1], 'k--')
+    plt.xlim([0.0, 1.0])
+    plt.ylim([0.0, 1.05])
+    plt.xlabel('False Positive Rate')
+    plt.ylabel('True Positive Rate')
+    plt.title('Micro- and Macro-Average ROC curves')
+    plt.legend(loc="lower right")
+    plt.show()
+
 def main():
     data_model = dm.DataModel()
-    X,y,tmp = construct_labels_matrix(data_model)
-    newX,newy = construct_test_labels_matrix(data_model,tmp)
-    clf = OneVsRestClassifier(SVC(kernel='linear'))
-    clf.fit(X,y)
-    train_pred = clf.predict(X)
-    test_pred = clf.predict(newX)
-    print "Training error linear: " + str(accuracy_score(train_pred, y))
-    print "Testing error linear: " + str(accuracy_score(test_pred, newy))
+    #X,y,tmp = construct_labels_matrix(data_model)
+    #newX,newy = construct_test_labels_matrix(data_model,tmp)
+    #clf = OneVsRestClassifier(SVC(kernel='linear'))
+    #clf.fit(X,y)
+    #train_pred = clf.predict(X)
+    #test_pred = clf.predict(newX)
+    #print "Training error linear: " + str(1.0 - accuracy_score(train_pred, y))
+    #print "Testing error linear: " + str(1.0 - accuracy_score(test_pred, newy))
+    #plot_ROC(X,y,newX,newy,clf)
+
 
     X,y,tmp = construct_labels_matrix(data_model)
     newX,newy = construct_test_labels_matrix(data_model,tmp)
-    clf2 = OneVsRestClassifier(SVC(kernel='rbf', gamma=10))
+    clf2 = OneVsRestClassifier(SVC(kernel='rbf'))
     clf2.fit(X,y)
     train_pred = clf2.predict(X)
     test_pred = clf2.predict(newX)
-    print "Training error rbf: " + str(accuracy_score(train_pred, y))
-    print "Testing error rbf: " + str(accuracy_score(test_pred, newy))
-
+    print "Training error rbf: " + str(1.0 - accuracy_score(train_pred, y))
+    print "Testing error rbf: " + str(1.0 - accuracy_score(test_pred, newy))
+    plot_ROC(X,y,newX,newy,clf2)
 
 if __name__ == '__main__':
     main()

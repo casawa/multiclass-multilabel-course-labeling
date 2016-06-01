@@ -5,15 +5,16 @@ import numpy as np
 import util
 import sys
 
-class LinearClassifier(Classifier):
+class LinearPCAClassifier(Classifier):
     """Represents a linear classifier"""
-    def __init__(self, data_model, way):
-        super(LinearClassifier, self).__init__(data_model,way)
+    def __init__(self, data_model, way, n):
+        super(LinearPCAClassifier, self).__init__(data_model,way)
         self.data_model = data_model
         self.way = way
         self.classifier = None
         self.list_of_words = None
         self.tmp = None
+        self.n = n
 
     def train(self):
         """Trains model on data from data_model"""
@@ -28,7 +29,7 @@ class LinearClassifier(Classifier):
         tmp = dict(enumerate(list_of_words))
         self.list_of_words = list_of_words
         self.tmp = tmp
-        X,y = util.convert_to_matrix(data_list,tmp)
+        X,y = util.convert_to_PCA_matrix(data_list,tmp,self.n)
         clf = linear_model.SGDClassifier()
         y =  np.asarray(y).ravel()
         clf.fit(X,y)
@@ -62,7 +63,7 @@ class LinearClassifier(Classifier):
             new_list.append((tuple(description),label))
         X = None
         y = None
-        X,y = util.convert_to_matrix(new_list,self.tmp)
+        X,y = util.convert_to_PCA_matrix(new_list,self.tmp,self.n)
         ypred = self.classifier.predict(X)
         err = 0
         for i in range(len(new_list)):
