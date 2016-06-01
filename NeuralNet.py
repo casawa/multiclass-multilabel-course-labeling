@@ -1,13 +1,13 @@
 from keras.layers import Input, Dense, Flatten
 from keras.models import Model, Sequential
-from keras.layers.recurrent import LSTM
+from keras.layers.recurrent import LSTM, GRU, SimpleRNN
 import numpy as np
 from DataModel import DataModel
 from glove_utils import Glove
 
 OUTPUT_DIM = 40
 EMBED_DIM = 50
-WORD_EMBED = 50
+WORD_EMBED = 300
 NUM_WAYS = 8
 
 def get_max_desc_len(data):
@@ -100,13 +100,43 @@ def load_data():
 
     return training_vecs, training_labels, testing_vecs, testing_labels, max_len
 
-def construct_model(max_len):
+def compute_hamming(predicted, labels):
     """
-    Constructs the neural model.
+    Calculates the hamming error. 
+    """
+    hamming = 0.0
+    for i, row in enumerate(labels):
+        nonzero_labels = []
+        nonzero_preds = []
+        for j, val in enumerate(row):
+            if val != 0:
+                nonzero_labels.append(j)
+
+        for j, val in enumerate(predicted[i]):
+            if val != 0:
+                nonzero_preds.append(j)
+
+        hamming += float(len(set(nonzero_preds).intersection(set(nonzero_labels))))/len(set(nonzero_preds).union(set(nonzero_labels)))
+
+    return hamming/len(predicted)
+            
+#def construct_feed_forward_model():
+#    """
+#    Constructs a feed forward neural net
+#    """
+    
+   
+
+def construct_sequential_model():
+    """
+    Constructs the sequential neural model.
     """
 
     model = Sequential()
-    model.add(LSTM(NUM_WAYS, input_length=max_len, input_dim=WORD_EMBED))
+    #model.add(LSTM(NUM_WAYS, input_length=max_len, input_dim=WORD_EMBED))
+    #model.add(GRU(30, input_length=max_len, input_dim=WORD_EMBED))
+    model.add(SimpleRNN(30, input_dim=WORD_EMBED))
+    model.add(Dense(NUM_WAYS, activation='softmax'))
 
     #inputs = Input(shape=(max_len, WORD_EMBED))
 
@@ -123,14 +153,23 @@ def construct_model(max_len):
 
     return model
 
+
 def main():
     
     training_vecs, training_labels, testing_vecs, testing_labels, max_len = load_data()
-    model = construct_model(max_len)
-    model.fit(training_vecs, training_labels, nb_epoch=30)
-    loss_and_metrics = model.evaluate(testing_vecs, testing_labels)
-    print loss_and_metrics
+    print training_vecs
+    print testing_labels
+    print max_len
+   
+    model = construct_sequential_model()
 
+#    for training_vec, training_label in zip(training_vecs, training_labels):
+#        model.train(training_vec, training_label)
+    model.fit(training_vecs, training_labels, nb_epoch=30)
+#    loss_and_metrics = model.evaluate(testing_vecs, testing_labels)
+#    print loss_and_metrics
+    predicted = model.predict(testing_vecs)
+    print "Hamming Similarity", compute_hamming(predicted, testing_labels)
 
 if __name__ == '__main__':
     main()
