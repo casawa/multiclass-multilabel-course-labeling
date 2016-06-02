@@ -1,0 +1,2044 @@
+Using Theano backend.
+==> loading glove
+==> glove is loaded
+utils.py::create_vector => 10002 is missing
+utils.py::create_vector => 1000480 is missing
+utils.py::create_vector => 100a02 is missing
+utils.py::create_vector => 100engr154 is missing
+utils.py::create_vector => 100level is missing
+utils.py::create_vector => 100member is missing
+utils.py::create_vector => 102a is missing
+utils.py::create_vector => 102b is missing
+utils.py::create_vector => 102engr is missing
+utils.py::create_vector => 103b is missing
+utils.py::create_vector => 105c is missing
+utils.py::create_vector => 105degree is missing
+utils.py::create_vector => 106206 is missing
+utils.py::create_vector => 106a is missing
+utils.py::create_vector => 106b is missing
+utils.py::create_vector => 108a is missing
+utils.py::create_vector => 108b is missing
+utils.py::create_vector => 109a209a is missing
+utils.py::create_vector => 109b209b is missing
+utils.py::create_vector => 10th19th is missing
+utils.py::create_vector => 110b is missing
+utils.py::create_vector => 110c is missing
+utils.py::create_vector => 110y is missing
+utils.py::create_vector => 112212 is missing
+utils.py::create_vector => 113213 is missing
+utils.py::create_vector => 11700 is missing
+utils.py::create_vector => 121a is missing
+utils.py::create_vector => 121b is missing
+utils.py::create_vector => 122b is missing
+utils.py::create_vector => 122m is missing
+utils.py::create_vector => 123pubpol is missing
+utils.py::create_vector => 129b is missing
+utils.py::create_vector => 12r is missing
+utils.py::create_vector => 12thcentury is missing
+utils.py::create_vector => 130a is missing
+utils.py::create_vector => 130c is missing
+utils.py::create_vector => 131p is missing
+utils.py::create_vector => 134a is missing
+utils.py::create_vector => 138a is missing
+utils.py::create_vector => 14001600 is missing
+utils.py::create_vector => 140a is missing
+utils.py::create_vector => 145b is missing
+utils.py::create_vector => 150a is missing
+utils.py::create_vector => 150a355a is missing
+utils.py::create_vector => 150b is missing
+utils.py::create_vector => 150c is missing
+utils.py::create_vector => 151251 is missing
+utils.py::create_vector => 152252 is missing
+utils.py::create_vector => 152w is missing
+utils.py::create_vector => 153253 is missing
+utils.py::create_vector => 154athis is missing
+utils.py::create_vector => 155a is missing
+utils.py::create_vector => 160a is missing
+utils.py::create_vector => 16151868 is missing
+utils.py::create_vector => 164089 is missing
+utils.py::create_vector => 165d is missing
+utils.py::create_vector => 16thcentury is missing
+utils.py::create_vector => 170b is missing
+utils.py::create_vector => 177277 is missing
+utils.py::create_vector => 17991837 is missing
+utils.py::create_vector => 17thcentury is missing
+utils.py::create_vector => 18131837 is missing
+utils.py::create_vector => 181655 is missing
+utils.py::create_vector => 182c is missing
+utils.py::create_vector => 18301840s is missing
+utils.py::create_vector => 185b is missing
+utils.py::create_vector => 186165 is missing
+utils.py::create_vector => 18641918 is missing
+utils.py::create_vector => 1868present is missing
+utils.py::create_vector => 18member is missing
+utils.py::create_vector => 190f is missing
+utils.py::create_vector => 192021 is missing
+utils.py::create_vector => 192065 is missing
+utils.py::create_vector => 1920iquests is missing
+utils.py::create_vector => 192a is missing
+utils.py::create_vector => 19361939 is missing
+utils.py::create_vector => 194b is missing
+utils.py::create_vector => 19591962 is missing
+utils.py::create_vector => 195c is missing
+utils.py::create_vector => 1965present is missing
+utils.py::create_vector => 196669 is missing
+utils.py::create_vector => 196abc is missing
+utils.py::create_vector => 197577 is missing
+utils.py::create_vector => 19thcentury is missing
+utils.py::create_vector => 1d3d is missing
+utils.py::create_vector => 200a is missing
+utils.py::create_vector => 200voice is missing
+utils.py::create_vector => 200word is missing
+utils.py::create_vector => 201314 is missing
+utils.py::create_vector => 2013iquests is missing
+utils.py::create_vector => 20152016 is missing
+utils.py::create_vector => 20162017 is missing
+utils.py::create_vector => 20page is missing
+utils.py::create_vector => 20t is missing
+utils.py::create_vector => 20thcentury is missing
+utils.py::create_vector => 212c is missing
+utils.py::create_vector => 217a is missing
+utils.py::create_vector => 21q is missing
+utils.py::create_vector => 21stcenturies is missing
+utils.py::create_vector => 21stcentury is missing
+utils.py::create_vector => 21stringed is missing
+utils.py::create_vector => 227a is missing
+utils.py::create_vector => 229x is missing
+utils.py::create_vector => 23123 is missing
+utils.py::create_vector => 232t is missing
+utils.py::create_vector => 236sethicsoc is missing
+utils.py::create_vector => 24n is missing
+utils.py::create_vector => 24voice is missing
+utils.py::create_vector => 261h is missing
+utils.py::create_vector => 263h is missing
+utils.py::create_vector => 267b is missing
+utils.py::create_vector => 271a is missing
+utils.py::create_vector => 271b is missing
+utils.py::create_vector => 272h is missing
+utils.py::create_vector => 274h is missing
+utils.py::create_vector => 277d is missing
+utils.py::create_vector => 277h is missing
+utils.py::create_vector => 277s is missing
+utils.py::create_vector => 279h is missing
+utils.py::create_vector => 285h is missing
+utils.py::create_vector => 2oc is missing
+utils.py::create_vector => 31ab is missing
+utils.py::create_vector => 31q is missing
+utils.py::create_vector => 31x is missing
+utils.py::create_vector => 323h is missing
+utils.py::create_vector => 330605 is missing
+utils.py::create_vector => 354430 is missing
+utils.py::create_vector => 36of is missing
+utils.py::create_vector => 3there is missing
+utils.py::create_vector => 400000 is missing
+utils.py::create_vector => 430550pm is missing
+utils.py::create_vector => 43143 is missing
+utils.py::create_vector => 44y is missing
+utils.py::create_vector => 45b is missing
+utils.py::create_vector => 480460 is missing
+utils.py::create_vector => 4950 is missing
+utils.py::create_vector => 4th15th is missing
+utils.py::create_vector => 4unit is missing
+utils.py::create_vector => 5001000 is missing
+utils.py::create_vector => 50h is missing
+utils.py::create_vector => 50member is missing
+utils.py::create_vector => 50voice is missing
+utils.py::create_vector => 51102b is missing
+utils.py::create_vector => 51h is missing
+utils.py::create_vector => 52h is missing
+utils.py::create_vector => 5page is missing
+utils.py::create_vector => 6001500 is missing
+utils.py::create_vector => 70q is missing
+utils.py::create_vector => 74a1level is missing
+utils.py::create_vector => 74a2level is missing
+utils.py::create_vector => 750000 is missing
+utils.py::create_vector => 82c is missing
+utils.py::create_vector => 94a is missing
+utils.py::create_vector => 94b is missing
+utils.py::create_vector => 95c is missing
+utils.py::create_vector => aacutelvaro is missing
+utils.py::create_vector => abcdnp is missing
+utils.py::create_vector => abdelkebir is missing
+utils.py::create_vector => aboutdiscuss is missing
+utils.py::create_vector => abovethis is missing
+utils.py::create_vector => abstractionnnthis is missing
+utils.py::create_vector => achillesiquest is missing
+utils.py::create_vector => acirc is missing
+utils.py::create_vector => actionadventure is missing
+utils.py::create_vector => actional is missing
+utils.py::create_vector => actionangle is missing
+utils.py::create_vector => actioniquest is missing
+utils.py::create_vector => activitynprerequisites is missing
+utils.py::create_vector => actordirector is missing
+utils.py::create_vector => actualism is missing
+utils.py::create_vector => actup is missing
+utils.py::create_vector => acuitymusicality is missing
+utils.py::create_vector => addictionsiquestboth is missing
+utils.py::create_vector => addins is missing
+utils.py::create_vector => adimi is missing
+utils.py::create_vector => adventurequot is missing
+utils.py::create_vector => aestheticstylistic is missing
+utils.py::create_vector => africaam is missing
+utils.py::create_vector => africaiquests is missing
+utils.py::create_vector => africanamerican is missing
+utils.py::create_vector => africanamericans is missing
+utils.py::create_vector => africancaribbean is missing
+utils.py::create_vector => afrocaribbean is missing
+utils.py::create_vector => afrohispanic is missing
+utils.py::create_vector => afropessimism is missing
+utils.py::create_vector => afropolitanism is missing
+utils.py::create_vector => agehave is missing
+utils.py::create_vector => ageold is missing
+utils.py::create_vector => agesiquest is missing
+utils.py::create_vector => agoiquest is missing
+utils.py::create_vector => aimeacute is missing
+utils.py::create_vector => airsea is missing
+utils.py::create_vector => aketleystanfordedu is missing
+utils.py::create_vector => alandalus is missing
+utils.py::create_vector => alarabicirc is missing
+utils.py::create_vector => aldicircn is missing
+utils.py::create_vector => aleramos is missing
+utils.py::create_vector => alevel is missing
+utils.py::create_vector => alienationreconciliation is missing
+utils.py::create_vector => aljahiz is missing
+utils.py::create_vector => allocationquot is missing
+utils.py::create_vector => alloriginal is missing
+utils.py::create_vector => almodoacutevar is missing
+utils.py::create_vector => almodoacutevars is missing
+utils.py::create_vector => alqaida is missing
+utils.py::create_vector => alrightquot is missing
+utils.py::create_vector => ameacuterico is missing
+utils.py::create_vector => americanborn is missing
+utils.py::create_vector => amstud is missing
+utils.py::create_vector => analogdigital is missing
+utils.py::create_vector => analogiquesttoiquestdigital is missing
+utils.py::create_vector => ancientnbsppastoral is missing
+utils.py::create_vector => andiquestfor is missing
+utils.py::create_vector => andnenglish is missing
+utils.py::create_vector => andnrevise is missing
+utils.py::create_vector => andnsociocultural is missing
+utils.py::create_vector => animalattached is missing
+utils.py::create_vector => answersbased is missing
+utils.py::create_vector => antialiasing is missing
+utils.py::create_vector => antifootbinding is missing
+utils.py::create_vector => antiforeign is missing
+utils.py::create_vector => antiglobilization is missing
+utils.py::create_vector => antijewish is missing
+utils.py::create_vector => antilynching is missing
+utils.py::create_vector => antiobject is missing
+utils.py::create_vector => antipsychiatryand is missing
+utils.py::create_vector => antislave is missing
+utils.py::create_vector => antisoviet is missing
+utils.py::create_vector => anzalduacutea is missing
+utils.py::create_vector => anzalduacuteas is missing
+utils.py::create_vector => aotearoanew is missing
+utils.py::create_vector => applyiquestgenocide is missing
+utils.py::create_vector => archaeobotanical is missing
+utils.py::create_vector => archaeobotany is missing
+utils.py::create_vector => archaeologies is missing
+utils.py::create_vector => archaeologyiquests is missing
+utils.py::create_vector => architeccts is missing
+utils.py::create_vector => archivallybased is missing
+utils.py::create_vector => areageology is missing
+utils.py::create_vector => arendts is missing
+utils.py::create_vector => arennthe is missing
+utils.py::create_vector => arequot is missing
+utils.py::create_vector => arewere is missing
+utils.py::create_vector => aristotles is missing
+utils.py::create_vector => aroundquot is missing
+utils.py::create_vector => arthist is missing
+utils.py::create_vector => articlesiquestmainly is missing
+utils.py::create_vector => artisticnresponses is missing
+utils.py::create_vector => artistinresidence is missing
+utils.py::create_vector => artistiquests is missing
+utils.py::create_vector => artistpoet is missing
+utils.py::create_vector => artistsiquest is missing
+utils.py::create_vector => artistsquot is missing
+utils.py::create_vector => artmaking is missing
+utils.py::create_vector => artquot is missing
+utils.py::create_vector => artsfrom is missing
+utils.py::create_vector => artsnnnduring is missing
+utils.py::create_vector => artsquot is missing
+utils.py::create_vector => artstudi is missing
+utils.py::create_vector => artworksnnthis is missing
+utils.py::create_vector => ashburnhamensis is missing
+utils.py::create_vector => asiaiquestindia is missing
+utils.py::create_vector => asiaiquests is missing
+utils.py::create_vector => asiapacific is missing
+utils.py::create_vector => asiauspacific is missing
+utils.py::create_vector => assignmentsprojects is missing
+utils.py::create_vector => athttpsoestanfordeducurrentstudentsedpprogramsacehtml is missing
+utils.py::create_vector => atmosphereocean is missing
+utils.py::create_vector => atomicscale is missing
+utils.py::create_vector => atomlight is missing
+utils.py::create_vector => attitudequot is missing
+utils.py::create_vector => audiencenna is missing
+utils.py::create_vector => audiencesnstudents is missing
+utils.py::create_vector => auditiory is missing
+utils.py::create_vector => augustannbspliterarynbsphistory is missing
+utils.py::create_vector => augustineiquests is missing
+utils.py::create_vector => austrohungarian is missing
+utils.py::create_vector => authorityand is missing
+utils.py::create_vector => authorsand is missing
+utils.py::create_vector => autoethnographies is missing
+utils.py::create_vector => autresquot is missing
+utils.py::create_vector => avantgardes is missing
+utils.py::create_vector => awardwinning is missing
+utils.py::create_vector => awliyacirc is missing
+utils.py::create_vector => aztlaacuten is missing
+utils.py::create_vector => bazins is missing
+utils.py::create_vector => beacutecquer is missing
+utils.py::create_vector => beautyiquest is missing
+utils.py::create_vector => beautyquot is missing
+utils.py::create_vector => beckettiquests is missing
+utils.py::create_vector => becquer is missing
+utils.py::create_vector => beethoveniquests is missing
+utils.py::create_vector => beginneriquests is missing
+utils.py::create_vector => beingsnbsp is missing
+utils.py::create_vector => beliefsnbsp is missing
+utils.py::create_vector => bellatin is missing
+utils.py::create_vector => benefitcost is missing
+utils.py::create_vector => benitezrojo is missing
+utils.py::create_vector => benthams is missing
+utils.py::create_vector => betweennhistory is missing
+utils.py::create_vector => bhagavadgita is missing
+utils.py::create_vector => bierds is missing
+utils.py::create_vector => biocore is missing
+utils.py::create_vector => bioe is missing
+utils.py::create_vector => bioe103 is missing
+utils.py::create_vector => bioe103b is missing
+utils.py::create_vector => biohopk is missing
+utils.py::create_vector => biologging is missing
+utils.py::create_vector => biopotential is missing
+utils.py::create_vector => biosignals is missing
+utils.py::create_vector => biotsavarts is missing
+utils.py::create_vector => biox is missing
+utils.py::create_vector => bismarcks is missing
+utils.py::create_vector => blazzaristanfordedu is missing
+utils.py::create_vector => blevel is missing
+utils.py::create_vector => blowsquot is missing
+utils.py::create_vector => boccaccios is missing
+utils.py::create_vector => bohmian is missing
+utils.py::create_vector => bolantildeo is missing
+utils.py::create_vector => boliacutevar is missing
+utils.py::create_vector => bookquot is missing
+utils.py::create_vector => booksnlimited is missing
+utils.py::create_vector => borgess is missing
+utils.py::create_vector => bospbeijing is missing
+utils.py::create_vector => bottomquot is missing
+utils.py::create_vector => boundaryi is missing
+utils.py::create_vector => boundaryvalue is missing
+utils.py::create_vector => boxquot is missing
+utils.py::create_vector => brandatildeo is missing
+utils.py::create_vector => brdf is missing
+utils.py::create_vector => brechts is missing
+utils.py::create_vector => brentons is missing
+utils.py::create_vector => britain16401700 is missing
+utils.py::create_vector => broadlyiquestand is missing
+utils.py::create_vector => brodskyiquests is missing
+utils.py::create_vector => businessquot is missing
+utils.py::create_vector => buumlchner is missing
+utils.py::create_vector => byzantiumquot is missing
+utils.py::create_vector => ca800 is missing
+utils.py::create_vector => caerquot is missing
+utils.py::create_vector => caffreys is missing
+utils.py::create_vector => calculusbased is missing
+utils.py::create_vector => calderoacuten is missing
+utils.py::create_vector => californiaprimarily is missing
+utils.py::create_vector => calvinoiquests is missing
+utils.py::create_vector => calvinos is missing
+utils.py::create_vector => cancioacuten is missing
+utils.py::create_vector => cantoi is missing
+utils.py::create_vector => cartierbresson is missing
+utils.py::create_vector => casanegra is missing
+utils.py::create_vector => casestudy is missing
+utils.py::create_vector => casmurro is missing
+utils.py::create_vector => catch22 is missing
+utils.py::create_vector => catholicismprotestantism is missing
+utils.py::create_vector => ccrma is missing
+utils.py::create_vector => cddrl is missing
+utils.py::create_vector => ceacuteline is missing
+utils.py::create_vector => ceacutesaire is missing
+utils.py::create_vector => ceacutesar is missing
+utils.py::create_vector => cellcell is missing
+utils.py::create_vector => centrury is missing
+utils.py::create_vector => centuriesespecially is missing
+utils.py::create_vector => centuryiquests is missing
+utils.py::create_vector => cervantess is missing
+utils.py::create_vector => chaacutevez is missing
+utils.py::create_vector => chabros is missing
+utils.py::create_vector => changeproved is missing
+utils.py::create_vector => changrae is missing
+utils.py::create_vector => chariotracing is missing
+utils.py::create_vector => chashitsu is missing
+utils.py::create_vector => chaudhuris is missing
+utils.py::create_vector => chinafocused is missing
+utils.py::create_vector => chinaiquests is missing
+utils.py::create_vector => chisquare is missing
+utils.py::create_vector => chisquared is missing
+utils.py::create_vector => chitliniquest is missing
+utils.py::create_vector => choralorchestral is missing
+utils.py::create_vector => chosocircn is missing
+utils.py::create_vector => chosocircndynasty is missing
+utils.py::create_vector => chreacutetien is missing
+utils.py::create_vector => christianities is missing
+utils.py::create_vector => christianityiquests is missing
+utils.py::create_vector => christianitynbsp is missing
+utils.py::create_vector => christianmuslim is missing
+utils.py::create_vector => cityiquests is missing
+utils.py::create_vector => cityquot is missing
+utils.py::create_vector => citystates is missing
+utils.py::create_vector => civicsbased is missing
+utils.py::create_vector => civilizingiquest is missing
+utils.py::create_vector => civilmilitary is missing
+utils.py::create_vector => clariacuten is missing
+utils.py::create_vector => classanalysis is missing
+utils.py::create_vector => classart is missing
+utils.py::create_vector => classgen is missing
+utils.py::create_vector => classhis is missing
+utils.py::create_vector => classicaltoquantum is missing
+utils.py::create_vector => classlat is missing
+utils.py::create_vector => classnnplease is missing
+utils.py::create_vector => classroomand is missing
+utils.py::create_vector => cleacutement is missing
+utils.py::create_vector => cleansingquot is missing
+utils.py::create_vector => clevel is missing
+utils.py::create_vector => clinicalcase is missing
+utils.py::create_vector => clsoe is missing
+utils.py::create_vector => cme100 is missing
+utils.py::create_vector => cme100engr154 is missing
+utils.py::create_vector => cme102 is missing
+utils.py::create_vector => cme102engr155a is missing
+utils.py::create_vector => cme104engr155b is missing
+utils.py::create_vector => coachings is missing
+utils.py::create_vector => coalfired is missing
+utils.py::create_vector => coetzees is missing
+utils.py::create_vector => coldplays is missing
+utils.py::create_vector => colead is missing
+utils.py::create_vector => collectionsbased is missing
+utils.py::create_vector => comedyi is missing
+utils.py::create_vector => comingofage is missing
+utils.py::create_vector => communicationnnthe is missing
+utils.py::create_vector => communicationsmarketing is missing
+utils.py::create_vector => communistinduced is missing
+utils.py::create_vector => communitybased is missing
+utils.py::create_vector => communityiquestthere is missing
+utils.py::create_vector => complexified is missing
+utils.py::create_vector => complexityiquest is missing
+utils.py::create_vector => comptuer is missing
+utils.py::create_vector => computablequot is missing
+utils.py::create_vector => computeraided is missing
+utils.py::create_vector => computerassisted is missing
+utils.py::create_vector => computerbased is missing
+utils.py::create_vector => computergenerated is missing
+utils.py::create_vector => computermediated is missing
+utils.py::create_vector => computerrelated is missing
+utils.py::create_vector => comtessa is missing
+utils.py::create_vector => concernsiquesttoday is missing
+utils.py::create_vector => concregravete is missing
+utils.py::create_vector => condeacute is missing
+utils.py::create_vector => confusionneach is missing
+utils.py::create_vector => congressiquests is missing
+utils.py::create_vector => congshen is missing
+utils.py::create_vector => conservatisms is missing
+utils.py::create_vector => constitutionmaking is missing
+utils.py::create_vector => consttruction is missing
+utils.py::create_vector => consumerbased is missing
+utils.py::create_vector => contentsquot is missing
+utils.py::create_vector => contestediquestby is missing
+utils.py::create_vector => continuousdiscretetime is missing
+utils.py::create_vector => contourns is missing
+utils.py::create_vector => contractualist is missing
+utils.py::create_vector => conundrumquot is missing
+utils.py::create_vector => coregistration is missing
+utils.py::create_vector => corequisite is missing
+utils.py::create_vector => corequisites is missing
+utils.py::create_vector => corporationiquests is missing
+utils.py::create_vector => cortaacutezar is missing
+utils.py::create_vector => cosmicomics is missing
+utils.py::create_vector => costbenefit is missing
+utils.py::create_vector => costbenefitrisk is missing
+utils.py::create_vector => cotaught is missing
+utils.py::create_vector => coterm is missing
+utils.py::create_vector => coterminal is missing
+utils.py::create_vector => coterms is missing
+utils.py::create_vector => coulombiquests is missing
+utils.py::create_vector => counterchronological is missing
+utils.py::create_vector => countrieswhose is missing
+utils.py::create_vector => countryi is missing
+utils.py::create_vector => creativedesign is missing
+utils.py::create_vector => creees is missing
+utils.py::create_vector => crichtons is missing
+utils.py::create_vector => crimina is missing
+utils.py::create_vector => critiquesnprerequisites is missing
+utils.py::create_vector => crosscultural is missing
+utils.py::create_vector => crossculturally is missing
+utils.py::create_vector => crossculturalnphenomena is missing
+utils.py::create_vector => crossdisciplinary is missing
+utils.py::create_vector => crosslisted is missing
+utils.py::create_vector => crossnational is missing
+utils.py::create_vector => crosspollination is missing
+utils.py::create_vector => crosssection is missing
+utils.py::create_vector => crosssectional is missing
+utils.py::create_vector => crosssections is missing
+utils.py::create_vector => crossstep is missing
+utils.py::create_vector => crossvalidation is missing
+utils.py::create_vector => crse is missing
+utils.py::create_vector => cs106a is missing
+utils.py::create_vector => cs107 is missing
+utils.py::create_vector => csre is missing
+utils.py::create_vector => culturesquot is missing
+utils.py::create_vector => cunninghambased is missing
+utils.py::create_vector => curtainquot is missing
+utils.py::create_vector => cutoutcollage is missing
+utils.py::create_vector => cuttingedge is missing
+utils.py::create_vector => cyberspaces is missing
+utils.py::create_vector => dafnazurstanfordedunknight is missing
+utils.py::create_vector => daliacute is missing
+utils.py::create_vector => danceiquestthrough is missing
+utils.py::create_vector => dancermaster is missing
+utils.py::create_vector => dangaremgba is missing
+utils.py::create_vector => danteiquests is missing
+utils.py::create_vector => dariacuteo is missing
+utils.py::create_vector => darishyo is missing
+utils.py::create_vector => darwall is missing
+utils.py::create_vector => datadirected is missing
+utils.py::create_vector => datadriven is missing
+utils.py::create_vector => datahas is missing
+utils.py::create_vector => daubigneacute is missing
+utils.py::create_vector => dbnatsci is missing
+utils.py::create_vector => debatenwe is missing
+utils.py::create_vector => debatesiquestat is missing
+utils.py::create_vector => decadentism is missing
+utils.py::create_vector => decadesnin is missing
+utils.py::create_vector => deducer is missing
+utils.py::create_vector => deepearth is missing
+utils.py::create_vector => deepestheld is missing
+utils.py::create_vector => definability is missing
+utils.py::create_vector => deformational is missing
+utils.py::create_vector => democracyiquests is missing
+utils.py::create_vector => demystifiedquot is missing
+utils.py::create_vector => departmentiquests is missing
+utils.py::create_vector => depoliticization is missing
+utils.py::create_vector => designplasticity is missing
+utils.py::create_vector => designquot is missing
+utils.py::create_vector => designrealization is missing
+utils.py::create_vector => digitalphysical is missing
+utils.py::create_vector => digitalsignalprocessorbased is missing
+utils.py::create_vector => diquestarthurei is missing
+utils.py::create_vector => disasterprone is missing
+utils.py::create_vector => disciplinarity is missing
+utils.py::create_vector => disciplineiquests is missing
+utils.py::create_vector => disciplinespecific is missing
+utils.py::create_vector => discoverybased is missing
+utils.py::create_vector => discretetime is missing
+utils.py::create_vector => discussionbased is missing
+utils.py::create_vector => discusthrower is missing
+utils.py::create_vector => diseaseassociated is missing
+utils.py::create_vector => divideandconquer is missing
+utils.py::create_vector => dlcl is missing
+utils.py::create_vector => doeblin is missing
+utils.py::create_vector => doiquest is missing
+utils.py::create_vector => dolliquests is missing
+utils.py::create_vector => doniquestt is missing
+utils.py::create_vector => doquot is missing
+utils.py::create_vector => dramaiquest is missing
+utils.py::create_vector => dramaturgically is missing
+utils.py::create_vector => dramaturgs is missing
+utils.py::create_vector => drexlers is missing
+utils.py::create_vector => droughtridden is missing
+utils.py::create_vector => drumsetquot is missing
+utils.py::create_vector => dureacutee is missing
+utils.py::create_vector => eand is missing
+utils.py::create_vector => earthiquests is missing
+utils.py::create_vector => eartraining is missing
+utils.py::create_vector => easytouse is missing
+utils.py::create_vector => ecclestias is missing
+utils.py::create_vector => ecomechanics is missing
+utils.py::create_vector => ecosystembased is missing
+utils.py::create_vector => edisons is missing
+utils.py::create_vector => editorinchief is missing
+utils.py::create_vector => ee101a is missing
+utils.py::create_vector => ee102a is missing
+utils.py::create_vector => ee108 is missing
+utils.py::create_vector => ee122a is missing
+utils.py::create_vector => ee122b is missing
+utils.py::create_vector => eess is missing
+utils.py::create_vector => eessearthsys is missing
+utils.py::create_vector => efficiencycost is missing
+utils.py::create_vector => egyptomania is missing
+utils.py::create_vector => eigensystem is missing
+utils.py::create_vector => eighteenthcentury is missing
+utils.py::create_vector => eighteenyearolds is missing
+utils.py::create_vector => einsteinpodolskyrosen is missing
+utils.py::create_vector => elektronische is missing
+utils.py::create_vector => eltit is missing
+utils.py::create_vector => empirics is missing
+utils.py::create_vector => endofthe is missing
+utils.py::create_vector => englishnnclass is missing
+utils.py::create_vector => engr40 is missing
+utils.py::create_vector => engr40m is missing
+utils.py::create_vector => engrosses is missing
+utils.py::create_vector => enlightenmentnprerequisites is missing
+utils.py::create_vector => ensembleinresidence is missing
+utils.py::create_vector => entertainmentanimated is missing
+utils.py::create_vector => entrylevel is missing
+utils.py::create_vector => environmentsustainability is missing
+utils.py::create_vector => episodesthe is missing
+utils.py::create_vector => epochdefining is missing
+utils.py::create_vector => eprtype is missing
+utils.py::create_vector => equationsnsolution is missing
+utils.py::create_vector => equianos is missing
+utils.py::create_vector => equivalen is missing
+utils.py::create_vector => eroticsexual is missing
+utils.py::create_vector => essaywriting is missing
+utils.py::create_vector => esterhaacutezy is missing
+utils.py::create_vector => etciquestpersist is missing
+utils.py::create_vector => ethnicracial is missing
+utils.py::create_vector => ethnohistorical is missing
+utils.py::create_vector => eulerlagrange is missing
+utils.py::create_vector => euroamerica is missing
+utils.py::create_vector => euroamerican is missing
+utils.py::create_vector => europeiquest is missing
+utils.py::create_vector => europennthe is missing
+utils.py::create_vector => europequot is missing
+utils.py::create_vector => eventsn is missing
+utils.py::create_vector => everchanging is missing
+utils.py::create_vector => everettiquests is missing
+utils.py::create_vector => everexpanding is missing
+utils.py::create_vector => everpopular is missing
+utils.py::create_vector => evershifting is missing
+utils.py::create_vector => everythings is missing
+utils.py::create_vector => everywherestudios is missing
+utils.py::create_vector => evilquot is missing
+utils.py::create_vector => examinationon is missing
+utils.py::create_vector => exchangerateregime is missing
+utils.py::create_vector => excludedn is missing
+utils.py::create_vector => exercisesprerequisite is missing
+utils.py::create_vector => expressioniquestsounds is missing
+utils.py::create_vector => facesaving is missing
+utils.py::create_vector => factbased is missing
+utils.py::create_vector => familiarizes is missing
+utils.py::create_vector => familynnstudents is missing
+utils.py::create_vector => faradayiquests is missing
+utils.py::create_vector => fardsquot is missing
+utils.py::create_vector => fashionminded is missing
+utils.py::create_vector => fastmoving is missing
+utils.py::create_vector => faureacute is missing
+utils.py::create_vector => faustusiquest is missing
+utils.py::create_vector => fcpx is missing
+utils.py::create_vector => feldshuhs is missing
+utils.py::create_vector => fellous is missing
+utils.py::create_vector => femgen is missing
+utils.py::create_vector => femininitymasculinity is missing
+utils.py::create_vector => feminities is missing
+utils.py::create_vector => festivalquestions is missing
+utils.py::create_vector => fgss is missing
+utils.py::create_vector => fibersand is missing
+utils.py::create_vector => fieldbased is missing
+utils.py::create_vector => fieldexperiments is missing
+utils.py::create_vector => fieldings is missing
+utils.py::create_vector => filmprod is missing
+utils.py::create_vector => filmstud is missing
+utils.py::create_vector => fiquests is missing
+utils.py::create_vector => firstorder is missing
+utils.py::create_vector => firstperson is missing
+utils.py::create_vector => firstyear is missing
+utils.py::create_vector => fivechapters is missing
+utils.py::create_vector => flacircne is missing
+utils.py::create_vector => flacircneur is missing
+utils.py::create_vector => flavorsiquestaustere is missing
+utils.py::create_vector => floatingpoint is missing
+utils.py::create_vector => florences is missing
+utils.py::create_vector => fluiddynamic is missing
+utils.py::create_vector => fogelin is missing
+utils.py::create_vector => formsiquestfrom is missing
+utils.py::create_vector => forprofit is missing
+utils.py::create_vector => fourday is missing
+utils.py::create_vector => fp101 is missing
+utils.py::create_vector => fp104 is missing
+utils.py::create_vector => framebyframe is missing
+utils.py::create_vector => frameliterature is missing
+utils.py::create_vector => franccedilaise is missing
+utils.py::create_vector => franceiquests is missing
+utils.py::create_vector => francoamerican is missing
+utils.py::create_vector => frayns is missing
+utils.py::create_vector => freebody is missing
+utils.py::create_vector => frenchspeaking is missing
+utils.py::create_vector => frenlang is missing
+utils.py::create_vector => frequencydomain is missing
+utils.py::create_vector => freshmanlevel is missing
+utils.py::create_vector => freshmenbeyond is missing
+utils.py::create_vector => freshmenthis is missing
+utils.py::create_vector => fromnnnwater is missing
+utils.py::create_vector => ftests is missing
+utils.py::create_vector => fugardkanintshona is missing
+utils.py::create_vector => fulllength is missing
+utils.py::create_vector => fumiyo is missing
+utils.py::create_vector => futabatei is missing
+utils.py::create_vector => futureiquestdevelopment is missing
+utils.py::create_vector => futurequot is missing
+utils.py::create_vector => galicianportuguese is missing
+utils.py::create_vector => garciacutea is missing
+utils.py::create_vector => garciacuteshya is missing
+utils.py::create_vector => gatlato is missing
+utils.py::create_vector => gauchet is missing
+utils.py::create_vector => gaussiquests is missing
+utils.py::create_vector => gehrigs is missing
+utils.py::create_vector => genderbending is missing
+utils.py::create_vector => gendering is missing
+utils.py::create_vector => genderspeak is missing
+utils.py::create_vector => genebased is missing
+utils.py::create_vector => genrespecific is missing
+utils.py::create_vector => geoeconomic is missing
+utils.py::create_vector => geographys is missing
+utils.py::create_vector => geohazards is missing
+utils.py::create_vector => geophys is missing
+utils.py::create_vector => gerdbsocsci is missing
+utils.py::create_vector => gerlang is missing
+utils.py::create_vector => germanlanguage is missing
+utils.py::create_vector => germanmeets is missing
+utils.py::create_vector => germanquot is missing
+utils.py::create_vector => germanyiquests is missing
+utils.py::create_vector => gfw is missing
+utils.py::create_vector => ghataks is missing
+utils.py::create_vector => giftsthe is missing
+utils.py::create_vector => girondo is missing
+utils.py::create_vector => glissant is missing
+utils.py::create_vector => globaliquestpostworld is missing
+utils.py::create_vector => globalscale is missing
+utils.py::create_vector => goacutemez is missing
+utils.py::create_vector => godards is missing
+utils.py::create_vector => godotiquest is missing
+utils.py::create_vector => godsquot is missing
+utils.py::create_vector => gogarten is missing
+utils.py::create_vector => gogols is missing
+utils.py::create_vector => goldbarth is missing
+utils.py::create_vector => goldbegr is missing
+utils.py::create_vector => goodnessnbsp is missing
+utils.py::create_vector => goodnessoffit is missing
+utils.py::create_vector => googleiquest is missing
+utils.py::create_vector => goumldels is missing
+utils.py::create_vector => graciliano is missing
+utils.py::create_vector => graecoroman is missing
+utils.py::create_vector => grandparentsiquest is missing
+utils.py::create_vector => grecoroman is missing
+utils.py::create_vector => greeksiquest is missing
+utils.py::create_vector => greeniquests is missing
+utils.py::create_vector => grices is missing
+utils.py::create_vector => groundquot is missing
+utils.py::create_vector => guelf is missing
+utils.py::create_vector => guimaratildees is missing
+utils.py::create_vector => haendels is missing
+utils.py::create_vector => hallacircj is missing
+utils.py::create_vector => hamiltonjacobi is missing
+utils.py::create_vector => handsiqueston is missing
+utils.py::create_vector => handsquot is missing
+utils.py::create_vector => handwrought is missing
+utils.py::create_vector => hangucircl is missing
+utils.py::create_vector => happenedin is missing
+utils.py::create_vector => happilynbsp is missing
+utils.py::create_vector => hardwon is missing
+utils.py::create_vector => harmonizations is missing
+utils.py::create_vector => hasiquestwith is missing
+utils.py::create_vector => hausmarchen is missing
+utils.py::create_vector => haveniquestt is missing
+utils.py::create_vector => hbrooksstanfordedu is missing
+utils.py::create_vector => healthrelated is missing
+utils.py::create_vector => heatbudget is missing
+utils.py::create_vector => hebdige is missing
+utils.py::create_vector => hegels is missing
+utils.py::create_vector => heideggers is missing
+utils.py::create_vector => heterochrony is missing
+utils.py::create_vector => heterosexualityhomosexuality is missing
+utils.py::create_vector => higherlevel is missing
+utils.py::create_vector => higherngraduate is missing
+utils.py::create_vector => hightechnology is missing
+utils.py::create_vector => hightemperature is missing
+utils.py::create_vector => highthroughput is missing
+utils.py::create_vector => hillslope is missing
+utils.py::create_vector => hisher is missing
+utils.py::create_vector => historiansiquest is missing
+utils.py::create_vector => historicalcultural is missing
+utils.py::create_vector => historicalpolitical is missing
+utils.py::create_vector => historicismquot is missing
+utils.py::create_vector => historicization is missing
+utils.py::create_vector => history170 is missing
+utils.py::create_vector => history297f is missing
+utils.py::create_vector => history70a is missing
+utils.py::create_vector => historyfrom is missing
+utils.py::create_vector => historys is missing
+utils.py::create_vector => hivaids is missing
+utils.py::create_vector => hocirctel is missing
+utils.py::create_vector => holderlin is missing
+utils.py::create_vector => homeknowledges is missing
+utils.py::create_vector => homeriquests is missing
+utils.py::create_vector => homiles is missing
+utils.py::create_vector => honoreacute is missing
+utils.py::create_vector => hourquot is missing
+utils.py::create_vector => hsiaohsien is missing
+utils.py::create_vector => httpartsstanfordedu is missing
+utils.py::create_vector => httpbiochem118stanfordedu is missing
+utils.py::create_vector => httpccrmastanfordeducourses is missing
+utils.py::create_vector => httpmath101stanfordedu is missing
+utils.py::create_vector => httpmusicstanfordedu is missing
+utils.py::create_vector => httpmusicstanfordeduacademicslessonsignupshtml is missing
+utils.py::create_vector => httpsocostanfordedu is missing
+utils.py::create_vector => httpssostanfordedu is missing
+utils.py::create_vector => httpsstanfordboxcomstpwwqpl2ryxfty6stq8wo2j78fj06ikg is missing
+utils.py::create_vector => httpsundergradstanfordeduprogramspwrcoursesadvancedpwrcourses is missing
+utils.py::create_vector => httpsundergradstanfordeduprogramspwrexplorenotationsciencewriting is missing
+utils.py::create_vector => httpwwwarduinocc is missing
+utils.py::create_vector => httpwwwstanfordedudeptundergradcgibindrupalpwradvancedpwr is missing
+utils.py::create_vector => httpwwwstanfordedugroupssocgibinwordpressmemberlogin is missing
+utils.py::create_vector => hubmeier is missing
+utils.py::create_vector => humanenvironment is missing
+utils.py::create_vector => humanismquot is missing
+utils.py::create_vector => humanityquot is missing
+utils.py::create_vector => humanitys is missing
+utils.py::create_vector => humankinds is missing
+utils.py::create_vector => humannaturetechnology is missing
+utils.py::create_vector => humanobject is missing
+utils.py::create_vector => humanrelated is missing
+utils.py::create_vector => humbio is missing
+utils.py::create_vector => huntergatherer is missing
+utils.py::create_vector => hyperprotestant is missing
+utils.py::create_vector => hyperthermal is missing
+utils.py::create_vector => hysterias is missing
+utils.py::create_vector => iaeneidi is missing
+utils.py::create_vector => iantigonei is missing
+utils.py::create_vector => ibeyond is missing
+utils.py::create_vector => ibseniquests is missing
+utils.py::create_vector => ichanges is missing
+utils.py::create_vector => ichiyocircs is missing
+utils.py::create_vector => icold is missing
+utils.py::create_vector => icommediai is missing
+utils.py::create_vector => icry is missing
+utils.py::create_vector => icsii is missing
+utils.py::create_vector => idealsnbsp is missing
+utils.py::create_vector => idear is missing
+utils.py::create_vector => ideasnbsp is missing
+utils.py::create_vector => identificationiquest is missing
+utils.py::create_vector => idisgracei is missing
+utils.py::create_vector => idivine is missing
+utils.py::create_vector => idraculai is missing
+utils.py::create_vector => iessaysi is missing
+utils.py::create_vector => ifaerie is missing
+utils.py::create_vector => iflor is missing
+utils.py::create_vector => igoodbye is missing
+utils.py::create_vector => ihaltungi is missing
+utils.py::create_vector => ihamletias is missing
+utils.py::create_vector => ihimaeras is missing
+utils.py::create_vector => iidylls is missing
+utils.py::create_vector => iinart is missing
+utils.py::create_vector => iinfernoi is missing
+utils.py::create_vector => iinstitutes is missing
+utils.py::create_vector => iivanhoei is missing
+utils.py::create_vector => ijonathan is missing
+utils.py::create_vector => ikoumlrperkultur is missing
+utils.py::create_vector => ilais is missing
+utils.py::create_vector => illiquestcreated is missing
+utils.py::create_vector => ilolitaimodern is missing
+utils.py::create_vector => imaginaries is missing
+utils.py::create_vector => imaginationnnthis is missing
+utils.py::create_vector => imaginery is missing
+utils.py::create_vector => imamyar is missing
+utils.py::create_vector => imanierai is missing
+utils.py::create_vector => immersionquot is missing
+utils.py::create_vector => immunodeficient is missing
+utils.py::create_vector => imorte is missing
+utils.py::create_vector => imperialsm is missing
+utils.py::create_vector => improvisersiquest is missing
+utils.py::create_vector => inclass is missing
+utils.py::create_vector => includeshifting is missing
+utils.py::create_vector => independentlynprerequisites is missing
+utils.py::create_vector => indiani is missing
+utils.py::create_vector => indigeneity is missing
+utils.py::create_vector => indigenismo is missing
+utils.py::create_vector => individualcollectivity is missing
+utils.py::create_vector => individualiquests is missing
+utils.py::create_vector => individualsiquest is missing
+utils.py::create_vector => indoeuropean is missing
+utils.py::create_vector => indomuslim is missing
+utils.py::create_vector => industrystandard is missing
+utils.py::create_vector => inever is missing
+utils.py::create_vector => informationclass is missing
+utils.py::create_vector => inncomparative is missing
+utils.py::create_vector => inperson is missing
+utils.py::create_vector => inputoutput is missing
+utils.py::create_vector => instructoriquests is missing
+utils.py::create_vector => instructornnote is missing
+utils.py::create_vector => instrumentalization is missing
+utils.py::create_vector => instrumentalizing is missing
+utils.py::create_vector => intelligenceiquest is missing
+utils.py::create_vector => interculturalism is missing
+utils.py::create_vector => intermediateadvanced is missing
+utils.py::create_vector => internationalurbanizationorg is missing
+utils.py::create_vector => internshipstyle is missing
+utils.py::create_vector => intnlrel is missing
+utils.py::create_vector => intonational is missing
+utils.py::create_vector => investigationi is missing
+utils.py::create_vector => iquest is missing
+utils.py::create_vector => iquestamericaniquest is missing
+utils.py::create_vector => iquestartfullyiquest is missing
+utils.py::create_vector => iquestauthenticityiquest is missing
+utils.py::create_vector => iquestbest is missing
+utils.py::create_vector => iquestbioprogramiquest is missing
+utils.py::create_vector => iquestbloodthirstiquest is missing
+utils.py::create_vector => iquestcasanovaiquest is missing
+utils.py::create_vector => iquestdangerous is missing
+utils.py::create_vector => iquestdatavisualizationiquest is missing
+utils.py::create_vector => iquestdeath is missing
+utils.py::create_vector => iquestdecoherenceiquest is missing
+utils.py::create_vector => iquestdoctor is missing
+utils.py::create_vector => iquestdoniquestt is missing
+utils.py::create_vector => iquesteconomyiquestiquestand is missing
+utils.py::create_vector => iquesteviliquest is missing
+utils.py::create_vector => iquestfuzzyiquest is missing
+utils.py::create_vector => iquestgame is missing
+utils.py::create_vector => iquestguerrilla is missing
+utils.py::create_vector => iquestintellectualiquest is missing
+utils.py::create_vector => iquestmaterialiquest is missing
+utils.py::create_vector => iquestmedievalismiquest is missing
+utils.py::create_vector => iquestmodernityiquest is missing
+utils.py::create_vector => iquestmuslim is missing
+utils.py::create_vector => iquestnaturaliquest is missing
+utils.py::create_vector => iquestnewcomersiquest is missing
+utils.py::create_vector => iquestold is missing
+utils.py::create_vector => iquestonedrop is missing
+utils.py::create_vector => iquestothelloiquest is missing
+utils.py::create_vector => iquestpardoning is missing
+utils.py::create_vector => iquestperformanceiquest is missing
+utils.py::create_vector => iquestpower is missing
+utils.py::create_vector => iquestprovincialize is missing
+utils.py::create_vector => iquestraceiquest is missing
+utils.py::create_vector => iquestrevolution is missing
+utils.py::create_vector => iquestrites is missing
+utils.py::create_vector => iquestschoolsiquest is missing
+utils.py::create_vector => iquestsciences is missing
+utils.py::create_vector => iquestseeiquest is missing
+utils.py::create_vector => iquestsports is missing
+utils.py::create_vector => iquestthe is missing
+utils.py::create_vector => iquestthem is missing
+utils.py::create_vector => iquestthird is missing
+utils.py::create_vector => iquestusiquest is missing
+utils.py::create_vector => iquestwaiting is missing
+utils.py::create_vector => iquot is missing
+utils.py::create_vector => irtheories is missing
+utils.py::create_vector => ishiguros is missing
+utils.py::create_vector => islamiquest is missing
+utils.py::create_vector => isniquestt is missing
+utils.py::create_vector => israelipalestinian is missing
+utils.py::create_vector => issuesaspects is missing
+utils.py::create_vector => itallang is missing
+utils.py::create_vector => italyiquests is missing
+utils.py::create_vector => itselfn3 is missing
+utils.py::create_vector => iwhat is missing
+utils.py::create_vector => iwithout is missing
+utils.py::create_vector => jacint is missing
+utils.py::create_vector => jailquot is missing
+utils.py::create_vector => jamesiquests is missing
+utils.py::create_vector => jamess is missing
+utils.py::create_vector => jancso is missing
+utils.py::create_vector => japaniquests is missing
+utils.py::create_vector => japanlng is missing
+utils.py::create_vector => javabased is missing
+utils.py::create_vector => jazzensemble is missing
+utils.py::create_vector => jeanjacques is missing
+utils.py::create_vector => jeanluc is missing
+utils.py::create_vector => jesusquot is missing
+utils.py::create_vector => jewishamerican is missing
+utils.py::create_vector => jimeacutenez is missing
+utils.py::create_vector => joatildeo is missing
+utils.py::create_vector => joseacute is missing
+utils.py::create_vector => judeomaghrebi is missing
+utils.py::create_vector => juniorsenior is missing
+utils.py::create_vector => justificationiquestin is missing
+utils.py::create_vector => juumlnger is missing
+utils.py::create_vector => juumlrgen is missing
+utils.py::create_vector => kantiquests is missing
+utils.py::create_vector => kants is missing
+utils.py::create_vector => kaouther is missing
+utils.py::create_vector => karwai is missing
+utils.py::create_vector => kennans is missing
+utils.py::create_vector => kennedyiquests is missing
+utils.py::create_vector => kenzaburocircs is missing
+utils.py::create_vector => kephisodotos is missing
+utils.py::create_vector => kermackmckendrick is missing
+utils.py::create_vector => keysquot is missing
+utils.py::create_vector => kierkegaards is missing
+utils.py::create_vector => kincaids is missing
+utils.py::create_vector => kindleare is missing
+utils.py::create_vector => kingsi is missing
+utils.py::create_vector => knighti is missing
+utils.py::create_vector => kokkinobaphos is missing
+utils.py::create_vector => koreaiquests is missing
+utils.py::create_vector => korsgaard is missing
+utils.py::create_vector => koryocirc is missing
+utils.py::create_vector => kosztolaacutenyi is missing
+utils.py::create_vector => krapps is missing
+utils.py::create_vector => kripkes is missing
+utils.py::create_vector => kubricks is missing
+utils.py::create_vector => labeacute is missing
+utils.py::create_vector => laboratoriesquot is missing
+utils.py::create_vector => laborquot is missing
+utils.py::create_vector => labquot is missing
+utils.py::create_vector => laiciteacute is missing
+utils.py::create_vector => laldjeacuterie is missing
+utils.py::create_vector => lalitvakstanfordedu is missing
+utils.py::create_vector => lamars is missing
+utils.py::create_vector => landresource is missing
+utils.py::create_vector => landsliding is missing
+utils.py::create_vector => laozis is missing
+utils.py::create_vector => laplaces is missing
+utils.py::create_vector => lart is missing
+utils.py::create_vector => late18th is missing
+utils.py::create_vector => latenineteenth is missing
+utils.py::create_vector => latetwentieth is missing
+utils.py::create_vector => latinaos is missing
+utils.py::create_vector => latinidad is missing
+utils.py::create_vector => lawiquestfor is missing
+utils.py::create_vector => learningnnthe is missing
+utils.py::create_vector => learningthe is missing
+utils.py::create_vector => leastnorm is missing
+utils.py::create_vector => leastsquares is missing
+utils.py::create_vector => lectdisc is missing
+utils.py::create_vector => lecturelab is missing
+utils.py::create_vector => leistung is missing
+utils.py::create_vector => lenini is missing
+utils.py::create_vector => lgbtqueer is missing
+utils.py::create_vector => liberalismiquests is missing
+utils.py::create_vector => liberationquot is missing
+utils.py::create_vector => lifeand is missing
+utils.py::create_vector => lifechanging is missing
+utils.py::create_vector => lifenbsp is missing
+utils.py::create_vector => lifennthrough is missing
+utils.py::create_vector => lightposts is missing
+utils.py::create_vector => lindsayabaire is missing
+utils.py::create_vector => literarycritical is missing
+utils.py::create_vector => literarysocial is missing
+utils.py::create_vector => literaturei is missing
+utils.py::create_vector => literaturequot is missing
+utils.py::create_vector => lithologic is missing
+utils.py::create_vector => liveelectronics is missing
+utils.py::create_vector => livesquot is missing
+utils.py::create_vector => livingnbsp is missing
+utils.py::create_vector => livingquot is missing
+utils.py::create_vector => locavorism is missing
+utils.py::create_vector => logicophilosophicus is missing
+utils.py::create_vector => longcherished is missing
+utils.py::create_vector => longliving is missing
+utils.py::create_vector => longrun is missing
+utils.py::create_vector => lookingltbrgtltbrgtnnin is missing
+utils.py::create_vector => louisferdinand is missing
+utils.py::create_vector => loumlwenheimskolem is missing
+utils.py::create_vector => lovefree is missing
+utils.py::create_vector => lowcarbon is missing
+utils.py::create_vector => lowincome is missing
+utils.py::create_vector => lowlevel is missing
+utils.py::create_vector => lowtemperature is missing
+utils.py::create_vector => ludmer is missing
+utils.py::create_vector => luthers is missing
+utils.py::create_vector => maacuterai is missing
+utils.py::create_vector => maacuterio is missing
+utils.py::create_vector => maacuterquez is missing
+utils.py::create_vector => machinelearning is missing
+utils.py::create_vector => machinelevel is missing
+utils.py::create_vector => machinemade is missing
+utils.py::create_vector => macondismo is missing
+utils.py::create_vector => macroremains is missing
+utils.py::create_vector => mademade is missing
+utils.py::create_vector => magnetostatics is missing
+utils.py::create_vector => mahashweta is missing
+utils.py::create_vector => mahlers is missing
+utils.py::create_vector => majoringminoring is missing
+utils.py::create_vector => majorsadmission is missing
+utils.py::create_vector => majorsminors is missing
+utils.py::create_vector => makebelieve is missing
+utils.py::create_vector => mallarmeacute is missing
+utils.py::create_vector => maloryiquests is missing
+utils.py::create_vector => manent is missing
+utils.py::create_vector => maniquest is missing
+utils.py::create_vector => mansfieldi is missing
+utils.py::create_vector => manuscriptprint is missing
+utils.py::create_vector => manyparticle is missing
+utils.py::create_vector => maos is missing
+utils.py::create_vector => mariacutea is missing
+utils.py::create_vector => marieacutees is missing
+utils.py::create_vector => marketoriented is missing
+utils.py::create_vector => markingglazing is missing
+utils.py::create_vector => markmaking is missing
+utils.py::create_vector => marloweiquests is missing
+utils.py::create_vector => martiacuteshy is missing
+utils.py::create_vector => massmedia is missing
+utils.py::create_vector => mastermusician is missing
+utils.py::create_vector => mathbased is missing
+utils.py::create_vector => matsci is missing
+utils.py::create_vector => maxwelliquests is missing
+utils.py::create_vector => meacutetissage is missing
+utils.py::create_vector => meddeb is missing
+utils.py::create_vector => mediafrom is missing
+utils.py::create_vector => mediaintensive is missing
+utils.py::create_vector => mediapolitics is missing
+utils.py::create_vector => mellac is missing
+utils.py::create_vector => menchuacute is missing
+utils.py::create_vector => meniquests is missing
+utils.py::create_vector => mexicanorigin is missing
+utils.py::create_vector => mgtecon is missing
+utils.py::create_vector => michelsonmorley is missing
+utils.py::create_vector => microhistory is missing
+utils.py::create_vector => micromechanical is missing
+utils.py::create_vector => microprogramming is missing
+utils.py::create_vector => microtonality is missing
+utils.py::create_vector => mid10th is missing
+utils.py::create_vector => mid1940s is missing
+utils.py::create_vector => mid20th is missing
+utils.py::create_vector => mid80s is missing
+utils.py::create_vector => midnineteenth is missing
+utils.py::create_vector => midtwentiethcentury is missing
+utils.py::create_vector => mindbody is missing
+utils.py::create_vector => mindiquest is missing
+utils.py::create_vector => minimumcost is missing
+utils.py::create_vector => miniproject is missing
+utils.py::create_vector => minnesinger is missing
+utils.py::create_vector => minoritymajority is missing
+utils.py::create_vector => miseenscegravene is missing
+utils.py::create_vector => mistrys is missing
+utils.py::create_vector => mixedrace is missing
+utils.py::create_vector => mixedsignal is missing
+utils.py::create_vector => modalitylike is missing
+utils.py::create_vector => modelinganalysis is missing
+utils.py::create_vector => moderata is missing
+utils.py::create_vector => modernismquot is missing
+utils.py::create_vector => modernisms is missing
+utils.py::create_vector => modernities is missing
+utils.py::create_vector => moliegravere is missing
+utils.py::create_vector => monarchismrepublicanism is missing
+utils.py::create_vector => moneycapital is missing
+utils.py::create_vector => monoprint is missing
+utils.py::create_vector => montaignes is missing
+utils.py::create_vector => moralityquot is missing
+utils.py::create_vector => moroccoquot is missing
+utils.py::create_vector => morphologiesnand is missing
+utils.py::create_vector => motionquot is missing
+utils.py::create_vector => msampe is missing
+utils.py::create_vector => mudimbe is missing
+utils.py::create_vector => multicollinearity is missing
+utils.py::create_vector => multileveled is missing
+utils.py::create_vector => multimediathe is missing
+utils.py::create_vector => multisensor is missing
+utils.py::create_vector => musiciquesteverything is missing
+utils.py::create_vector => musicquot is missing
+utils.py::create_vector => musicsound is missing
+utils.py::create_vector => muumlntzer is missing
+utils.py::create_vector => myjihad is missing
+utils.py::create_vector => myroniquests is missing
+utils.py::create_vector => mythnnnthe is missing
+utils.py::create_vector => mythoepic is missing
+utils.py::create_vector => nabokovs is missing
+utils.py::create_vector => naciacutequot is missing
+utils.py::create_vector => nanocharacterization is missing
+utils.py::create_vector => nanotechnologists is missing
+utils.py::create_vector => narcostate is missing
+utils.py::create_vector => natalquot is missing
+utils.py::create_vector => nationalcultural is missing
+utils.py::create_vector => nationaliquestand is missing
+utils.py::create_vector => nationbuilding is missing
+utils.py::create_vector => nationfocused is missing
+utils.py::create_vector => nationstate is missing
+utils.py::create_vector => nationstates is missing
+utils.py::create_vector => natureculture is missing
+utils.py::create_vector => naziinspired is missing
+utils.py::create_vector => nbspdiscussions is missing
+utils.py::create_vector => nbsplearning is missing
+utils.py::create_vector => neardeath is missing
+utils.py::create_vector => negativesum is missing
+utils.py::create_vector => nehamas is missing
+utils.py::create_vector => neighborsnnow is missing
+utils.py::create_vector => neoconfucian is missing
+utils.py::create_vector => neoromanticism is missing
+utils.py::create_vector => neutralityn is missing
+utils.py::create_vector => newhive is missing
+utils.py::create_vector => nextgeneration is missing
+utils.py::create_vector => ngames is missing
+utils.py::create_vector => niccolograve is missing
+utils.py::create_vector => nichecrafted is missing
+utils.py::create_vector => nietzche is missing
+utils.py::create_vector => nietzsches is missing
+utils.py::create_vector => nineteenthcentury is missing
+utils.py::create_vector => nintildea is missing
+utils.py::create_vector => nintildeo is missing
+utils.py::create_vector => nitery is missing
+utils.py::create_vector => nizacircm is missing
+utils.py::create_vector => nlearning is missing
+utils.py::create_vector => nmost is missing
+utils.py::create_vector => nnearlier is missing
+utils.py::create_vector => nnfor is missing
+utils.py::create_vector => nnin is missing
+utils.py::create_vector => nninstructor is missing
+utils.py::create_vector => nnnthe is missing
+utils.py::create_vector => nnstudents is missing
+utils.py::create_vector => nnsustainability is missing
+utils.py::create_vector => nnthe is missing
+utils.py::create_vector => nnthis is missing
+utils.py::create_vector => noigandresin is missing
+utils.py::create_vector => noncomputabilityquot is missing
+utils.py::create_vector => noncomputable is missing
+utils.py::create_vector => nonconsciously is missing
+utils.py::create_vector => nondancern is missing
+utils.py::create_vector => nonecon is missing
+utils.py::create_vector => noneuropean is missing
+utils.py::create_vector => nonmajor is missing
+utils.py::create_vector => nonmajors is missing
+utils.py::create_vector => nonmammalian is missing
+utils.py::create_vector => nonmusic is missing
+utils.py::create_vector => nonmuslim is missing
+utils.py::create_vector => nonnarrative is missing
+utils.py::create_vector => nonnormative is missing
+utils.py::create_vector => nonperformers is missing
+utils.py::create_vector => nonpid is missing
+utils.py::create_vector => nonprobability is missing
+utils.py::create_vector => nonrem is missing
+utils.py::create_vector => nonrenewability is missing
+utils.py::create_vector => nonrussians is missing
+utils.py::create_vector => nonscience is missing
+utils.py::create_vector => nonspecialist is missing
+utils.py::create_vector => nonstudio is missing
+utils.py::create_vector => nonvisual is missing
+utils.py::create_vector => nonwestern is missing
+utils.py::create_vector => notforprofit is missing
+utils.py::create_vector => nottages is missing
+utils.py::create_vector => novelsjm is missing
+utils.py::create_vector => nowiquest is missing
+utils.py::create_vector => nowquotnnin is missing
+utils.py::create_vector => npainted is missing
+utils.py::create_vector => npcompleteness is missing
+utils.py::create_vector => nprerequisites is missing
+utils.py::create_vector => nreadings is missing
+utils.py::create_vector => nrecommended is missing
+utils.py::create_vector => nsculptors is missing
+utils.py::create_vector => nselected is missing
+utils.py::create_vector => nstudents is missing
+utils.py::create_vector => nthe is missing
+utils.py::create_vector => nwhy is missing
+utils.py::create_vector => objectfigure is missing
+utils.py::create_vector => objectivesubjective is missing
+utils.py::create_vector => objectivitysubjectivity is missing
+utils.py::create_vector => objectoriented is missing
+utils.py::create_vector => ocaseys is missing
+utils.py::create_vector => occidenteries is missing
+utils.py::create_vector => ocirce is missing
+utils.py::create_vector => oednnwe is missing
+utils.py::create_vector => ogai is missing
+utils.py::create_vector => oilpresses is missing
+utils.py::create_vector => oiquestconnor is missing
+utils.py::create_vector => oloixarac is missing
+utils.py::create_vector => olynthos is missing
+utils.py::create_vector => onedimensional is missing
+utils.py::create_vector => onehour is missing
+utils.py::create_vector => oneiquests is missing
+utils.py::create_vector => onequot is missing
+utils.py::create_vector => onesided is missing
+utils.py::create_vector => onethird is missing
+utils.py::create_vector => oneweek is missing
+utils.py::create_vector => onwurah is missing
+utils.py::create_vector => opamp is missing
+utils.py::create_vector => openair is missing
+utils.py::create_vector => openended is missing
+utils.py::create_vector => operashave is missing
+utils.py::create_vector => optionsnnlimited is missing
+utils.py::create_vector => optogenetics is missing
+utils.py::create_vector => ordernwe is missing
+utils.py::create_vector => organizationlevel is missing
+utils.py::create_vector => organizationsnnnby is missing
+utils.py::create_vector => organizationssymphony is missing
+utils.py::create_vector => organlevel is missing
+utils.py::create_vector => othersiquest is missing
+utils.py::create_vector => overfamiliar is missing
+utils.py::create_vector => ownnthis is missing
+utils.py::create_vector => painleveacute is missing
+utils.py::create_vector => painteriquests is missing
+utils.py::create_vector => paintersiquest is missing
+utils.py::create_vector => paleoethnobotany is missing
+utils.py::create_vector => panasianism is missing
+utils.py::create_vector => parrhasios is missing
+utils.py::create_vector => particleinabox is missing
+utils.py::create_vector => partnerdancing is missing
+utils.py::create_vector => partsnnthe is missing
+utils.py::create_vector => passageiquest is missing
+utils.py::create_vector => pastoriented is missing
+utils.py::create_vector => patientdoctor is missing
+utils.py::create_vector => patons is missing
+utils.py::create_vector => pattiann is missing
+utils.py::create_vector => peaeckeeping is missing
+utils.py::create_vector => peemail is missing
+utils.py::create_vector => peerreviewed is missing
+utils.py::create_vector => peeving is missing
+utils.py::create_vector => peopleiquests is missing
+utils.py::create_vector => perceivers is missing
+utils.py::create_vector => performancebased is missing
+utils.py::create_vector => performancebuilding is missing
+utils.py::create_vector => performancecentered is missing
+utils.py::create_vector => performeriquests is missing
+utils.py::create_vector => periclean is missing
+utils.py::create_vector => persepective is missing
+utils.py::create_vector => pessoas is missing
+utils.py::create_vector => petrarchiquests is missing
+utils.py::create_vector => petrarchs is missing
+utils.py::create_vector => philosophyiquest is missing
+utils.py::create_vector => physicalchemical is missing
+utils.py::create_vector => pianoproficiency is missing
+utils.py::create_vector => pianostring is missing
+utils.py::create_vector => piglia is missing
+utils.py::create_vector => pippilotti is missing
+utils.py::create_vector => placei is missing
+utils.py::create_vector => placemaking is missing
+utils.py::create_vector => placequot is missing
+utils.py::create_vector => plancks is missing
+utils.py::create_vector => platetectonic is missing
+utils.py::create_vector => platoiquests is missing
+utils.py::create_vector => playtexts is missing
+utils.py::create_vector => plutarchn is missing
+utils.py::create_vector => plutocirct is missing
+utils.py::create_vector => poetiquests is missing
+utils.py::create_vector => poetological is missing
+utils.py::create_vector => poetryimage is missing
+utils.py::create_vector => pokeacutemon is missing
+utils.py::create_vector => policyrelated is missing
+utils.py::create_vector => polisci is missing
+utils.py::create_vector => pompeiis is missing
+utils.py::create_vector => popculture is missing
+utils.py::create_vector => populationcrowd is missing
+utils.py::create_vector => portablemiked is missing
+utils.py::create_vector => portugals is missing
+utils.py::create_vector => positivesum is missing
+utils.py::create_vector => post1976 is missing
+utils.py::create_vector => postapartheid is missing
+utils.py::create_vector => postboom is missing
+utils.py::create_vector => postcold is missing
+utils.py::create_vector => postenlightenment is missing
+utils.py::create_vector => postindependence is missing
+utils.py::create_vector => postiquestworld is missing
+utils.py::create_vector => postmao is missing
+utils.py::create_vector => postperformance is missing
+utils.py::create_vector => postpetrarchan is missing
+utils.py::create_vector => postreconstruction is missing
+utils.py::create_vector => postromantic is missing
+utils.py::create_vector => postsocialist is missing
+utils.py::create_vector => postsoviet is missing
+utils.py::create_vector => posttheistic is missing
+utils.py::create_vector => postwende is missing
+utils.py::create_vector => postwwii is missing
+utils.py::create_vector => powersbased is missing
+utils.py::create_vector => practicalnskills is missing
+utils.py::create_vector => practicebased is missing
+utils.py::create_vector => practiceninterpretation is missing
+utils.py::create_vector => practicesiquest is missing
+utils.py::create_vector => practicesnncontact is missing
+utils.py::create_vector => practicesnnwith is missing
+utils.py::create_vector => pre1990s is missing
+utils.py::create_vector => precapitalist is missing
+utils.py::create_vector => precirculated is missing
+utils.py::create_vector => precorequisite is missing
+utils.py::create_vector => precritical is missing
+utils.py::create_vector => predigital is missing
+utils.py::create_vector => preinternet is missing
+utils.py::create_vector => prereq is missing
+utils.py::create_vector => prerequisiteconsent is missing
+utils.py::create_vector => presentday is missing
+utils.py::create_vector => presocratics is missing
+utils.py::create_vector => prevet is missing
+utils.py::create_vector => primarially is missing
+utils.py::create_vector => principalagent is missing
+utils.py::create_vector => prisonhalf is missing
+utils.py::create_vector => privatelesson is missing
+utils.py::create_vector => problembased is missing
+utils.py::create_vector => problemsolving is missing
+utils.py::create_vector => processnnnour is missing
+utils.py::create_vector => processnwelcome is missing
+utils.py::create_vector => processorbased is missing
+utils.py::create_vector => profitseeking is missing
+utils.py::create_vector => projectbased is missing
+utils.py::create_vector => projectionmapping is missing
+utils.py::create_vector => projectoriented is missing
+utils.py::create_vector => propertya is missing
+utils.py::create_vector => proprietarycontrolled is missing
+utils.py::create_vector => protofeminism is missing
+utils.py::create_vector => protofeminist is missing
+utils.py::create_vector => psych141 is missing
+utils.py::create_vector => psych60 is missing
+utils.py::create_vector => publicationnnfor is missing
+utils.py::create_vector => publicsector is missing
+utils.py::create_vector => publpol is missing
+utils.py::create_vector => purseiquest is missing
+utils.py::create_vector => pushkins is missing
+utils.py::create_vector => quarteriquests is missing
+utils.py::create_vector => quarterlong is missing
+utils.py::create_vector => quarteryear is missing
+utils.py::create_vector => queacutereacute is missing
+utils.py::create_vector => queenei is missing
+utils.py::create_vector => queerlitfilmwordpresscom is missing
+utils.py::create_vector => quesions is missing
+utils.py::create_vector => questiondoes is missing
+utils.py::create_vector => quotadabquot is missing
+utils.py::create_vector => quotafrican is missing
+utils.py::create_vector => quotalevel is missing
+utils.py::create_vector => quotalternative is missing
+utils.py::create_vector => quotamericanquot is missing
+utils.py::create_vector => quotamericansquot is missing
+utils.py::create_vector => quotarequot is missing
+utils.py::create_vector => quotaround is missing
+utils.py::create_vector => quotarts is missing
+utils.py::create_vector => quotassert is missing
+utils.py::create_vector => quotatelier is missing
+utils.py::create_vector => quotauthorquot is missing
+utils.py::create_vector => quotautobiographicalquot is missing
+utils.py::create_vector => quotawayquot is missing
+utils.py::create_vector => quotaya is missing
+utils.py::create_vector => quotbad is missing
+utils.py::create_vector => quotbangclashquot is missing
+utils.py::create_vector => quotbeautyquot is missing
+utils.py::create_vector => quotbecome is missing
+utils.py::create_vector => quotbehind is missing
+utils.py::create_vector => quotbeurquot is missing
+utils.py::create_vector => quotbig is missing
+utils.py::create_vector => quotbipolarquot is missing
+utils.py::create_vector => quotbirtherquot is missing
+utils.py::create_vector => quotbirthquot is missing
+utils.py::create_vector => quotblack is missing
+utils.py::create_vector => quotbonsaiquot is missing
+utils.py::create_vector => quotbroccoliquot is missing
+utils.py::create_vector => quotcahier is missing
+utils.py::create_vector => quotcapitalismquot is missing
+utils.py::create_vector => quotcasesquot is missing
+utils.py::create_vector => quotcentral is missing
+utils.py::create_vector => quotchart is missing
+utils.py::create_vector => quotcheatingquot is missing
+utils.py::create_vector => quotchoose is missing
+utils.py::create_vector => quotchorusquot is missing
+utils.py::create_vector => quotclassicquot is missing
+utils.py::create_vector => quotcost is missing
+utils.py::create_vector => quotcrisis is missing
+utils.py::create_vector => quotcultural is missing
+utils.py::create_vector => quotdata is missing
+utils.py::create_vector => quotdeconstructionquot is missing
+utils.py::create_vector => quotdemosquot is missing
+utils.py::create_vector => quotdevelopedquot is missing
+utils.py::create_vector => quotdevelopingquot is missing
+utils.py::create_vector => quotdie is missing
+utils.py::create_vector => quotdirectionalquot is missing
+utils.py::create_vector => quotdisorganization is missing
+utils.py::create_vector => quotdorm is missing
+utils.py::create_vector => quotel is missing
+utils.py::create_vector => quotendedquot is missing
+utils.py::create_vector => quotenormous is missing
+utils.py::create_vector => quotenvironmentquot is missing
+utils.py::create_vector => quotethnicquot is missing
+utils.py::create_vector => quotevil is missing
+utils.py::create_vector => quotexistentialism is missing
+utils.py::create_vector => quotexternalquot is missing
+utils.py::create_vector => quotfinishedquot is missing
+utils.py::create_vector => quotfrackingquot is missing
+utils.py::create_vector => quotgain is missing
+utils.py::create_vector => quotgangnam is missing
+utils.py::create_vector => quotglobalizationquot is missing
+utils.py::create_vector => quotgloballyquot is missing
+utils.py::create_vector => quotglobalquot is missing
+utils.py::create_vector => quotgood is missing
+utils.py::create_vector => quotgoodbye is missing
+utils.py::create_vector => quotgoodnessquot is missing
+utils.py::create_vector => quotgraphicquot is missing
+utils.py::create_vector => quotharmonyquot is missing
+utils.py::create_vector => quothidden is missing
+utils.py::create_vector => quothigh is missing
+utils.py::create_vector => quothighquot is missing
+utils.py::create_vector => quothome is missing
+utils.py::create_vector => quothomelandquot is missing
+utils.py::create_vector => quothomequot is missing
+utils.py::create_vector => quothouse is missing
+utils.py::create_vector => quothow is missing
+utils.py::create_vector => quothumanityquot is missing
+utils.py::create_vector => quothumanmadequot is missing
+utils.py::create_vector => quothysteriaquot is missing
+utils.py::create_vector => quoticons is missing
+utils.py::create_vector => quotindifferent is missing
+utils.py::create_vector => quotinevitable is missing
+utils.py::create_vector => quotinfernoquot is missing
+utils.py::create_vector => quotinscribing is missing
+utils.py::create_vector => quotinternalquot is missing
+utils.py::create_vector => quotinternationalquot is missing
+utils.py::create_vector => quotiquot is missing
+utils.py::create_vector => quotiron is missing
+utils.py::create_vector => quotitalian is missing
+utils.py::create_vector => quotitalianquot is missing
+utils.py::create_vector => quotits is missing
+utils.py::create_vector => quotknow is missing
+utils.py::create_vector => quotknowquot is missing
+utils.py::create_vector => quotla is missing
+utils.py::create_vector => quotlaboratoriesquot is missing
+utils.py::create_vector => quotlas is missing
+utils.py::create_vector => quotlenvers is missing
+utils.py::create_vector => quotlet is missing
+utils.py::create_vector => quotletter is missing
+utils.py::create_vector => quotliberalquot is missing
+utils.py::create_vector => quotlintellectuelquot is missing
+utils.py::create_vector => quotliterary is missing
+utils.py::create_vector => quotlotquot is missing
+utils.py::create_vector => quotmaqamatquot is missing
+utils.py::create_vector => quotmechanicsquot is missing
+utils.py::create_vector => quotmexicannessquot is missing
+utils.py::create_vector => quotminorquot is missing
+utils.py::create_vector => quotmodernityquot is missing
+utils.py::create_vector => quotmodernquot is missing
+utils.py::create_vector => quotmuseum is missing
+utils.py::create_vector => quotnatural is missing
+utils.py::create_vector => quotnaturalismquot is missing
+utils.py::create_vector => quotnaturalquot is missing
+utils.py::create_vector => quotneuromarketingquot is missing
+utils.py::create_vector => quotnonhumanquot is missing
+utils.py::create_vector => quotnonplacesquot is missing
+utils.py::create_vector => quotobjectivelyquot is missing
+utils.py::create_vector => quoton is missing
+utils.py::create_vector => quotonedrop is missing
+utils.py::create_vector => quotout is missing
+utils.py::create_vector => quotovercomequot is missing
+utils.py::create_vector => quotphilosophicalquot is missing
+utils.py::create_vector => quotplacemakersquot is missing
+utils.py::create_vector => quotplacequot is missing
+utils.py::create_vector => quotplein is missing
+utils.py::create_vector => quotpopularquot is missing
+utils.py::create_vector => quotpsychosisquot is missing
+utils.py::create_vector => quotqueeringquot is missing
+utils.py::create_vector => quotreaderquot is missing
+utils.py::create_vector => quotrefugeequot is missing
+utils.py::create_vector => quotrefugeesquot is missing
+utils.py::create_vector => quotrelationalquot is missing
+utils.py::create_vector => quotreligion is missing
+utils.py::create_vector => quotreligiousquot is missing
+utils.py::create_vector => quotrevolutionquot is missing
+utils.py::create_vector => quotrhymesquot is missing
+utils.py::create_vector => quotright is missing
+utils.py::create_vector => quotrogue is missing
+utils.py::create_vector => quotrole is missing
+utils.py::create_vector => quotromanticquot is missing
+utils.py::create_vector => quotrome is missing
+utils.py::create_vector => quotsecondgenerationquot is missing
+utils.py::create_vector => quotsecularizationquot is missing
+utils.py::create_vector => quotsecularquot is missing
+utils.py::create_vector => quotsetquot is missing
+utils.py::create_vector => quotshockingquot is missing
+utils.py::create_vector => quotsister is missing
+utils.py::create_vector => quotsmartquot is missing
+utils.py::create_vector => quotspiritquot is missing
+utils.py::create_vector => quotsportsquot is missing
+utils.py::create_vector => quotsweatshop is missing
+utils.py::create_vector => quotsystems is missing
+utils.py::create_vector => quotterroristsquot is missing
+utils.py::create_vector => quotthe is missing
+utils.py::create_vector => quottheorizequot is missing
+utils.py::create_vector => quotthere is missing
+utils.py::create_vector => quottheres is missing
+utils.py::create_vector => quotto is missing
+utils.py::create_vector => quottraditionquot is missing
+utils.py::create_vector => quottransgressionquot is missing
+utils.py::create_vector => quottrembling is missing
+utils.py::create_vector => quottruthquot is missing
+utils.py::create_vector => quotturning is missing
+utils.py::create_vector => quotunderdevelopedquot is missing
+utils.py::create_vector => quotuniversalismquot is missing
+utils.py::create_vector => quotuseless is missing
+utils.py::create_vector => quotvicious is missing
+utils.py::create_vector => quotviolencequot is missing
+utils.py::create_vector => quotvisitquot is missing
+utils.py::create_vector => quotwe is missing
+utils.py::create_vector => quotwequot is missing
+utils.py::create_vector => quotwhat is missing
+utils.py::create_vector => quotwho is missing
+utils.py::create_vector => quotwhoquot is missing
+utils.py::create_vector => quotwinedark is missing
+utils.py::create_vector => quotwisequot is missing
+utils.py::create_vector => quotwomens is missing
+utils.py::create_vector => quotworkquot is missing
+utils.py::create_vector => quotrenaissancequot is missing
+utils.py::create_vector => quriquestan is missing
+utils.py::create_vector => quriquestanic is missing
+utils.py::create_vector => qushayricirc is missing
+utils.py::create_vector => racebased is missing
+utils.py::create_vector => raceethnicity is missing
+utils.py::create_vector => rachilde is missing
+utils.py::create_vector => racialethnic is missing
+utils.py::create_vector => racializations is missing
+utils.py::create_vector => racircbia is missing
+utils.py::create_vector => radiooratorio is missing
+utils.py::create_vector => raduan is missing
+utils.py::create_vector => ramoacuten is missing
+utils.py::create_vector => rampb is missing
+utils.py::create_vector => rampd is missing
+utils.py::create_vector => rauacutel is missing
+utils.py::create_vector => readingwriting is missing
+utils.py::create_vector => realismformalism is missing
+utils.py::create_vector => realityquot is missing
+utils.py::create_vector => reallife is missing
+utils.py::create_vector => realquot is missing
+utils.py::create_vector => realworld is missing
+utils.py::create_vector => reasoners is missing
+utils.py::create_vector => recentand is missing
+utils.py::create_vector => recology is missing
+utils.py::create_vector => reconceptualize is missing
+utils.py::create_vector => redemptioni is missing
+utils.py::create_vector => redowa is missing
+utils.py::create_vector => reenrollment is missing
+utils.py::create_vector => reequilibrate is missing
+utils.py::create_vector => reflectiion is missing
+utils.py::create_vector => refrigeratoriquest is missing
+utils.py::create_vector => regionality is missing
+utils.py::create_vector => relativestate is missing
+utils.py::create_vector => relativization is missing
+utils.py::create_vector => religioni is missing
+utils.py::create_vector => religionorigin is missing
+utils.py::create_vector => religionsecularism is missing
+utils.py::create_vector => religst is missing
+utils.py::create_vector => renaissancebodyprojectstanfordedu is missing
+utils.py::create_vector => reneacute is missing
+utils.py::create_vector => representediquestand is missing
+utils.py::create_vector => representedquot is missing
+utils.py::create_vector => reqs is missing
+utils.py::create_vector => requirednforms is missing
+utils.py::create_vector => researchiquestbased is missing
+utils.py::create_vector => residencebased is missing
+utils.py::create_vector => resituating is missing
+utils.py::create_vector => resynthesis is missing
+utils.py::create_vector => returnquot is missing
+utils.py::create_vector => revolutioniquest is missing
+utils.py::create_vector => rghts is missing
+utils.py::create_vector => riefenstahls is missing
+utils.py::create_vector => rightnnthis is missing
+utils.py::create_vector => rockforming is missing
+utils.py::create_vector => rodoreda is missing
+utils.py::create_vector => roleplays is missing
+utils.py::create_vector => rolliquestas is missing
+utils.py::create_vector => rosaliacutea is missing
+utils.py::create_vector => rubeacuten is missing
+utils.py::create_vector => rucircmicirc is missing
+utils.py::create_vector => ruleiquest is missing
+utils.py::create_vector => rulequot is missing
+utils.py::create_vector => runi is missing
+utils.py::create_vector => ruskiniquests is missing
+utils.py::create_vector => sacksiquest is missing
+utils.py::create_vector => safetyrelated is missing
+utils.py::create_vector => salomeacute is missing
+utils.py::create_vector => salvajesquot is missing
+utils.py::create_vector => samesex is missing
+utils.py::create_vector => sanitationillness is missing
+utils.py::create_vector => sanitationrelated is missing
+utils.py::create_vector => sapphos is missing
+utils.py::create_vector => scegraveve is missing
+utils.py::create_vector => scenesquot is missing
+utils.py::create_vector => schaefferian is missing
+utils.py::create_vector => schimtt is missing
+utils.py::create_vector => schoolquot is missing
+utils.py::create_vector => schroumldinger is missing
+utils.py::create_vector => schroumldingers is missing
+utils.py::create_vector => schultzastanfordedu is missing
+utils.py::create_vector => sciencebased is missing
+utils.py::create_vector => sciencequot is missing
+utils.py::create_vector => scientic is missing
+utils.py::create_vector => scoresiquestis is missing
+utils.py::create_vector => scottiquests is missing
+utils.py::create_vector => screenbased is missing
+utils.py::create_vector => screenwritingtelevision is missing
+utils.py::create_vector => sdcarterstanfordedu is missing
+utils.py::create_vector => seasquot is missing
+utils.py::create_vector => sebbar is missing
+utils.py::create_vector => secondaty is missing
+utils.py::create_vector => secondlargest is missing
+utils.py::create_vector => secondorder is missing
+utils.py::create_vector => secularchristian is missing
+utils.py::create_vector => securitydrawing is missing
+utils.py::create_vector => sefarad is missing
+utils.py::create_vector => selfabsorbed is missing
+utils.py::create_vector => selfaffirming is missing
+utils.py::create_vector => selfcomposure is missing
+utils.py::create_vector => selfconceptions is missing
+utils.py::create_vector => selfconstitution is missing
+utils.py::create_vector => selfconstruction is missing
+utils.py::create_vector => selfcultivation is missing
+utils.py::create_vector => selfdefinition is missing
+utils.py::create_vector => selfdetermination is missing
+utils.py::create_vector => selfdirected is missing
+utils.py::create_vector => selfdiscipline is missing
+utils.py::create_vector => selffashioned is missing
+utils.py::create_vector => selffashioning is missing
+utils.py::create_vector => selfgovernance is missing
+utils.py::create_vector => selfimage is missing
+utils.py::create_vector => selfknowledge is missing
+utils.py::create_vector => selflabeling is missing
+utils.py::create_vector => selfmade is missing
+utils.py::create_vector => selfmaking is missing
+utils.py::create_vector => selfnbsp is missing
+utils.py::create_vector => selfnyou is missing
+utils.py::create_vector => selforganization is missing
+utils.py::create_vector => selfportrayal is missing
+utils.py::create_vector => selfquot is missing
+utils.py::create_vector => selfrealization is missing
+utils.py::create_vector => selfrecognition is missing
+utils.py::create_vector => selfreflection is missing
+utils.py::create_vector => selfreflective is missing
+utils.py::create_vector => selfregulation is missing
+utils.py::create_vector => selfshaping is missing
+utils.py::create_vector => selfstrengthening is missing
+utils.py::create_vector => selquot is missing
+utils.py::create_vector => semicentennial is missing
+utils.py::create_vector => seminarstyle is missing
+utils.py::create_vector => semiological is missing
+utils.py::create_vector => servicelearning is missing
+utils.py::create_vector => sexgender is missing
+utils.py::create_vector => sexualrelationship is missing
+utils.py::create_vector => shakepeare is missing
+utils.py::create_vector => shakespeareiquests is missing
+utils.py::create_vector => shidyaq is missing
+utils.py::create_vector => shimeis is missing
+utils.py::create_vector => shortanswer is missing
+utils.py::create_vector => shortterm is missing
+utils.py::create_vector => singersongwriters is missing
+utils.py::create_vector => singleparty is missing
+utils.py::create_vector => singnnrequired is missing
+utils.py::create_vector => sinojapanese is missing
+utils.py::create_vector => siteas is missing
+utils.py::create_vector => sitespecific is missing
+utils.py::create_vector => situationsprerequisite is missing
+utils.py::create_vector => skillsbased is missing
+utils.py::create_vector => skloots is missing
+utils.py::create_vector => skorupski is missing
+utils.py::create_vector => skypeiquest is missing
+utils.py::create_vector => slavetrade is missing
+utils.py::create_vector => slork is missing
+utils.py::create_vector => sloughi is missing
+utils.py::create_vector => smoa is missing
+utils.py::create_vector => snailhorn is missing
+utils.py::create_vector => socialbiological is missing
+utils.py::create_vector => socialiquest is missing
+utils.py::create_vector => socialpolitical is missing
+utils.py::create_vector => societyhistorical is missing
+utils.py::create_vector => societyiquests is missing
+utils.py::create_vector => societys is missing
+utils.py::create_vector => socioculturally is missing
+utils.py::create_vector => sociospatial is missing
+utils.py::create_vector => sociotechnological is missing
+utils.py::create_vector => socircsekis is missing
+utils.py::create_vector => softwarehardware is missing
+utils.py::create_vector => soilecosystem is missing
+utils.py::create_vector => solarthermal is missing
+utils.py::create_vector => solidstate is missing
+utils.py::create_vector => solidwater is missing
+utils.py::create_vector => someoneiquests is missing
+utils.py::create_vector => songsand is missing
+utils.py::create_vector => songstorytelling is missing
+utils.py::create_vector => sopranosi is missing
+utils.py::create_vector => soundin is missing
+utils.py::create_vector => soundrelated is missing
+utils.py::create_vector => soundsculptures is missing
+utils.py::create_vector => soundwhat is missing
+utils.py::create_vector => sourceiquestthe is missing
+utils.py::create_vector => spaceiquestfrom is missing
+utils.py::create_vector => spanishlanguage is missing
+utils.py::create_vector => spanishspeaking is missing
+utils.py::create_vector => spanlang is missing
+utils.py::create_vector => spatialization is missing
+utils.py::create_vector => speechquot is missing
+utils.py::create_vector => spenseriquests is missing
+utils.py::create_vector => spitzs is missing
+utils.py::create_vector => sportsquot is missing
+utils.py::create_vector => ssays is missing
+utils.py::create_vector => ssosposne is missing
+utils.py::create_vector => stageof is missing
+utils.py::create_vector => stanfordedu is missing
+utils.py::create_vector => stanfordiquests is missing
+utils.py::create_vector => statebuilding is missing
+utils.py::create_vector => stateoftheart is missing
+utils.py::create_vector => statesquot is missing
+utils.py::create_vector => statical is missing
+utils.py::create_vector => stereoscopes is missing
+utils.py::create_vector => stokeriquests is missing
+utils.py::create_vector => stokesiquest is missing
+utils.py::create_vector => stopmotion is missing
+utils.py::create_vector => storiesmyths is missing
+utils.py::create_vector => storymaking is missing
+utils.py::create_vector => storytellingthat is missing
+utils.py::create_vector => strangersiquest is missing
+utils.py::create_vector => strategiesiquest is missing
+utils.py::create_vector => studentconducted is missing
+utils.py::create_vector => studentcurated is missing
+utils.py::create_vector => studentdeveloped is missing
+utils.py::create_vector => studentiquests is missing
+utils.py::create_vector => studentsiquest is missing
+utils.py::create_vector => studiesnnnote is missing
+utils.py::create_vector => studiobased is missing
+utils.py::create_vector => studiotrained is missing
+utils.py::create_vector => stylequot is missing
+utils.py::create_vector => stylewe is missing
+utils.py::create_vector => subgameperfect is missing
+utils.py::create_vector => subjectiquestwill is missing
+utils.py::create_vector => submittingapplication is missing
+utils.py::create_vector => substantives is missing
+utils.py::create_vector => subtend is missing
+utils.py::create_vector => sukiya is missing
+utils.py::create_vector => sulamicirc is missing
+utils.py::create_vector => superposing is missing
+utils.py::create_vector => surplusesdeficits is missing
+utils.py::create_vector => switchedcapacitor is missing
+utils.py::create_vector => takehome is missing
+utils.py::create_vector => takijis is missing
+utils.py::create_vector => tapebased is missing
+utils.py::create_vector => teambased is missing
+utils.py::create_vector => teamiquests is missing
+utils.py::create_vector => teamtaught is missing
+utils.py::create_vector => technologyrelated is missing
+utils.py::create_vector => tectonicvolcanic is missing
+utils.py::create_vector => teenspeak is missing
+utils.py::create_vector => tenja is missing
+utils.py::create_vector => tennysoniquests is missing
+utils.py::create_vector => tensionnnnduring is missing
+utils.py::create_vector => teoriacuteas is missing
+utils.py::create_vector => testimonio is missing
+utils.py::create_vector => texasi is missing
+utils.py::create_vector => theaterstend is missing
+utils.py::create_vector => themaxmspjitter is missing
+utils.py::create_vector => themennstudents is missing
+utils.py::create_vector => thenafterlife is missing
+utils.py::create_vector => thennation is missing
+utils.py::create_vector => theorizations is missing
+utils.py::create_vector => thermochemistry is missing
+utils.py::create_vector => thingsquot is missing
+utils.py::create_vector => thinkersiquest is missing
+utils.py::create_vector => thinkinginpractice is missing
+utils.py::create_vector => thoughtprovokingmaterial is missing
+utils.py::create_vector => thousandday is missing
+utils.py::create_vector => threedimensional is missing
+utils.py::create_vector => threepart is missing
+utils.py::create_vector => threequarters is missing
+utils.py::create_vector => thronesiquest is missing
+utils.py::create_vector => thyselfquot is missing
+utils.py::create_vector => tiananmenthemed is missing
+utils.py::create_vector => tidepooling is missing
+utils.py::create_vector => timebased is missing
+utils.py::create_vector => timedelay is missing
+utils.py::create_vector => timedependent is missing
+utils.py::create_vector => timeenergy is missing
+utils.py::create_vector => timefrequency is missing
+utils.py::create_vector => timeiquests is missing
+utils.py::create_vector => timelapse is missing
+utils.py::create_vector => timersiquest is missing
+utils.py::create_vector => timesdays is missing
+utils.py::create_vector => timeseries is missing
+utils.py::create_vector => todayiquests is missing
+utils.py::create_vector => todaynbsp is missing
+utils.py::create_vector => todaynin is missing
+utils.py::create_vector => tolerationist is missing
+utils.py::create_vector => tomaschevski is missing
+utils.py::create_vector => tonbsptriumviral is missing
+utils.py::create_vector => tonwork is missing
+utils.py::create_vector => toolboxquot is missing
+utils.py::create_vector => topiciquestdrones is missing
+utils.py::create_vector => torberg is missing
+utils.py::create_vector => totaltheater is missing
+utils.py::create_vector => traceiand is missing
+utils.py::create_vector => traditionnnnover is missing
+utils.py::create_vector => transcreations is missing
+utils.py::create_vector => transidiomatic is missing
+utils.py::create_vector => translationnin is missing
+utils.py::create_vector => troeltsch is missing
+utils.py::create_vector => trouabdours is missing
+utils.py::create_vector => truffauts is missing
+utils.py::create_vector => truthinvolving is missing
+utils.py::create_vector => truthvalue is missing
+utils.py::create_vector => tsitsi is missing
+utils.py::create_vector => ttests is missing
+utils.py::create_vector => tununa is missing
+utils.py::create_vector => turkeyiquest is missing
+utils.py::create_vector => twentiethcentury is missing
+utils.py::create_vector => twentyfirst is missing
+utils.py::create_vector => twentyfive is missing
+utils.py::create_vector => twohour is missing
+utils.py::create_vector => twolayered is missing
+utils.py::create_vector => twominute is missing
+utils.py::create_vector => twopart is missing
+utils.py::create_vector => twoparty is missing
+utils.py::create_vector => twosided is missing
+utils.py::create_vector => twostep is missing
+utils.py::create_vector => twothirds is missing
+utils.py::create_vector => twoweek is missing
+utils.py::create_vector => typecastingquot is missing
+utils.py::create_vector => undergraduategraduate is missing
+utils.py::create_vector => underpinningsnthis is missing
+utils.py::create_vector => undertakennnthis is missing
+utils.py::create_vector => upheavel is missing
+utils.py::create_vector => upperdivision is missing
+utils.py::create_vector => upperincome is missing
+utils.py::create_vector => upsidedown is missing
+utils.py::create_vector => urbanismiquest is missing
+utils.py::create_vector => urbanst is missing
+utils.py::create_vector => usdevotees is missing
+utils.py::create_vector => usercentric is missing
+utils.py::create_vector => useu is missing
+utils.py::create_vector => usfamily is missing
+utils.py::create_vector => usnnthe is missing
+utils.py::create_vector => valleinclan is missing
+utils.py::create_vector => valleyiquests is missing
+utils.py::create_vector => valueladen is missing
+utils.py::create_vector => valuesnbsp is missing
+utils.py::create_vector => variablesquot is missing
+utils.py::create_vector => varmas is missing
+utils.py::create_vector => velaacutezquez is missing
+utils.py::create_vector => veniceiquest is missing
+utils.py::create_vector => vereini is missing
+utils.py::create_vector => vicariance is missing
+utils.py::create_vector => videoaudio is missing
+utils.py::create_vector => viewpointsquot is missing
+utils.py::create_vector => viewsnnguest is missing
+utils.py::create_vector => vikingsiquest is missing
+utils.py::create_vector => violencenonviolence is missing
+utils.py::create_vector => violencequotan is missing
+utils.py::create_vector => virgils is missing
+utils.py::create_vector => visagravevis is missing
+utils.py::create_vector => visualnand is missing
+utils.py::create_vector => vividlywritten is missing
+utils.py::create_vector => voiceleading is missing
+utils.py::create_vector => voudou is missing
+utils.py::create_vector => vousquot is missing
+utils.py::create_vector => vulgarium is missing
+utils.py::create_vector => waitlist is missing
+utils.py::create_vector => warnernin is missing
+utils.py::create_vector => waterrelated is missing
+utils.py::create_vector => watershedscale is missing
+utils.py::create_vector => waveiquest is missing
+utils.py::create_vector => waveparticle is missing
+utils.py::create_vector => wavespoyntingiquests is missing
+utils.py::create_vector => wayfr is missing
+utils.py::create_vector => waysanalytical is missing
+utils.py::create_vector => wayscreative is missing
+utils.py::create_vector => waysengaging is missing
+utils.py::create_vector => wealthpoverty is missing
+utils.py::create_vector => weatherfreshmen is missing
+utils.py::create_vector => webbased is missing
+utils.py::create_vector => wehtquot is missing
+utils.py::create_vector => weills is missing
+utils.py::create_vector => weiquestll is missing
+utils.py::create_vector => welfareenhancing is missing
+utils.py::create_vector => welldocumented is missing
+utils.py::create_vector => wellmanaged is missing
+utils.py::create_vector => welln is missing
+utils.py::create_vector => wellsuited is missing
+utils.py::create_vector => wertmullers is missing
+utils.py::create_vector => westernnonwestern is missing
+utils.py::create_vector => westquot is missing
+utils.py::create_vector => wheeln is missing
+utils.py::create_vector => wheelthrown is missing
+utils.py::create_vector => whitecollar is missing
+utils.py::create_vector => whyquot is missing
+utils.py::create_vector => wildeiquests is missing
+utils.py::create_vector => wildi is missing
+utils.py::create_vector => willnread is missing
+utils.py::create_vector => winwin is missing
+utils.py::create_vector => wittgensteins is missing
+utils.py::create_vector => wkb is missing
+utils.py::create_vector => womeniquests is missing
+utils.py::create_vector => womensso is missing
+utils.py::create_vector => wordsiquestare is missing
+utils.py::create_vector => workstationbased is missing
+utils.py::create_vector => worldand is missing
+utils.py::create_vector => worldclass is missing
+utils.py::create_vector => worldiquestand is missing
+utils.py::create_vector => worldiquests is missing
+utils.py::create_vector => worldnew is missing
+utils.py::create_vector => worldssources is missing
+utils.py::create_vector => writingintensive is missing
+utils.py::create_vector => writinginthemajor is missing
+utils.py::create_vector => writingiquest is missing
+utils.py::create_vector => wronging is missing
+utils.py::create_vector => xxth is missing
+utils.py::create_vector => yopougonquot is missing
+utils.py::create_vector => youiquestll is missing
+utils.py::create_vector => youiquestve is missing
+utils.py::create_vector => youquot is missing
+utils.py::create_vector => zinniquests is missing
+utils.py::create_vector => zolas is missing
+utils.py::create_vector => quotethnic is missing
+utils.py::create_vector => inbetweenness is missing
+[[[-0.27557     0.22854     0.1384     ..., -0.47996    -0.25113     0.36883   ]
+  [-0.45381    -0.0073266   0.27498    ..., -0.32387    -0.25544    -0.19268   ]
+  [-0.3617      0.059534   -0.21064    ...,  0.287       0.61058    -0.31347   ]
+  ..., 
+  [ 0.          0.          0.         ...,  0.          0.          0.        ]
+  [ 0.          0.          0.         ...,  0.          0.          0.        ]
+  [ 0.          0.          0.         ...,  0.          0.          0.        ]]
+
+ [[ 0.630838    0.16083688  0.72087813 ...,  0.36856712  0.54519583
+    0.18327449]
+  [ 0.096837   -0.35972    -0.17211    ..., -0.19025     0.11055     0.044465  ]
+  [-0.25831     0.43644    -0.1138     ...,  0.081697   -0.0044191  -0.14102   ]
+  ..., 
+  [ 0.          0.          0.         ...,  0.          0.          0.        ]
+  [ 0.          0.          0.         ...,  0.          0.          0.        ]
+  [ 0.          0.          0.         ...,  0.          0.          0.        ]]
+
+ [[-0.38655    -0.34621    -0.49664    ..., -0.34414     0.10067    -0.017634  ]
+  [-0.11741     0.13307    -0.19936    ...,  0.089595   -0.077056    0.074187  ]
+  [-0.21555    -0.13316     0.18198    ..., -0.34705    -0.16459     0.29796   ]
+  ..., 
+  [ 0.          0.          0.         ...,  0.          0.          0.        ]
+  [ 0.          0.          0.         ...,  0.          0.          0.        ]
+  [ 0.          0.          0.         ...,  0.          0.          0.        ]]
+
+ ..., 
+ [[ 0.24471    -0.16719     0.099626   ..., -0.62319    -0.35169    -0.088778  ]
+  [ 0.083096    0.052565    0.17864    ..., -0.049633    0.52222     0.52408   ]
+  [ 0.15083    -0.394       0.27848    ..., -0.32175     0.58337     0.36878   ]
+  ..., 
+  [ 0.          0.          0.         ...,  0.          0.          0.        ]
+  [ 0.          0.          0.         ...,  0.          0.          0.        ]
+  [ 0.          0.          0.         ...,  0.          0.          0.        ]]
+
+ [[-0.19472     0.18836     0.11739    ..., -0.38294    -0.25358    -0.12843   ]
+  [ 0.23947     0.28136     0.33209    ..., -0.33882     0.47715    -0.077103  ]
+  [-0.40239    -0.0022291  -0.020036   ...,  0.21429     0.21021    -0.019233  ]
+  ..., 
+  [ 0.          0.          0.         ...,  0.          0.          0.        ]
+  [ 0.          0.          0.         ...,  0.          0.          0.        ]
+  [ 0.          0.          0.         ...,  0.          0.          0.        ]]
+
+ [[-0.18416     0.42065     0.66224    ...,  0.4175     -0.032347   -0.6291    ]
+  [ 0.061223    0.72227    -0.1896     ...,  0.18959    -0.02957    -0.56861   ]
+  [ 0.14533     0.12262    -0.21671    ...,  0.25562    -0.0032642  -0.32747   ]
+  ..., 
+  [ 0.          0.          0.         ...,  0.          0.          0.        ]
+  [ 0.          0.          0.         ...,  0.          0.          0.        ]
+  [ 0.          0.          0.         ...,  0.          0.          0.        ]]]
+[[ 1.  0.  0. ...,  0.  0.  0.]
+ [ 0.  0.  0. ...,  0.  1.  0.]
+ [ 0.  0.  0. ...,  0.  1.  0.]
+ ..., 
+ [ 1.  0.  0. ...,  0.  0.  0.]
+ [ 0.  0.  0. ...,  0.  1.  0.]
+ [ 0.  0.  0. ...,  0.  1.  0.]]
+212
+Epoch 1/200
+  32/1413 [..............................] - ETA: 9s - loss: 0.4148 - acc: 0.0000e+00  64/1413 [>.............................] - ETA: 8s - loss: 0.4256 - acc: 0.2031      96/1413 [=>............................] - ETA: 7s - loss: 0.4286 - acc: 0.2604 128/1413 [=>............................] - ETA: 7s - loss: 0.4338 - acc: 0.2578 160/1413 [==>...........................] - ETA: 7s - loss: 0.4365 - acc: 0.2562 192/1413 [===>..........................] - ETA: 6s - loss: 0.4450 - acc: 0.2865 224/1413 [===>..........................] - ETA: 6s - loss: 0.4429 - acc: 0.3125 256/1413 [====>.........................] - ETA: 6s - loss: 0.4481 - acc: 0.3359 288/1413 [=====>........................] - ETA: 6s - loss: 0.4492 - acc: 0.3368 320/1413 [=====>........................] - ETA: 6s - loss: 0.4497 - acc: 0.3312 352/1413 [======>.......................] - ETA: 5s - loss: 0.4472 - acc: 0.3295 384/1413 [=======>......................] - ETA: 5s - loss: 0.4430 - acc: 0.3203 416/1413 [=======>......................] - ETA: 5s - loss: 0.4396 - acc: 0.3245 448/1413 [========>.....................] - ETA: 5s - loss: 0.4414 - acc: 0.3304 480/1413 [=========>....................] - ETA: 5s - loss: 0.4418 - acc: 0.3292 512/1413 [=========>....................] - ETA: 4s - loss: 0.4413 - acc: 0.3281 544/1413 [==========>...................] - ETA: 4s - loss: 0.4388 - acc: 0.3272 576/1413 [===========>..................] - ETA: 4s - loss: 0.4353 - acc: 0.3281 608/1413 [===========>..................] - ETA: 4s - loss: 0.4334 - acc: 0.3355 640/1413 [============>.................] - ETA: 4s - loss: 0.4348 - acc: 0.3328 672/1413 [=============>................] - ETA: 4s - loss: 0.4331 - acc: 0.3348 704/1413 [=============>................] - ETA: 3s - loss: 0.4336 - acc: 0.3338 736/1413 [==============>...............] - ETA: 3s - loss: 0.4328 - acc: 0.3356 768/1413 [===============>..............] - ETA: 3s - loss: 0.4323 - acc: 0.3385 800/1413 [===============>..............] - ETA: 3s - loss: 0.4320 - acc: 0.3362 832/1413 [================>.............] - ETA: 3s - loss: 0.4315 - acc: 0.3413 864/1413 [=================>............] - ETA: 2s - loss: 0.4299 - acc: 0.3438 896/1413 [==================>...........] - ETA: 2s - loss: 0.4304 - acc: 0.3404 928/1413 [==================>...........] - ETA: 2s - loss: 0.4301 - acc: 0.3448 960/1413 [===================>..........] - ETA: 2s - loss: 0.4301 - acc: 0.3396 992/1413 [====================>.........] - ETA: 2s - loss: 0.4294 - acc: 0.33971024/1413 [====================>.........] - ETA: 2s - loss: 0.4296 - acc: 0.33791056/1413 [=====================>........] - ETA: 1s - loss: 0.4291 - acc: 0.33811088/1413 [======================>.......] - ETA: 1s - loss: 0.4285 - acc: 0.34011120/1413 [======================>.......] - ETA: 1s - loss: 0.4280 - acc: 0.34291152/1413 [=======================>......] - ETA: 1s - loss: 0.4273 - acc: 0.33851184/1413 [========================>.....] - ETA: 1s - loss: 0.4287 - acc: 0.33531216/1413 [========================>.....] - ETA: 1s - loss: 0.4285 - acc: 0.32981248/1413 [=========================>....] - ETA: 0s - loss: 0.4288 - acc: 0.33171280/1413 [==========================>...] - ETA: 0s - loss: 0.4292 - acc: 0.33051312/1413 [==========================>...] - ETA: 0s - loss: 0.4291 - acc: 0.33081344/1413 [===========================>..] - ETA: 0s - loss: 0.4289 - acc: 0.33041376/1413 [============================>.] - ETA: 0s - loss: 0.4290 - acc: 0.32851408/1413 [============================>.] - ETA: 0s - loss: 0.4288 - acc: 0.32951413/1413 [==============================] - 7s - loss: 0.4288 - acc: 0.3291     
+Epoch 2/200
+  32/1413 [..............................] - ETA: 7s - loss: 0.4119 - acc: 0.1562  64/1413 [>.............................] - ETA: 7s - loss: 0.4131 - acc: 0.1406  96/1413 [=>............................] - ETA: 7s - loss: 0.4055 - acc: 0.1667 128/1413 [=>............................] - ETA: 6s - loss: 0.4272 - acc: 0.1719 160/1413 [==>...........................] - ETA: 6s - loss: 0.4195 - acc: 0.1875 192/1413 [===>..........................] - ETA: 6s - loss: 0.4199 - acc: 0.1875 224/1413 [===>..........................] - ETA: 6s - loss: 0.4236 - acc: 0.2009 256/1413 [====>.........................] - ETA: 6s - loss: 0.4236 - acc: 0.2266 288/1413 [=====>........................] - ETA: 6s - loss: 0.4210 - acc: 0.2396 320/1413 [=====>........................] - ETA: 5s - loss: 0.4201 - acc: 0.2437 352/1413 [======>.......................] - ETA: 5s - loss: 0.4230 - acc: 0.2273 384/1413 [=======>......................] - ETA: 5s - loss: 0.4273 - acc: 0.2344 416/1413 [=======>......................] - ETA: 5s - loss: 0.4273 - acc: 0.2428 448/1413 [========>.....................] - ETA: 5s - loss: 0.4253 - acc: 0.2567 480/1413 [=========>....................] - ETA: 5s - loss: 0.4225 - acc: 0.2750 512/1413 [=========>....................] - ETA: 4s - loss: 0.4222 - acc: 0.2754 544/1413 [==========>...................] - ETA: 4s - loss: 0.4227 - acc: 0.2794 576/1413 [===========>..................] - ETA: 4s - loss: 0.4224 - acc: 0.2795 608/1413 [===========>..................] - ETA: 4s - loss: 0.4244 - acc: 0.2829 640/1413 [============>.................] - ETA: 4s - loss: 0.4223 - acc: 0.2844 672/1413 [=============>................] - ETA: 4s - loss: 0.4216 - acc: 0.2902 704/1413 [=============>................] - ETA: 3s - loss: 0.4236 - acc: 0.2841 736/1413 [==============>...............] - ETA: 3s - loss: 0.4243 - acc: 0.2880 768/1413 [===============>..............] - ETA: 3s - loss: 0.4266 - acc: 0.2943 800/1413 [===============>..............] - ETA: 3s - loss: 0.4256 - acc: 0.2950 832/1413 [================>.............] - ETA: 3s - loss: 0.4256 - acc: 0.2969 864/1413 [=================>............] - ETA: 2s - loss: 0.4256 - acc: 0.3009 896/1413 [==================>...........] - ETA: 2s - loss: 0.4246 - acc: 0.3047 928/1413 [==================>...........] - ETA: 2s - loss: 0.4239 - acc: 0.3060 960/1413 [===================>..........] - ETA: 2s - loss: 0.4230 - acc: 0.3052 992/1413 [====================>.........] - ETA: 2s - loss: 0.4239 - acc: 0.29741024/1413 [====================>.........] - ETA: 2s - loss: 0.4242 - acc: 0.29881056/1413 [=====================>........] - ETA: 1s - loss: 0.4225 - acc: 0.30111088/1413 [======================>.......] - ETA: 1s - loss: 0.4226 - acc: 0.29961120/1413 [======================>.......] - ETA: 1s - loss: 0.4227 - acc: 0.30001152/1413 [=======================>......] - ETA: 1s - loss: 0.4219 - acc: 0.29951184/1413 [========================>.....] - ETA: 1s - loss: 0.4211 - acc: 0.30241216/1413 [========================>.....] - ETA: 1s - loss: 0.4202 - acc: 0.30181248/1413 [=========================>....] - ETA: 0s - loss: 0.4188 - acc: 0.30051280/1413 [==========================>...] - ETA: 0s - loss: 0.4190 - acc: 0.29771312/1413 [==========================>...] - ETA: 0s - loss: 0.4191 - acc: 0.29421344/1413 [===========================>..] - ETA: 0s - loss: 0.4187 - acc: 0.29241376/1413 [============================>.] - ETA: 0s - loss: 0.4186 - acc: 0.29071408/1413 [============================>.] - ETA: 0s - loss: 0.4179 - acc: 0.28761413/1413 [==============================] - 7s - loss: 0.4178 - acc: 0.2873     
+Epoch 3/200
+  32/1413 [..............................] - ETA: 7s - loss: 0.4534 - acc: 0.1562  64/1413 [>.............................] - ETA: 7s - loss: 0.4215 - acc: 0.1562  96/1413 [=>............................] - ETA: 7s - loss: 0.4219 - acc: 0.1667 128/1413 [=>............................] - ETA: 7s - loss: 0.4261 - acc: 0.1953 160/1413 [==>...........................] - ETA: 6s - loss: 0.4222 - acc: 0.1938 192/1413 [===>..........................] - ETA: 6s - loss: 0.4240 - acc: 0.1823 224/1413 [===>..........................] - ETA: 6s - loss: 0.4213 - acc: 0.1920 256/1413 [====>.........................] - ETA: 6s - loss: 0.4195 - acc: 0.1836 288/1413 [=====>........................] - ETA: 6s - loss: 0.4210 - acc: 0.1771 320/1413 [=====>........................] - ETA: 5s - loss: 0.4210 - acc: 0.1875 352/1413 [======>.......................] - ETA: 5s - loss: 0.4225 - acc: 0.1818 384/1413 [=======>......................] - ETA: 5s - loss: 0.4234 - acc: 0.1771 416/1413 [=======>......................] - ETA: 5s - loss: 0.4254 - acc: 0.1851 448/1413 [========>.....................] - ETA: 5s - loss: 0.4274 - acc: 0.1920 480/1413 [=========>....................] - ETA: 5s - loss: 0.4263 - acc: 0.1875 512/1413 [=========>....................] - ETA: 4s - loss: 0.4275 - acc: 0.1914 544/1413 [==========>...................] - ETA: 4s - loss: 0.4274 - acc: 0.1893 576/1413 [===========>..................] - ETA: 4s - loss: 0.4264 - acc: 0.1997 608/1413 [===========>..................] - ETA: 4s - loss: 0.4236 - acc: 0.1990 640/1413 [============>.................] - ETA: 4s - loss: 0.4221 - acc: 0.1938 672/1413 [=============>................] - ETA: 4s - loss: 0.4208 - acc: 0.2039 704/1413 [=============>................] - ETA: 3s - loss: 0.4200 - acc: 0.2116 736/1413 [==============>...............] - ETA: 3s - loss: 0.4206 - acc: 0.2106 768/1413 [===============>..............] - ETA: 3s - loss: 0.4209 - acc: 0.2148 800/1413 [===============>..............] - ETA: 3s - loss: 0.4205 - acc: 0.2137 832/1413 [================>.............] - ETA: 3s - loss: 0.4202 - acc: 0.2236 864/1413 [=================>............] - ETA: 2s - loss: 0.4192 - acc: 0.2269 896/1413 [==================>...........] - ETA: 2s - loss: 0.4182 - acc: 0.2266 928/1413 [==================>...........] - ETA: 2s - loss: 0.4176 - acc: 0.2360 960/1413 [===================>..........] - ETA: 2s - loss: 0.4176 - acc: 0.2396 992/1413 [====================>.........] - ETA: 2s - loss: 0.4172 - acc: 0.23991024/1413 [====================>.........] - ETA: 2s - loss: 0.4165 - acc: 0.24321056/1413 [=====================>........] - ETA: 1s - loss: 0.4171 - acc: 0.24531088/1413 [======================>.......] - ETA: 1s - loss: 0.4165 - acc: 0.24541120/1413 [======================>.......] - ETA: 1s - loss: 0.4171 - acc: 0.24551152/1413 [=======================>......] - ETA: 1s - loss: 0.4174 - acc: 0.24651184/1413 [========================>.....] - ETA: 1s - loss: 0.4182 - acc: 0.25001216/1413 [========================>.....] - ETA: 1s - loss: 0.4183 - acc: 0.25661248/1413 [=========================>....] - ETA: 0s - loss: 0.4187 - acc: 0.25561280/1413 [==========================>...] - ETA: 0s - loss: 0.4183 - acc: 0.26091312/1413 [==========================>...] - ETA: 0s - loss: 0.4181 - acc: 0.26371344/1413 [===========================>..] - ETA: 0s - loss: 0.4180 - acc: 0.26411376/1413 [============================>.] - ETA: 0s - loss: 0.4178 - acc: 0.26961408/1413 [============================>.] - ETA: 0s - loss: 0.4176 - acc: 0.27201413/1413 [==============================] - 7s - loss: 0.4175 - acc: 0.2718     
+Epoch 4/200
+  32/1413 [..............................] - ETA: 7s - loss: 0.4385 - acc: 0.3125  64/1413 [>.............................] - ETA: 7s - loss: 0.4349 - acc: 0.2344  96/1413 [=>............................] - ETA: 7s - loss: 0.4353 - acc: 0.2083 128/1413 [=>............................] - ETA: 6s - loss: 0.4238 - acc: 0.1953 160/1413 [==>...........................] - ETA: 6s - loss: 0.4154 - acc: 0.1812 192/1413 [===>..........................] - ETA: 6s - loss: 0.4253 - acc: 0.1667 224/1413 [===>..........................] - ETA: 6s - loss: 0.4227 - acc: 0.1786 256/1413 [====>.........................] - ETA: 6s - loss: 0.4203 - acc: 0.1836 288/1413 [=====>........................] - ETA: 6s - loss: 0.4178 - acc: 0.1736 320/1413 [=====>........................] - ETA: 5s - loss: 0.4154 - acc: 0.1938 352/1413 [======>.......................] - ETA: 5s - loss: 0.4174 - acc: 0.1960 384/1413 [=======>......................] - ETA: 5s - loss: 0.4172 - acc: 0.1927 416/1413 [=======>......................] - ETA: 5s - loss: 0.4174 - acc: 0.1899 448/1413 [========>.....................] - ETA: 5s - loss: 0.4149 - acc: 0.2031 480/1413 [=========>....................] - ETA: 5s - loss: 0.4161 - acc: 0.1979 512/1413 [=========>....................] - ETA: 4s - loss: 0.4158 - acc: 0.1992 544/1413 [==========>...................] - ETA: 4s - loss: 0.4162 - acc: 0.2059 576/1413 [===========>..................] - ETA: 4s - loss: 0.4139 - acc: 0.2153 608/1413 [===========>..................] - ETA: 4s - loss: 0.4123 - acc: 0.2204 640/1413 [============>.................] - ETA: 4s - loss: 0.4117 - acc: 0.2219 672/1413 [=============>................] - ETA: 4s - loss: 0.4119 - acc: 0.2173 704/1413 [=============>................] - ETA: 3s - loss: 0.4135 - acc: 0.2216 736/1413 [==============>...............] - ETA: 3s - loss: 0.4154 - acc: 0.2283 768/1413 [===============>..............] - ETA: 3s - loss: 0.4164 - acc: 0.2318 800/1413 [===============>..............] - ETA: 3s - loss: 0.4162 - acc: 0.2387 832/1413 [================>.............] - ETA: 3s - loss: 0.4152 - acc: 0.2404 864/1413 [=================>............] - ETA: 2s - loss: 0.4150 - acc: 0.2500 896/1413 [==================>...........] - ETA: 2s - loss: 0.4155 - acc: 0.2500 928/1413 [==================>...........] - ETA: 2s - loss: 0.4143 - acc: 0.2554 960/1413 [===================>..........] - ETA: 2s - loss: 0.4143 - acc: 0.2594 992/1413 [====================>.........] - ETA: 2s - loss: 0.4147 - acc: 0.26411024/1413 [====================>.........] - ETA: 2s - loss: 0.4158 - acc: 0.26861056/1413 [=====================>........] - ETA: 1s - loss: 0.4159 - acc: 0.26991088/1413 [======================>.......] - ETA: 1s - loss: 0.4156 - acc: 0.27481120/1413 [======================>.......] - ETA: 1s - loss: 0.4162 - acc: 0.27231152/1413 [=======================>......] - ETA: 1s - loss: 0.4160 - acc: 0.27261184/1413 [========================>.....] - ETA: 1s - loss: 0.4167 - acc: 0.27451216/1413 [========================>.....] - ETA: 1s - loss: 0.4167 - acc: 0.27801248/1413 [=========================>....] - ETA: 0s - loss: 0.4178 - acc: 0.27561280/1413 [==========================>...] - ETA: 0s - loss: 0.4174 - acc: 0.27661312/1413 [==========================>...] - ETA: 0s - loss: 0.4178 - acc: 0.28051344/1413 [===========================>..] - ETA: 0s - loss: 0.4176 - acc: 0.27901376/1413 [============================>.] - ETA: 0s - loss: 0.4178 - acc: 0.28201408/1413 [============================>.] - ETA: 0s - loss: 0.4168 - acc: 0.28411413/1413 [==============================] - 7s - loss: 0.4172 - acc: 0.2845     
+Epoch 5/200
+  32/1413 [..............................] - ETA: 7s - loss: 0.3930 - acc: 0.4375  64/1413 [>.............................] - ETA: 7s - loss: 0.4122 - acc: 0.4062  96/1413 [=>............................] - ETA: 7s - loss: 0.4124 - acc: 0.3854 128/1413 [=>............................] - ETA: 7s - loss: 0.4190 - acc: 0.3750 160/1413 [==>...........................] - ETA: 6s - loss: 0.4364 - acc: 0.3438 192/1413 [===>..........................] - ETA: 6s - loss: 0.4293 - acc: 0.3490 224/1413 [===>..........................] - ETA: 6s - loss: 0.4316 - acc: 0.3438 256/1413 [====>.........................] - ETA: 6s - loss: 0.4292 - acc: 0.3477 288/1413 [=====>........................] - ETA: 6s - loss: 0.4286 - acc: 0.3438 320/1413 [=====>........................] - ETA: 5s - loss: 0.4301 - acc: 0.3438 352/1413 [======>.......................] - ETA: 5s - loss: 0.4287 - acc: 0.3409 384/1413 [=======>......................] - ETA: 5s - loss: 0.4284 - acc: 0.3281 416/1413 [=======>......................] - ETA: 5s - loss: 0.4291 - acc: 0.3341 448/1413 [========>.....................] - ETA: 5s - loss: 0.4268 - acc: 0.3393 480/1413 [=========>....................] - ETA: 5s - loss: 0.4269 - acc: 0.3396 512/1413 [=========>....................] - ETA: 4s - loss: 0.4269 - acc: 0.3359 544/1413 [==========>...................] - ETA: 4s - loss: 0.4273 - acc: 0.3272 576/1413 [===========>..................] - ETA: 4s - loss: 0.4281 - acc: 0.3229 608/1413 [===========>..................] - ETA: 4s - loss: 0.4254 - acc: 0.3207 640/1413 [============>.................] - ETA: 4s - loss: 0.4267 - acc: 0.3063 672/1413 [=============>................] - ETA: 4s - loss: 0.4251 - acc: 0.3095 704/1413 [=============>................] - ETA: 3s - loss: 0.4248 - acc: 0.3125 736/1413 [==============>...............] - ETA: 3s - loss: 0.4239 - acc: 0.3220 768/1413 [===============>..............] - ETA: 3s - loss: 0.4229 - acc: 0.3242 800/1413 [===============>..............] - ETA: 3s - loss: 0.4219 - acc: 0.3275 832/1413 [================>.............] - ETA: 3s - loss: 0.4212 - acc: 0.3317 864/1413 [=================>............] - ETA: 2s - loss: 0.4218 - acc: 0.3299 896/1413 [==================>...........] - ETA: 2s - loss: 0.4212 - acc: 0.3281 928/1413 [==================>...........] - ETA: 2s - loss: 0.4198 - acc: 0.3297 960/1413 [===================>..........] - ETA: 2s - loss: 0.4208 - acc: 0.3292 992/1413 [====================>.........] - ETA: 2s - loss: 0.4192 - acc: 0.32861024/1413 [====================>.........] - ETA: 2s - loss: 0.4180 - acc: 0.32811056/1413 [=====================>........] - ETA: 1s - loss: 0.4177 - acc: 0.32671088/1413 [======================>.......] - ETA: 1s - loss: 0.4188 - acc: 0.32541120/1413 [======================>.......] - ETA: 1s - loss: 0.4177 - acc: 0.33301152/1413 [=======================>......] - ETA: 1s - loss: 0.4175 - acc: 0.33511184/1413 [========================>.....] - ETA: 1s - loss: 0.4166 - acc: 0.33611216/1413 [========================>.....] - ETA: 1s - loss: 0.4178 - acc: 0.33631248/1413 [=========================>....] - ETA: 0s - loss: 0.4185 - acc: 0.33571280/1413 [==========================>...] - ETA: 0s - loss: 0.4192 - acc: 0.33671312/1413 [==========================>...] - ETA: 0s - loss: 0.4187 - acc: 0.33611344/1413 [===========================>..] - ETA: 0s - loss: 0.4186 - acc: 0.33411376/1413 [============================>.] - ETA: 0s - loss: 0.4181 - acc: 0.33141408/1413 [============================>.] - ETA: 0s - loss: 0.4171 - acc: 0.32811413/1413 [==============================] - 7s - loss: 0.4170 - acc: 0.3277     
+Epoch 6/200
+  32/1413 [..............................] - ETA: 7s - loss: 0.4060 - acc: 0.1875  64/1413 [>.............................] - ETA: 7s - loss: 0.4248 - acc: 0.2500  96/1413 [=>............................] - ETA: 7s - loss: 0.4295 - acc: 0.2604 128/1413 [=>............................] - ETA: 6s - loss: 0.4261 - acc: 0.3047 160/1413 [==>...........................] - ETA: 6s - loss: 0.4365 - acc: 0.3063 192/1413 [===>..........................] - ETA: 6s - loss: 0.4293 - acc: 0.3177 224/1413 [===>..........................] - ETA: 6s - loss: 0.4271 - acc: 0.3125 256/1413 [====>.........................] - ETA: 6s - loss: 0.4232 - acc: 0.3047 288/1413 [=====>........................] - ETA: 6s - loss: 0.4232 - acc: 0.3056 320/1413 [=====>........................] - ETA: 5s - loss: 0.4187 - acc: 0.3187 352/1413 [======>.......................] - ETA: 5s - loss: 0.4179 - acc: 0.3210 384/1413 [=======>......................] - ETA: 5s - loss: 0.4170 - acc: 0.3281 416/1413 [=======>......................] - ETA: 5s - loss: 0.4190 - acc: 0.3269 448/1413 [========>.....................] - ETA: 5s - loss: 0.4164 - acc: 0.3281 480/1413 [=========>....................] - ETA: 5s - loss: 0.4167 - acc: 0.3292 512/1413 [=========>....................] - ETA: 4s - loss: 0.4182 - acc: 0.3281 544/1413 [==========>...................] - ETA: 4s - loss: 0.4181 - acc: 0.3327 576/1413 [===========>..................] - ETA: 4s - loss: 0.4187 - acc: 0.3281 608/1413 [===========>..................] - ETA: 4s - loss: 0.4183 - acc: 0.3339 640/1413 [============>.................] - ETA: 4s - loss: 0.4192 - acc: 0.3266 672/1413 [=============>................] - ETA: 4s - loss: 0.4190 - acc: 0.3199 704/1413 [=============>................] - ETA: 3s - loss: 0.4181 - acc: 0.3239 736/1413 [==============>...............] - ETA: 3s - loss: 0.4199 - acc: 0.3247 768/1413 [===============>..............] - ETA: 3s - loss: 0.4186 - acc: 0.3255 800/1413 [===============>..............] - ETA: 3s - loss: 0.4188 - acc: 0.3250 832/1413 [================>.............] - ETA: 3s - loss: 0.4191 - acc: 0.3197 864/1413 [=================>............] - ETA: 2s - loss: 0.4178 - acc: 0.3218 896/1413 [==================>...........] - ETA: 2s - loss: 0.4178 - acc: 0.3214 928/1413 [==================>...........] - ETA: 2s - loss: 0.4182 - acc: 0.3179 960/1413 [===================>..........] - ETA: 2s - loss: 0.4191 - acc: 0.3135 992/1413 [====================>.........] - ETA: 2s - loss: 0.4183 - acc: 0.30851024/1413 [====================>.........] - ETA: 2s - loss: 0.4174 - acc: 0.30571056/1413 [=====================>........] - ETA: 1s - loss: 0.4175 - acc: 0.30111088/1413 [======================>.......] - ETA: 1s - loss: 0.4178 - acc: 0.29691120/1413 [======================>.......] - ETA: 1s - loss: 0.4173 - acc: 0.29381152/1413 [=======================>......] - ETA: 1s - loss: 0.4166 - acc: 0.29601184/1413 [========================>.....] - ETA: 1s - loss: 0.4180 - acc: 0.29731216/1413 [========================>.....] - ETA: 1s - loss: 0.4184 - acc: 0.29771248/1413 [=========================>....] - ETA: 0s - loss: 0.4188 - acc: 0.29891280/1413 [==========================>...] - ETA: 0s - loss: 0.4188 - acc: 0.30231312/1413 [==========================>...] - ETA: 0s - loss: 0.4179 - acc: 0.30031344/1413 [===========================>..] - ETA: 0s - loss: 0.4190 - acc: 0.30361376/1413 [============================>.] - ETA: 0s - loss: 0.4186 - acc: 0.30671408/1413 [============================>.] - ETA: 0s - loss: 0.4172 - acc: 0.31041413/1413 [==============================] - 7s - loss: 0.4171 - acc: 0.3107     
+Epoch 7/200
+  32/1413 [..............................] - ETA: 7s - loss: 0.4134 - acc: 0.3125  64/1413 [>.............................] - ETA: 7s - loss: 0.4184 - acc: 0.4062  96/1413 [=>............................] - ETA: 7s - loss: 0.4303 - acc: 0.3958 128/1413 [=>............................] - ETA: 6s - loss: 0.4342 - acc: 0.3672 160/1413 [==>...........................] - ETA: 6s - loss: 0.4287 - acc: 0.3812 192/1413 [===>..........................] - ETA: 6s - loss: 0.4197 - acc: 0.3906 224/1413 [===>..........................] - ETA: 6s - loss: 0.4229 - acc: 0.3884 256/1413 [====>.........................] - ETA: 6s - loss: 0.4210 - acc: 0.3711 288/1413 [=====>........................] - ETA: 6s - loss: 0.4190 - acc: 0.3576 320/1413 [=====>........................] - ETA: 5s - loss: 0.4192 - acc: 0.3406 352/1413 [======>.......................] - ETA: 5s - loss: 0.4188 - acc: 0.3210 384/1413 [=======>......................] - ETA: 5s - loss: 0.4180 - acc: 0.3203 416/1413 [=======>......................] - ETA: 5s - loss: 0.4183 - acc: 0.3173 448/1413 [========>.....................] - ETA: 5s - loss: 0.4188 - acc: 0.3281 480/1413 [=========>....................] - ETA: 5s - loss: 0.4199 - acc: 0.3312 512/1413 [=========>....................] - ETA: 4s - loss: 0.4196 - acc: 0.3320 544/1413 [==========>...................] - ETA: 4s - loss: 0.4206 - acc: 0.3254 576/1413 [===========>..................] - ETA: 4s - loss: 0.4204 - acc: 0.3281 608/1413 [===========>..................] - ETA: 4s - loss: 0.4216 - acc: 0.3289 640/1413 [============>.................] - ETA: 4s - loss: 0.4191 - acc: 0.3281 672/1413 [=============>................] - ETA: 4s - loss: 0.4186 - acc: 0.3318 704/1413 [=============>................] - ETA: 3s - loss: 0.4162 - acc: 0.3295 736/1413 [==============>...............] - ETA: 3s - loss: 0.4165 - acc: 0.3302 768/1413 [===============>..............] - ETA: 3s - loss: 0.4171 - acc: 0.3307 800/1413 [===============>..............] - ETA: 3s - loss: 0.4175 - acc: 0.3275 832/1413 [================>.............] - ETA: 3s - loss: 0.4177 - acc: 0.3257 864/1413 [=================>............] - ETA: 2s - loss: 0.4181 - acc: 0.3229 896/1413 [==================>...........] - ETA: 2s - loss: 0.4166 - acc: 0.3203 928/1413 [==================>...........] - ETA: 2s - loss: 0.4164 - acc: 0.3200 960/1413 [===================>..........] - ETA: 2s - loss: 0.4155 - acc: 0.3146 992/1413 [====================>.........] - ETA: 2s - loss: 0.4159 - acc: 0.30851024/1413 [====================>.........] - ETA: 2s - loss: 0.4155 - acc: 0.30371056/1413 [=====================>........] - ETA: 1s - loss: 0.4152 - acc: 0.30211088/1413 [======================>.......] - ETA: 1s - loss: 0.4156 - acc: 0.29961120/1413 [======================>.......] - ETA: 1s - loss: 0.4162 - acc: 0.29461152/1413 [=======================>......] - ETA: 1s - loss: 0.4159 - acc: 0.29171184/1413 [========================>.....] - ETA: 1s - loss: 0.4153 - acc: 0.28801216/1413 [========================>.....] - ETA: 1s - loss: 0.4153 - acc: 0.29031248/1413 [=========================>....] - ETA: 0s - loss: 0.4148 - acc: 0.29171280/1413 [==========================>...] - ETA: 0s - loss: 0.4154 - acc: 0.29531312/1413 [==========================>...] - ETA: 0s - loss: 0.4155 - acc: 0.29571344/1413 [===========================>..] - ETA: 0s - loss: 0.4152 - acc: 0.29691376/1413 [============================>.] - ETA: 0s - loss: 0.4155 - acc: 0.29871408/1413 [============================>.] - ETA: 0s - loss: 0.4172 - acc: 0.29761413/1413 [==============================] - 7s - loss: 0.4169 - acc: 0.2965     
+Epoch 8/200
+  32/1413 [..............................] - ETA: 7s - loss: 0.3958 - acc: 0.1250  64/1413 [>.............................] - ETA: 7s - loss: 0.3848 - acc: 0.1562  96/1413 [=>............................] - ETA: 7s - loss: 0.4070 - acc: 0.1562 128/1413 [=>............................] - ETA: 6s - loss: 0.4033 - acc: 0.1797 160/1413 [==>...........................] - ETA: 6s - loss: 0.4040 - acc: 0.1750 192/1413 [===>..........................] - ETA: 6s - loss: 0.4042 - acc: 0.2083 224/1413 [===>..........................] - ETA: 6s - loss: 0.4078 - acc: 0.2143 256/1413 [====>.........................] - ETA: 6s - loss: 0.4098 - acc: 0.2266 288/1413 [=====>........................] - ETA: 6s - loss: 0.4113 - acc: 0.2465 320/1413 [=====>........................] - ETA: 5s - loss: 0.4153 - acc: 0.2500 352/1413 [======>.......................] - ETA: 5s - loss: 0.4152 - acc: 0.2642 384/1413 [=======>......................] - ETA: 5s - loss: 0.4159 - acc: 0.2760 416/1413 [=======>......................] - ETA: 5s - loss: 0.4190 - acc: 0.2885 448/1413 [========>.....................] - ETA: 5s - loss: 0.4169 - acc: 0.2902 480/1413 [=========>....................] - ETA: 5s - loss: 0.4180 - acc: 0.2938 512/1413 [=========>....................] - ETA: 4s - loss: 0.4184 - acc: 0.3027 544/1413 [==========>...................] - ETA: 4s - loss: 0.4196 - acc: 0.2996 576/1413 [===========>..................] - ETA: 4s - loss: 0.4194 - acc: 0.3038 608/1413 [===========>..................] - ETA: 4s - loss: 0.4189 - acc: 0.3076 640/1413 [============>.................] - ETA: 4s - loss: 0.4184 - acc: 0.3078 672/1413 [=============>................] - ETA: 4s - loss: 0.4182 - acc: 0.3006 704/1413 [=============>................] - ETA: 3s - loss: 0.4162 - acc: 0.3026 736/1413 [==============>...............] - ETA: 3s - loss: 0.4172 - acc: 0.3016 768/1413 [===============>..............] - ETA: 3s - loss: 0.4171 - acc: 0.3034 800/1413 [===============>..............] - ETA: 3s - loss: 0.4160 - acc: 0.3038 832/1413 [================>.............] - ETA: 3s - loss: 0.4142 - acc: 0.2993 864/1413 [=================>............] - ETA: 2s - loss: 0.4157 - acc: 0.2963 896/1413 [==================>...........] - ETA: 2s - loss: 0.4162 - acc: 0.2935 928/1413 [==================>...........] - ETA: 2s - loss: 0.4167 - acc: 0.2877 960/1413 [===================>..........] - ETA: 2s - loss: 0.4173 - acc: 0.2833 992/1413 [====================>.........] - ETA: 2s - loss: 0.4173 - acc: 0.28021024/1413 [====================>.........] - ETA: 2s - loss: 0.4144 - acc: 0.28031056/1413 [=====================>........] - ETA: 1s - loss: 0.4143 - acc: 0.27751088/1413 [======================>.......] - ETA: 1s - loss: 0.4153 - acc: 0.27301120/1413 [======================>.......] - ETA: 1s - loss: 0.4152 - acc: 0.27411152/1413 [=======================>......] - ETA: 1s - loss: 0.4160 - acc: 0.27001184/1413 [========================>.....] - ETA: 1s - loss: 0.4175 - acc: 0.26771216/1413 [========================>.....] - ETA: 1s - loss: 0.4170 - acc: 0.26321248/1413 [=========================>....] - ETA: 0s - loss: 0.4169 - acc: 0.26841280/1413 [==========================>...] - ETA: 0s - loss: 0.4171 - acc: 0.27271312/1413 [==========================>...] - ETA: 0s - loss: 0.4167 - acc: 0.27061344/1413 [===========================>..] - ETA: 0s - loss: 0.4166 - acc: 0.27311376/1413 [============================>.] - ETA: 0s - loss: 0.4168 - acc: 0.27251408/1413 [============================>.] - ETA: 0s - loss: 0.4168 - acc: 0.27271413/1413 [==============================] - 7s - loss: 0.4169 - acc: 0.2725     
+Epoch 9/200
+  32/1413 [..............................] - ETA: 7s - loss: 0.4127 - acc: 0.1562  64/1413 [>.............................] - ETA: 7s - loss: 0.3857 - acc: 0.1562  96/1413 [=>............................] - ETA: 7s - loss: 0.4044 - acc: 0.1354 128/1413 [=>............................] - ETA: 6s - loss: 0.4077 - acc: 0.1719 160/1413 [==>...........................] - ETA: 6s - loss: 0.4082 - acc: 0.1625 192/1413 [===>..........................] - ETA: 6s - loss: 0.4062 - acc: 0.1615 224/1413 [===>..........................] - ETA: 6s - loss: 0.4150 - acc: 0.1607 256/1413 [====>.........................] - ETA: 6s - loss: 0.4140 - acc: 0.1836 288/1413 [=====>........................] - ETA: 6s - loss: 0.4144 - acc: 0.2049 320/1413 [=====>........................] - ETA: 5s - loss: 0.4157 - acc: 0.2000 352/1413 [======>.......................] - ETA: 5s - loss: 0.4145 - acc: 0.1960 384/1413 [=======>......................] - ETA: 5s - loss: 0.4144 - acc: 0.1979 416/1413 [=======>......................] - ETA: 5s - loss: 0.4179 - acc: 0.1995 448/1413 [========>.....................] - ETA: 5s - loss: 0.4189 - acc: 0.1987 480/1413 [=========>....................] - ETA: 5s - loss: 0.4177 - acc: 0.2000 512/1413 [=========>....................] - ETA: 4s - loss: 0.4177 - acc: 0.2031 544/1413 [==========>...................] - ETA: 4s - loss: 0.4195 - acc: 0.2004 576/1413 [===========>..................] - ETA: 4s - loss: 0.4175 - acc: 0.2083 608/1413 [===========>..................] - ETA: 4s - loss: 0.4179 - acc: 0.2056 640/1413 [============>.................] - ETA: 4s - loss: 0.4187 - acc: 0.2000 672/1413 [=============>................] - ETA: 4s - loss: 0.4174 - acc: 0.1994 704/1413 [=============>................] - ETA: 3s - loss: 0.4159 - acc: 0.1946 736/1413 [==============>...............] - ETA: 3s - loss: 0.4156 - acc: 0.1984 768/1413 [===============>..............] - ETA: 3s - loss: 0.4163 - acc: 0.1953 800/1413 [===============>..............] - ETA: 3s - loss: 0.4170 - acc: 0.1938 832/1413 [================>.............] - ETA: 3s - loss: 0.4173 - acc: 0.1959 864/1413 [=================>............] - ETA: 2s - loss: 0.4156 - acc: 0.1933 896/1413 [==================>...........] - ETA: 2s - loss: 0.4162 - acc: 0.1987 928/1413 [==================>...........] - ETA: 2s - loss: 0.4161 - acc: 0.2015 960/1413 [===================>..........] - ETA: 2s - loss: 0.4154 - acc: 0.2000 992/1413 [====================>.........] - ETA: 2s - loss: 0.4149 - acc: 0.20461024/1413 [====================>.........] - ETA: 2s - loss: 0.4153 - acc: 0.20801056/1413 [=====================>........] - ETA: 1s - loss: 0.4159 - acc: 0.20931088/1413 [======================>.......] - ETA: 1s - loss: 0.4156 - acc: 0.20961120/1413 [======================>.......] - ETA: 1s - loss: 0.4168 - acc: 0.20711152/1413 [=======================>......] - ETA: 1s - loss: 0.4170 - acc: 0.21011184/1413 [========================>.....] - ETA: 1s - loss: 0.4169 - acc: 0.21541216/1413 [========================>.....] - ETA: 1s - loss: 0.4162 - acc: 0.22121248/1413 [=========================>....] - ETA: 0s - loss: 0.4159 - acc: 0.22681280/1413 [==========================>...] - ETA: 0s - loss: 0.4148 - acc: 0.23051312/1413 [==========================>...] - ETA: 0s - loss: 0.4161 - acc: 0.23251344/1413 [===========================>..] - ETA: 0s - loss: 0.4158 - acc: 0.23511376/1413 [============================>.] - ETA: 0s - loss: 0.4160 - acc: 0.23911408/1413 [============================>.] - ETA: 0s - loss: 0.4165 - acc: 0.24501413/1413 [==============================] - 7s - loss: 0.4168 - acc: 0.2442     
+Epoch 10/200
+  32/1413 [..............................] - ETA: 7s - loss: 0.4153 - acc: 0.3750  64/1413 [>.............................] - ETA: 7s - loss: 0.4198 - acc: 0.3438  96/1413 [=>............................] - ETA: 7s - loss: 0.4357 - acc: 0.3229 128/1413 [=>............................] - ETA: 6s - loss: 0.4447 - acc: 0.3047 160/1413 [==>...........................] - ETA: 6s - loss: 0.4343 - acc: 0.3063 192/1413 [===>..........................] - ETA: 6s - loss: 0.4282 - acc: 0.3229 224/1413 [===>..........................] - ETA: 6s - loss: 0.4255 - acc: 0.3304 256/1413 [====>.........................] - ETA: 6s - loss: 0.4244 - acc: 0.3203

@@ -4,13 +4,14 @@ from keras.layers.recurrent import LSTM, GRU, SimpleRNN
 import numpy as np
 from DataModel import DataModel
 from glove_utils import Glove
+from keras.utils.visualize_util import plot
 
-OUTPUT_DIM = 40
-EMBED_DIM = 50
+OUTPUT_DIM = 50
+#EMBED_DIM = 50
 WORD_EMBED = 300
 NUM_WAYS = 8
 prob_threshold = 0.2
-NUM_EPOCHS = 100
+NUM_EPOCHS = 200
 
 def get_max_desc_len(data):
     """
@@ -138,6 +139,8 @@ def construct_sequential_model():
     #model.add(LSTM(NUM_WAYS, input_length=max_len, input_dim=WORD_EMBED))
     #model.add(GRU(30, input_length=max_len, input_dim=WORD_EMBED))
     model.add(GRU(OUTPUT_DIM, input_dim=WORD_EMBED))
+    model.add(GRU(OUTPUT_DIM))
+    model.add(Dense(OUTPUT_DIM, activation='relu'))
     model.add(Dense(NUM_WAYS, activation='softmax'))
 
     #inputs = Input(shape=(max_len, WORD_EMBED))
@@ -164,6 +167,7 @@ def main():
     print max_len
    
     model = construct_sequential_model()
+    plot(model, to_file='GRU_relu_softmax.png')
 
 #    for training_vec, training_label in zip(training_vecs, training_labels):
 #        model.train(training_vec, training_label)
