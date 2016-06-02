@@ -4,6 +4,7 @@ from sklearn import linear_model
 import numpy as np
 import util
 import sys
+from sklearn.decomposition import PCA
 
 class LinearPCAClassifier(Classifier):
     """Represents a linear classifier"""
@@ -15,6 +16,7 @@ class LinearPCAClassifier(Classifier):
         self.list_of_words = None
         self.tmp = None
         self.n = n
+        self.pca = PCA(n_components = n)
 
     def train(self):
         """Trains model on data from data_model"""
@@ -29,7 +31,7 @@ class LinearPCAClassifier(Classifier):
         tmp = dict(enumerate(list_of_words))
         self.list_of_words = list_of_words
         self.tmp = tmp
-        X,y = util.convert_to_PCA_matrix(data_list,tmp,self.n)
+        X,y = util.convert_to_PCA_matrix(data_list,tmp,self.pca, True, self.n)
         clf = linear_model.SGDClassifier()
         y =  np.asarray(y).ravel()
         clf.fit(X,y)
@@ -63,7 +65,7 @@ class LinearPCAClassifier(Classifier):
             new_list.append((tuple(description),label))
         X = None
         y = None
-        X,y = util.convert_to_PCA_matrix(new_list,self.tmp,self.n)
+        X,y = util.convert_to_PCA_matrix(new_list,self.tmp,self.pca,False,self.n)
         ypred = self.classifier.predict(X)
         err = 0
         for i in range(len(new_list)):
@@ -77,5 +79,5 @@ class LinearPCAClassifier(Classifier):
         for i in range(len(description)):
             if description[i] not in self.list_of_words:
                 description[i] = "UNK"
-        X,y = util.convert_to_matrix([(tuple(description),0)],self.tmp)
+        X,y = util.convert_to_PCA_matrix([(tuple(description),0)],self.tmp,self.pca,False,self.n)
         return int(self.classifier.predict(X))

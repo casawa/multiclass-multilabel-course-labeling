@@ -53,12 +53,16 @@ class LinearClassifier(Classifier):
         pos = [(description,1) for description in all_classes if description in way_classes]
         data_list = pos + neg
         new_list = []
+        alpha = 0
+        beta = 0
         for elem in data_list:
             description = list(elem[0])
             label = elem[1]
             for i in range(len(description)):
                 if description[i] not in self.list_of_words:
                     description[i] = "UNK"
+                    alpha += 1
+                beta += 1
             new_list.append((tuple(description),label))
         X = None
         y = None

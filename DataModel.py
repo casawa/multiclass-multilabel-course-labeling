@@ -29,7 +29,7 @@ class DataModel:
         data = []
         class_all_ways = []
         with open(data_path, 'r') as f:
-            i = 1 
+            i = 1
             description = ""
             for line in f:
                 if i % 2 == 1:          # Odd lines are the classes
@@ -47,7 +47,7 @@ class DataModel:
                             self.test_ways_to_courses[way].append(tokens)
 
                 i += 1
- 
+
         return data, class_all_ways
 
     def get_list_of_ways(self):

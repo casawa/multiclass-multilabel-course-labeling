@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import random
 import threading
+from sklearn.decomposition import PCA
 
 
 def test_linear():
@@ -158,12 +159,12 @@ def overall_linear_test(data):
 
     total_dist = 0
     ways_to_classifiers = {}
-
+    err = {}
     for way in list_of_ways:
         clf = lc.LinearClassifier(data, way)
         err[way] = (clf.train(),clf.test())
-        print way + " train " + str(err[way][0])
-        print way + " test " + str(err[way][1])
+        #print way + " train " + str(err[way][0])
+        #print way + " test " + str(err[way][1])
         ways_to_classifiers[way] = clf
 
     for test_ex in data.training_data:
@@ -202,8 +203,8 @@ def overall_linear_ham_test(data):
     for way in list_of_ways:
         clf = lc.LinearClassifier(data, way)
         err[way] = (clf.train(),clf.test())
-        print way + " train " + str(err[way][0])
-        print way + " test " + str(err[way][1])
+        #print way + " train " + str(err[way][0])
+        #print way + " test " + str(err[way][1])
         ways_to_classifiers[way] = clf
 
     for test_ex in data.testing_data_all_ways:
@@ -238,7 +239,7 @@ def overall_linear_pca_test(data):
 
     for way in list_of_ways:
         print way
-        clf = lpc.LinearPCAClassifier(data, way, 10)
+        clf = lpc.LinearPCAClassifier(data, way, 1000)
         clf.train()
         ways_to_classifiers[way] = clf
 
@@ -267,7 +268,7 @@ def overall_linear_pca_test(data):
 exitFlag = 0
 queueLock = threading.Lock()
 threads = []
-NPOS = [3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+NPOS = [1,10,50,100,250,500,750,1000]
 
 def pca_func(data):
     global NPOS
@@ -342,16 +343,17 @@ def overall_linear_pca_ham_test_parallel(data):
 
     exitFlag = 1
 
-def overall_linear_pca_ham_test(data):
+def overall_linear_pca_ham_test(data,n):
     list_of_ways = data.get_list_of_ways()
     total_dist = 0
     ways_to_classifiers = {}
     err = {}
     for way in list_of_ways:
-        clf = lpc.LinearPCAClassifier(data, way, 100)
+        print way
+        clf = lpc.LinearPCAClassifier(data, way, n)
         err[way] = (clf.train(),clf.test())
-        print way + " train " + str(err[way][0])
-        print way + " test " + str(err[way][1])
+        #print way + " train " + str(err[way][0])
+        #print way + " test " + str(err[way][1])
         ways_to_classifiers[way] = clf
 
     for test_ex in data.testing_data_all_ways:
@@ -368,10 +370,46 @@ def overall_linear_pca_ham_test(data):
         total_dist += 1 - float(len((predicted_ways & test_ways)))/len(predicted_ways | test_ways)
 
     ham =  total_dist/len(data.testing_data_all_ways)
-    print "Components: " + str(100) + ", Error: " + str(ham)
+    print "Hamming: " + str(ham)
     avg_test = sum([err[way][1]for way in err])/len(err.keys())
     print "Avg test: " + str(avg_test)
 
+def test_stuff(data):
+    way_classes = set([tuple(x) for x in data.query_by_way(data.get_list_of_ways()[0],True)])
+    all_classes = set([tuple(x[0]) for x in data.get_training_data()])
+    neg = [(description,0) for description in all_classes if description not in way_classes]
+    pos = [(description,1) for description in all_classes if description in way_classes]
+    data_list = pos + neg
+    list_of_words = [word for x in data_list for word in x[0]]
+    list_of_words.append("UNK")
+    list_of_words = list(set(list_of_words))
+    tmp = dict(enumerate(list_of_words))
+    pos = {}
+    for item in tmp:
+        pos[tmp[item]] = item
+    V = len(set(tmp.keys()))
+    X = np.zeros((len(data_list),V))
+    y = np.zeros((len(data_list),1))
+    for i in range(len(data_list)):
+        point = data_list[i]
+        y[i] = point[1]
+        for word in point[0]:
+             X[i,pos[word]] = X[i,pos[word]] + 1
+
+    X = np.asmatrix(X)
+    y = np.asmatrix(y)
+    pca = PCA(n_components = 1000)
+    X_red = pca.fit_transform(X)
+    expl = pca.explained_variance_ratio_
+    res = [expl[0]]
+    i = 0
+    for i in range(999):
+        res.append(res[i] + expl[i+1])
+    plt.plot(range(1000),res)
+    plt.xlabel("Number of principal components")
+    plt.ylabel("Cumulative proportion of variance explained")
+    plt.title("Variance explained by principal components")
+    plt.show()
 
 def main():
     data = dm.DataModel()
@@ -380,10 +418,16 @@ def main():
     #test_linear()
     #test_linear()
     #overall_linear_test(data)
-    for i in range(10): overall_linear_ham_test(data)
+    #for i in range(10): overall_linear_ham_test(data)
     #overall_linear_pca_test(data)
-    for i in range(10): overall_linear_pca_ham_test(data)
+    #for i in range(10): overall_linear_pca_ham_test(data)
+    NPOS = [10,50,100,250,500,750,1000]
+    for elem in NPOS:
+        print "NUM: " + str(elem)
+        overall_linear_pca_ham_test(data,elem)
     #overall_naive_bayes_test(data)
     #overall_naive_bayes_ham_test(data)
+    #overall_linear_pca_ham_test_parallel(data)
+    #test_stuff(data)
 if __name__ == '__main__':
     main()
