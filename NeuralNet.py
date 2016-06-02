@@ -9,6 +9,8 @@ OUTPUT_DIM = 40
 EMBED_DIM = 50
 WORD_EMBED = 300
 NUM_WAYS = 8
+prob_threshold = 0.2
+NUM_EPOCHS = 100
 
 def get_max_desc_len(data):
     """
@@ -113,7 +115,7 @@ def compute_hamming(predicted, labels):
                 nonzero_labels.append(j)
 
         for j, val in enumerate(predicted[i]):
-            if val != 0:
+            if val > prob_threshold:
                 nonzero_preds.append(j)
 
         hamming += float(len(set(nonzero_preds).intersection(set(nonzero_labels))))/len(set(nonzero_preds).union(set(nonzero_labels)))
@@ -135,7 +137,7 @@ def construct_sequential_model():
     model = Sequential()
     #model.add(LSTM(NUM_WAYS, input_length=max_len, input_dim=WORD_EMBED))
     #model.add(GRU(30, input_length=max_len, input_dim=WORD_EMBED))
-    model.add(SimpleRNN(30, input_dim=WORD_EMBED))
+    model.add(GRU(OUTPUT_DIM, input_dim=WORD_EMBED))
     model.add(Dense(NUM_WAYS, activation='softmax'))
 
     #inputs = Input(shape=(max_len, WORD_EMBED))
@@ -165,10 +167,12 @@ def main():
 
 #    for training_vec, training_label in zip(training_vecs, training_labels):
 #        model.train(training_vec, training_label)
-    model.fit(training_vecs, training_labels, nb_epoch=30)
+    model.fit(training_vecs, training_labels, nb_epoch=NUM_EPOCHS)
 #    loss_and_metrics = model.evaluate(testing_vecs, testing_labels)
 #    print loss_and_metrics
-    predicted = model.predict(testing_vecs)
+    predicted = model.predict_proba(testing_vecs)
+    print predicted
+    print predicted.shape
     print "Hamming Similarity", compute_hamming(predicted, testing_labels)
 
 if __name__ == '__main__':
