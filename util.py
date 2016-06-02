@@ -16,7 +16,7 @@ def convert_to_matrix(data_list,tmp):
              X[i,pos[word]] = X[i,pos[word]] + 1
     return (np.asmatrix(X),np.asmatrix(y))
 
-def convert_to_PCA_matrix(data_list,tmp,n):
+def convert_to_PCA_matrix(data_list,tmp,pca,train,n):
     pos = {}
     for item in tmp:
         pos[tmp[item]] = item
@@ -31,8 +31,12 @@ def convert_to_PCA_matrix(data_list,tmp,n):
 
     X = np.asmatrix(X)
     y = np.asmatrix(y)
-    X_red = PCA(n_components = n).fit_transform(X)
-    return (X,y)
+    X_red = None
+    if train == True:
+        X_red = pca.fit_transform(X)
+    else:
+        X_red = pca.transform(X)
+    return (np.asmatrix(X_red),y)
 
 
 """

@@ -30,11 +30,12 @@ class RANKSVM(Classifier):
         tmp = dict(enumerate(list_of_words))
         self.list_of_words = list_of_words
         self.tmp = tmp
-        X,y = util.convert_to_PCA_matrix(train_unform,tmp)
+        X,y = util.convert_to_PCA_matrix(train_unform,tmp,10)
 
         Y = np.asmatrix(np.zeros((len(training_data),num_classes)))
         Ybar = np.asmatrix(np.zeros((len(training_data),num_classes)))
         for i in range(len(training_data)):
+
             w = training_data[i][1]
             for way in w:
                 Y[i,cmap[way]] = 1
@@ -123,7 +124,6 @@ class RANKSVM(Classifier):
             anew = alpha_new.value
 
             a2 = cvx.Variable(int(s_alph))
-            beta = cvx.Variable(int(s_alph),num_classes)
             lam = cvx.Variable()
             constraints = [0 <= a2, a2 <= 1.0/float(num_classes), 0 <= lam, lam <= 1]
             constraints.append(a2 == alpha + lam*anew)
@@ -133,7 +133,7 @@ class RANKSVM(Classifier):
                 for k in range(num_classes):
                     print "Class: " + str(k)
                     vpk = BETA[k,:]*X
-                    res = res + cvx.power(cvx.norm(vpk,2),2)
+                    res = res + cvx.quad_over_lin(vpk,1)
                 res = -0.5*res
                 for i in range(num_classes):
                     print "Class: " + str(i)
@@ -151,7 +151,7 @@ class RANKSVM(Classifier):
                         res = res + ALPHA[i + 8*j + 8*l]
                 return res
 
-            betap = cvx.Variable(num_classes,Y.shape[0])
+            VT = cvx.Variable(num_classes,Y.shape[0])
 
             for i in range(Y.shape[0]):
                 print "EXAMPLE: " + str(i)
@@ -171,11 +171,13 @@ class RANKSVM(Classifier):
                         j = tup[0]
                         l = tup[1]
                         val = val + cvec*a2
-                    constraints.append(betap[k,i] == val)
-            obj = cvx.Maximize(obj_fun(betap,Xdot,a2,Y,Ybar))
+                    VT[k,i] = val
+            obj = cvx.Maximize(obj_fun(VT,Xdot,a2,Y,Ybar))
+            print obj
             for k in range(num_classes):
                 cvec = np.asmatrix(C[k,:])
                 constraints.append(cvec*a2 == 0)
+            print len(constraints)
             prob = cvx.Problem(obj,constraints)
             print "SOLVING"
             prob.solve(verbose = True)
