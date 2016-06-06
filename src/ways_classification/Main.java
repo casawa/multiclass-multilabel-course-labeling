@@ -29,7 +29,7 @@ public class Main {
 		ExploreCoursesConnection connection = new ExploreCoursesConnection();
 		System.out.println("Got Connection");
 
-		PrintWriter writer = new PrintWriter("courses.txt", "UTF-8");
+		PrintWriter writer = new PrintWriter("new_courses.txt", "UTF-8");
 
 		int num_courses = 0;
 		int num_satisfy_way = 0;
@@ -52,7 +52,7 @@ public class Main {
 							}
 						}
 						if(satisfies_way) {
-							writer.println(course.getDescription());
+							writer.println(course.getAcademicOrganization() + " " + course.getSubjectCodePrefix() + " " + course.getDescription());
 							satisfies_way = false;
 							num_satisfy_way += 1;
 						}

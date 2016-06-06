@@ -30,7 +30,7 @@ def get_cov(data):
         for j in range(num_ways):
             corr[i,j] = emp_cov[i,j]/(math.sqrt(emp_cov[i,i])*math.sqrt(emp_cov[j,j]))
     print corr
-    sns.heatmap(corr,vmax = 1,square=True,xticklabels=m.keys(),yticklabels=m.keys())
+    sns.heatmap(corr,vmin = -1, vmax = 1,square=True,xticklabels=m.keys(),yticklabels=m.keys())
     sns.plt.title("Covariance of WAYS frequencies")
     sns.plt.show()
 

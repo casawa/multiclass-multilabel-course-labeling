@@ -3,7 +3,7 @@ import sys
 import string
 from PorterStemmer import PorterStemmer
 
-data_file = 'courses.txt'
+data_file = 'new_courses.txt'
 stop_words_file = 'english.stop'
 way_prefix = 'WAY-'
 
@@ -34,8 +34,8 @@ def format_description(text, stop_words):
     for word in words:
         if word not in stop_words:      # Not a stop word, so lower, remove punctuation, and stem
             lowered_token = remove_punctuation(word).lower()
-            non_stop_words.append(lowered_token)
-            #non_stop_words.append(stemmer.stem(lowered_token))
+            #non_stop_words.append(lowered_token)
+            non_stop_words.append(stemmer.stem(lowered_token))
 
     return ' '.join(non_stop_words)
 
@@ -52,8 +52,9 @@ def main():
             if line.startswith(way_prefix):
                 ways.append(line)
             else:
-                if line not in considered_courses:
-                    considered_courses.add(line)
+                raw_desc = ' '.join(line.split()[2:]) 
+                if raw_desc not in considered_courses:
+                    considered_courses.add(raw_desc)
                     line = format_description(line, stop_words)
                     print line
                     print ' '.join(ways) 

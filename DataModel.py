@@ -4,8 +4,8 @@ from collections import defaultdict
 This class provides an abstraction for the data and useful helper methods.
 """
 
-DEFAULT_TRAIN_PATH = "data/training_data.txt"
-DEFAULT_TEST_PATH = "data/testing_data.txt"
+DEFAULT_TRAIN_PATH = "data/new_training_data.txt"
+DEFAULT_TEST_PATH = "data/new_testing_data.txt"
 
 
 class DataModel:

@@ -8,9 +8,9 @@ This script splits the data into a training and test set randomly.
 
 train_percent = 0.9
 
-data_file = 'formatted_unstemmed_courses.txt'
-train_file = 'unstemmed_training_data.txt'
-test_file = 'unstemmed_testing_data.txt'
+data_file = 'new_formatted_courses.txt'
+train_file = 'new_training_data.txt'
+test_file = 'new_testing_data.txt'
 
 # Writes the data
 def write_data(data, dataset_file):
