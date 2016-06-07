@@ -1,3 +1,4 @@
 explorecoursesjar
 /bin
 *.pyc
+data/glove/

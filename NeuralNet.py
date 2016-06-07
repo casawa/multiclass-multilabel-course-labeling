@@ -5,6 +5,9 @@ import numpy as np
 from DataModel import DataModel
 from glove_utils import Glove
 from keras.utils.visualize_util import plot
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
 
 OUTPUT_DIM = 50
 #EMBED_DIM = 50
@@ -130,30 +133,55 @@ def compute_hamming(predicted, labels):
     
    
 
-def construct_sequential_model():
+def construct_LSTM_model():
     """
-    Constructs the sequential neural model.
+    Constructs the GRU neural model.
+    """
+
+    model = Sequential()
+    #model.add(LSTM(NUM_WAYS, input_length=max_len, input_dim=WORD_EMBED))
+    #model.add(GRU(30, input_length=max_len, input_dim=WORD_EMBED))
+    model.add(LSTM(OUTPUT_DIM, input_dim=WORD_EMBED))
+#    model.add(GRU(OUTPUT_DIM))
+    model.add(Dense(OUTPUT_DIM, activation='relu'))
+    model.add(Dense(NUM_WAYS, activation='softmax'))
+
+    model.compile(optimizer='rmsprop', loss='binary_crossentropy', metrics=['accuracy'])
+
+    return model
+
+
+def construct_RNN_model():
+    """
+    Constructs the GRU neural model.
+    """
+
+    model = Sequential()
+    #model.add(LSTM(NUM_WAYS, input_length=max_len, input_dim=WORD_EMBED))
+    #model.add(GRU(30, input_length=max_len, input_dim=WORD_EMBED))
+    model.add(SimpleRNN(OUTPUT_DIM, input_dim=WORD_EMBED))
+#    model.add(GRU(OUTPUT_DIM))
+    model.add(Dense(OUTPUT_DIM, activation='relu'))
+    model.add(Dense(NUM_WAYS, activation='softmax'))
+
+    model.compile(optimizer='rmsprop', loss='binary_crossentropy', metrics=['accuracy'])
+
+    return model
+
+
+def construct_GRU_model():
+    """
+    Constructs the GRU neural model.
     """
 
     model = Sequential()
     #model.add(LSTM(NUM_WAYS, input_length=max_len, input_dim=WORD_EMBED))
     #model.add(GRU(30, input_length=max_len, input_dim=WORD_EMBED))
     model.add(GRU(OUTPUT_DIM, input_dim=WORD_EMBED))
-    model.add(GRU(OUTPUT_DIM))
+#    model.add(GRU(OUTPUT_DIM))
     model.add(Dense(OUTPUT_DIM, activation='relu'))
     model.add(Dense(NUM_WAYS, activation='softmax'))
 
-    #inputs = Input(shape=(max_len, WORD_EMBED))
-
-    # AGH description lengths aren't consistent so can't do this without padding...
-    #embed = Embedding(output_dim=EMBED_DIM, input_dim=   , input_length=)(inputs)
-
-    #first_layer = Dense(OUTPUT_DIM, activation='sigmoid')(inputs)
-    #predictions = Dense(NUM_WAYS, activation='softmax')(first_layer)
-    #second_layer = Dense(OUTPUT_DIM, activation='relu')(first_layer)
-    #predictions = Dense(OUTPUT_DIM, activation='softmax')(second_layer)
-
-    #model = Model(input=inputs, output=predictions)
     model.compile(optimizer='rmsprop', loss='binary_crossentropy', metrics=['accuracy'])
 
     return model
@@ -162,22 +190,46 @@ def construct_sequential_model():
 def main():
     
     training_vecs, training_labels, testing_vecs, testing_labels, max_len = load_data()
-    print training_vecs
-    print testing_labels
-    print max_len
+#    print training_vecs
+#    print testing_labels
+#    print max_len
    
-    model = construct_sequential_model()
-    plot(model, to_file='GRU_relu_softmax.png')
+    gru_model = construct_GRU_model()
+    lstm_model = construct_LSTM_model()
+    rnn_model = construct_RNN_model()
+
+#    plot(model, to_file='GRU_relu_softmax.png')
 
 #    for training_vec, training_label in zip(training_vecs, training_labels):
 #        model.train(training_vec, training_label)
-    model.fit(training_vecs, training_labels, nb_epoch=NUM_EPOCHS)
+    gru_hist = gru_model.fit(training_vecs, training_labels, nb_epoch=NUM_EPOCHS)
+    lstm_hist = lstm_model.fit(training_vecs, training_labels, nb_epoch=NUM_EPOCHS)
+    rnn_hist = rnn_model.fit(training_vecs, training_labels, nb_epoch=NUM_EPOCHS)
 #    loss_and_metrics = model.evaluate(testing_vecs, testing_labels)
 #    print loss_and_metrics
-    predicted = model.predict_proba(testing_vecs)
-    print predicted
-    print predicted.shape
-    print "Hamming Similarity", compute_hamming(predicted, testing_labels)
+    gru_predicted = gru_model.predict_proba(testing_vecs)
+    lstm_predicted = lstm_model.predict_proba(testing_vecs)
+    rnn_predicted = rnn_model.predict_proba(testing_vecs)
+    
+    #print predicted
+    #print predicted.shape
+    print "GRU Hamming Similarity", compute_hamming(gru_predicted, testing_labels)
+    print "LSTM Hamming Similarity", compute_hamming(lstm_predicted, testing_labels)
+    print "RNN Hamming Similarity", compute_hamming(rnn_predicted, testing_labels)
+
+    #print gru_hist.history
+
+    epochs = [i for i in range(1, NUM_EPOCHS + 1)]
+    plt.plot(epochs, gru_hist.history['loss'], label='GRU')
+    plt.plot(epochs, lstm_hist.history['loss'], label='LSTM')
+    plt.plot(epochs, rnn_hist.history['loss'], label='RNN')
+    plt.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.)    
+
+    plt.title('Sequential Model Loss Over Epochs')
+    plt.xlabel('Epoch')
+    plt.ylabel('Binary Cross Entropy Loss')
+    plt.savefig('all_loss_plot.png', bbox_inches='tight')
+
 
 if __name__ == '__main__':
     main()
